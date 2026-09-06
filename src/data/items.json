@@ -1,4 +1,18 @@
 [
-  { "slug": "example-item", "name": "Example Item", "category": "Materials", "value": 100, "description": "Replace this file with real scraped data from your data source." },
-  { "slug": "second-item", "name": "Second Item", "category": "Weapons", "value": 250, "description": "The scaffold build will render these as a demo table and detail pages." }
+ {
+  "slug": "example-item",
+  "name": "Example Item",
+  "category": "Materials",
+  "value": 100,
+  "description": "Replace this file with real scraped data from your data source.",
+  "icon": ""
+ },
+ {
+  "slug": "second-item",
+  "name": "Second Item",
+  "category": "Weapons",
+  "value": 250,
+  "description": "The scaffold build will render these as a demo table and detail pages.",
+  "icon": ""
+ }
 ]

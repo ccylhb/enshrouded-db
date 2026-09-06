@@ -25,11 +25,13 @@
     },
     {
       "label": "Rankings",
-      "href": "/rankings/"
+      "href": "/rankings/",
+      "tool": true
     },
     {
       "label": "Materials Calc",
-      "href": "/materials-calculator/"
+      "href": "/materials-calculator/",
+      "tool": true
     },
     {
       "label": "Database",
@@ -44,5 +46,7 @@
       "href": "/about/"
     }
   ],
-  "footerNote": "Fan-made database. Not affiliated with the game publisher."
+  "footerNote": "Fan-made database. Not affiliated with the game publisher.",
+  "gameVersion": "0.7.2",
+  "dataUpdated": "2026-09-06"
 }

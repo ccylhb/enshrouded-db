@@ -1,748 +1,807 @@
 [
-  {
-    "name": "Adventurer Set",
-    "slug": "adventurer-set",
-    "level": "13",
-    "class": "melee",
-    "pieces": [
-      "Adventurer Helmet",
-      "Adventurer Chest",
-      "Adventurer Gloves",
-      "Adventurer Trousers",
-      "Adventurer Boots"
-    ],
-    "summary": "is a level 13 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Warrior Set."
-  },
-  {
-    "name": "Alchemist Apprentice Set",
-    "slug": "alchemist-apprentice-set",
-    "level": "8",
-    "class": "magic",
-    "pieces": [
-      "Alchemist Apprentice Hat",
-      "Alchemist Apprentice Chest",
-      "Alchemist Apprentice Gloves",
-      "Alchemist Apprentice Trousers",
-      "Alchemist Apprentice Boots"
-    ],
-    "summary": "is a level 8 starter Armor set for magic characters. The set pieces provide stats suitable for all magic playstyles (Trickster, Wizard, Healer, and Battlemage)."
-  },
-  {
-    "name": "Alpine Antler Set",
-    "slug": "alpine-antler-set",
-    "level": "33",
-    "class": "ranged",
-    "pieces": [
-      "Alpine Antler Hood",
-      "Alpine Antler Chest",
-      "Alpine Antler Gloves",
-      "Alpine Antler Trousers",
-      "Alpine Antler Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Archer Set",
-    "slug": "archer-set",
-    "level": "13",
-    "class": "ranged",
-    "pieces": [
-      "Archer Helmet",
-      "Archer Chest",
-      "Archer Gloves",
-      "Archer Trousers",
-      "Archer Boots"
-    ],
-    "summary": "is a level 13 Armor set for ranged characters. Contrary to its name, this set is intended for Beastmaster characters specializing in Daggers."
-  },
-  {
-    "name": "Archmage Set",
-    "slug": "archmage-set",
-    "level": "23",
-    "class": "magic",
-    "pieces": [
-      "Archmage Hat",
-      "Archmage Chest",
-      "Archmage Gloves",
-      "Archmage Trousers",
-      "Archmage Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Assassin Set",
-    "slug": "assassin-set",
-    "level": "23",
-    "class": "ranged",
-    "pieces": [
-      "Assassin Hood",
-      "Assassin Chest",
-      "Assassin Gloves",
-      "Assassin Trousers",
-      "Assassin Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Blackguard Set",
-    "slug": "blackguard-set",
-    "level": "16",
-    "class": "melee",
-    "pieces": [
-      "Blackguard Helmet",
-      "Blackguard Chest",
-      "Blackguard Gloves",
-      "Blackguard Trousers",
-      "Blackguard Boots"
-    ],
-    "summary": "is a level 16 Armor set for melee characters. The set pieces provide exceptional bonuses against the Shroud."
-  },
-  {
-    "name": "Bloodfeather Set",
-    "slug": "bloodfeather-set",
-    "level": "43",
-    "class": "ranged",
-    "pieces": [
-      "Bloodfeather Helmet",
-      "Bloodfeather Chest",
-      "Bloodfeather Gloves",
-      "Bloodfeather Pants",
-      "Bloodfeather Shoes"
-    ],
-    "summary": ""
-  },
-  {
-    "name": "Brazen Bull Set",
-    "slug": "brazen-bull-set",
-    "level": "33",
-    "class": "melee",
-    "pieces": [
-      "Brazen Bull Helmet",
-      "Brazen Bull Chest",
-      "Brazen Bull Gloves",
-      "Brazen Bull Trousers",
-      "Brazen Bull Boots"
-    ],
-    "summary": "to unlock. The crafting recipe for the Gloves requires obtaining to unlock."
-  },
-  {
-    "name": "Deadeye Set",
-    "slug": "deadeye-set",
-    "level": "23",
-    "class": "ranged",
-    "pieces": [
-      "Deadeye Hood",
-      "Deadeye Vest",
-      "Deadeye Gloves",
-      "Deadeye Trousers",
-      "Deadeye Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Deerstalker Set",
-    "slug": "deerstalker-set",
-    "level": "23",
-    "class": "ranged",
-    "pieces": [
-      "Deerstalker Hood",
-      "Deerstalker Chest",
-      "Deerstalker Gloves",
-      "Deerstalker Trousers",
-      "Deerstalker Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Eagle Eye Set",
-    "slug": "eagle-eye-set",
-    "level": "25",
-    "class": "ranged",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Elder Set",
-    "slug": "elder-set",
-    "level": "25",
-    "class": "magic",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Elite Hollow Set",
-    "slug": "elite-hollow-set",
-    "level": "23",
-    "class": "melee",
-    "pieces": [],
-    "summary": "."
-  },
-  {
-    "name": "Fowler Set",
-    "slug": "fowler-set",
-    "level": "18",
-    "class": "ranged",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Frostbite Slasher Set",
-    "slug": "frostbite-slasher-set",
-    "level": "33",
-    "class": "ranged",
-    "pieces": [
-      "Frostbite Slasher Hood",
-      "Frostbite Slasher Chest",
-      "Frostbite Slasher Gloves",
-      "Frostbite Slasher Trousers",
-      "Frostbite Slasher Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Fur Armor Set",
-    "slug": "fur-armor-set",
-    "level": "5",
-    "class": "",
-    "pieces": [
-      "Fur Hood",
-      "Fur Chest",
-      "Fur Gloves",
-      "Fur Trousers",
-      "Fur Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Gloom Monarch Set",
-    "slug": "gloom-monarch-set",
-    "level": "23",
-    "class": "melee",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Golden Bulwark Set",
-    "slug": "golden-bulwark-set",
-    "level": "43",
-    "class": "melee",
-    "pieces": [
-      "Golden Bulwark Helmet",
-      "Golden Bulwark Chest Plate",
-      "Golden Bulwark Gloves",
-      "Golden Bulwark Pants",
-      "Golden Bulwark Boots"
-    ],
-    "summary": ""
-  },
-  {
-    "name": "Guard of the North Set",
-    "slug": "guard-of-the-north-set",
-    "level": "13",
-    "class": "melee",
-    "pieces": [],
-    "summary": "in Revelwood."
-  },
-  {
-    "name": "Guardian Set",
-    "slug": "guardian-set",
-    "level": "18",
-    "class": "melee",
-    "pieces": [
-      "Guardian Helmet",
-      "Guardian Chestplate",
-      "Guardian Gloves",
-      "Guardian Trousers",
-      "Guardian Boots"
-    ],
-    "summary": "is a level 18 Armor set for melee characters. It is intended for tanks."
-  },
-  {
-    "name": "Hailcaster Set",
-    "slug": "hailcaster-set",
-    "level": "33",
-    "class": "magic",
-    "pieces": [
-      "Hailcaster Hat",
-      "Hailcaster Chest",
-      "Hailcaster Gloves",
-      "Hailcaster Pants",
-      "Hailcaster Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Hawk Set",
-    "slug": "hawk-set",
-    "level": "23",
-    "class": "ranged",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Healer Set",
-    "slug": "healer-set",
-    "level": "13",
-    "class": "magic",
-    "pieces": [
-      "Healer Headwrap",
-      "Healer Tunic",
-      "Healer Gloves",
-      "Healer Pants",
-      "Healer Boots"
-    ],
-    "summary": "during to unlock."
-  },
-  {
-    "name": "Herbalist Set",
-    "slug": "herbalist-set",
-    "level": "18",
-    "class": "magic",
-    "pieces": [
-      "Herbalist Headwrap",
-      "Herbalist Tunic",
-      "Herbalist Gloves",
-      "Herbalist Pants",
-      "Herbalist Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Hunter Set",
-    "slug": "hunter-set",
-    "level": "18",
-    "class": "ranged",
-    "pieces": [
-      "Hunter Hood",
-      "Hunter Vest",
-      "Hunter Gloves",
-      "Hunter Trousers",
-      "Hunter Boots"
-    ],
-    "summary": "is a level 18 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Sharpshooter Set."
-  },
-  {
-    "name": "Knight Set",
-    "slug": "knight-set",
-    "level": "18",
-    "class": "melee",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Mage Set",
-    "slug": "mage-set",
-    "level": "13",
-    "class": "magic",
-    "pieces": [
-      "Mage Hat",
-      "Mage Chest",
-      "Mage Gloves",
-      "Mage Trousers",
-      "Mage Boots"
-    ],
-    "summary": "is a level 13 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. Because lower level characters tend to have insufficient mana regeneration, the Wizard Set which prioritizes Wand damage is generally considered superior, although it is harder to obtain."
-  },
-  {
-    "name": "Magician Set",
-    "slug": "magician-set",
-    "level": "18",
-    "class": "magic",
-    "pieces": [
-      "Magician Hat",
-      "Magician Chest",
-      "Magician Gloves",
-      "Magician Trousers",
-      "Magician Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Marksman Set",
-    "slug": "marksman-set",
-    "level": "13",
-    "class": "ranged",
-    "pieces": [
-      "Marksman Hood",
-      "Marksman Vest",
-      "Marksman Gloves",
-      "Marksman Trousers",
-      "Marksman Boots"
-    ],
-    "summary": "is a level 13 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Ranger Set provides lower damage bonuses, but applies to all ranged damage."
-  },
-  {
-    "name": "Mercenary Set",
-    "slug": "mercenary-set",
-    "level": "18",
-    "class": "melee",
-    "pieces": [
-      "Mercenary Helmet",
-      "Mercenary Chest",
-      "Mercenary Gloves",
-      "Mercenary Trousers",
-      "Mercenary Boots"
-    ],
-    "summary": "is a level 18 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Knight Set."
-  },
-  {
-    "name": "Mountain's Shadow Set",
-    "slug": "mountain-s-shadow-set",
-    "level": "33",
-    "class": "melee",
-    "pieces": [
-      "Mountain's Shadow Helmet",
-      "Mountain's Shadow Chest",
-      "Mountain's Shadow Gloves",
-      "Mountain's Shadow Trousers",
-      "Mountain's Shadow Boots"
-    ],
-    "summary": "is a level 33 Armor set for melee characters. This set is intended for characters specializing in dealing damage with two-handed weapons such as Hammers. The similar Wolf's Fang Set should be used with characters specializing in dealing damage with one-handed weapons such as Swords. The set pieces i"
-  },
-  {
-    "name": "Mystic Set",
-    "slug": "mystic-set",
-    "level": "18",
-    "class": "magic",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Omen Set",
-    "slug": "omen-set",
-    "level": "16",
-    "class": "magic",
-    "pieces": [
-      "Omen Helmet",
-      "Omen Chest",
-      "Omen Gloves",
-      "Omen Trousers",
-      "Omen Boots"
-    ],
-    "summary": "is a level 16 Armor set for magic characters. The set pieces provide exceptional bonuses against the Shroud."
-  },
-  {
-    "name": "Pearlfrost Mentor Set",
-    "slug": "pearlfrost-mentor-set",
-    "level": "33",
-    "class": "magic",
-    "pieces": [
-      "Pearlfrost Mentor Hat",
-      "Pearlfrost Mentor Chest",
-      "Pearlfrost Mentor Gloves",
-      "Pearlfrost Mentor Pants",
-      "Pearlfrost Mentor Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Plaguebringer Set",
-    "slug": "plaguebringer-set",
-    "level": "16",
-    "class": "ranged",
-    "pieces": [
-      "Plaguebringer Hood",
-      "Plaguebringer Chest",
-      "Plaguebringer Gloves",
-      "Plaguebringer Trousers",
-      "Plaguebringer Boots"
-    ],
-    "summary": "is a level 16 Armor set for ranged characters. The set pieces provide exceptional bonuses against the Shroud."
-  },
-  {
-    "name": "Quetzal Hunter Set",
-    "slug": "quetzal-hunter-set",
-    "level": "43",
-    "class": "ranged",
-    "pieces": [
-      "Quetzal Hunter Helmet",
-      "Quetzal Hunter Chest",
-      "Quetzal Hunter Gloves",
-      "Quetzal Hunter Pants",
-      "Quetzal Hunter Shoes"
-    ],
-    "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin."
-  },
-  {
-    "name": "Radiant Paladin Set",
-    "slug": "radiant-paladin-set",
-    "level": "25",
-    "class": "melee",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Ragged Set",
-    "slug": "ragged-set",
-    "level": "3",
-    "class": "",
-    "pieces": [
-      "Ragged Shirt",
-      "Ragged Pants",
-      "Ragged Boots"
-    ],
-    "summary": "is a level 3 Armor set that can be crafted very early from Manual Crafting. It provides physical and magical resistances but no other stats."
-  },
-  {
-    "name": "Ranger Set",
-    "slug": "ranger-set",
-    "level": "13",
-    "class": "ranged",
-    "pieces": [
-      "Ranger Hood",
-      "Ranger Vest",
-      "Ranger Gloves",
-      "Ranger Trousers",
-      "Ranger Boots"
-    ],
-    "summary": "is a level 13 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Marksman Set."
-  },
-  {
-    "name": "Rising Fighter Set",
-    "slug": "rising-fighter-set",
-    "level": "8",
-    "class": "melee",
-    "pieces": [
-      "Rising Fighter Helmet",
-      "Rising Fighter Chest",
-      "Rising Fighter Gloves",
-      "Rising Fighter Trousers",
-      "Rising Fighter Boots"
-    ],
-    "summary": "is a level 8 starter Armor set for melee characters. The set pieces provide stats suitable for all melee playstyles (Athelete, Barbarian, Warrior, and Tank)."
-  },
-  {
-    "name": "Rogue Set",
-    "slug": "rogue-set",
-    "level": "23",
-    "class": "melee",
-    "pieces": [
-      "Rogue Helmet",
-      "Rogue Chestplate",
-      "Rogue Gloves",
-      "Rogue Trousers",
-      "Rogue Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Sage Set",
-    "slug": "sage-set",
-    "level": "23",
-    "class": "magic",
-    "pieces": [
-      "Sage Headwrap",
-      "Sage Tunic",
-      "Sage Gloves",
-      "Sage Pants",
-      "Sage Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Scout Set",
-    "slug": "scout-set",
-    "level": "8",
-    "class": "ranged",
-    "pieces": [
-      "Scout Hood",
-      "Scout Chest",
-      "Scout Gloves",
-      "Scout Pants",
-      "Scout Boots"
-    ],
-    "summary": "is a level 8 starter Armor set for ranged characters. The set pieces provide stats suitable for all ranged playstyles (Survivor, Beastmaster, Ranger, and Assassin)."
-  },
-  {
-    "name": "Sharpshooter Set",
-    "slug": "sharpshooter-set",
-    "level": "18",
-    "class": "ranged",
-    "pieces": [
-      "Sharpshooter Hood",
-      "Sharpshooter Vest",
-      "Sharpshooter Gloves",
-      "Sharpshooter Trousers",
-      "Sharpshooter Boots"
-    ],
-    "summary": "is a level 18 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Hunter Set provides lower damage bonuses, but applies to all ranged damage."
-  },
-  {
-    "name": "Skull Stalker Set",
-    "slug": "skull-stalker-set",
-    "level": "43",
-    "class": "ranged",
-    "pieces": [
-      "Skull Stalker Helmet",
-      "Skull Stalker Chest",
-      "Skull Stalker Gloves",
-      "Skull Stalker Pants",
-      "Skull Stalker Shoes"
-    ],
-    "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin."
-  },
-  {
-    "name": "Soldier Set",
-    "slug": "soldier-set",
-    "level": "23",
-    "class": "melee",
-    "pieces": [
-      "Soldier Helmet",
-      "Soldier Chestplate",
-      "Soldier Gloves",
-      "Soldier Trousers",
-      "Soldier Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Spellbreaker Set",
-    "slug": "spellbreaker-set",
-    "level": "23",
-    "class": "magic",
-    "pieces": [],
-    "summary": "is a level 23 Armor set for magic characters. The set pieces provide stats geared towards melee damage and are generally not recommended."
-  },
-  {
-    "name": "Sunpiercer Set",
-    "slug": "sunpiercer-set",
-    "level": "43",
-    "class": "melee",
-    "pieces": [
-      "Sunpiercer Helmet",
-      "Sunpiercer Chestplate",
-      "Sunpiercer Gloves",
-      "Sunpiercer Pants",
-      "Sunpiercer Shoes"
-    ],
-    "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for melee characters. It is intended for barbarians. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin."
-  },
-  {
-    "name": "Tank Set",
-    "slug": "tank-set",
-    "level": "13",
-    "class": "melee",
-    "pieces": [
-      "Tank Helmet",
-      "Tank Chestplate",
-      "Tank Gloves",
-      "Tank Trousers",
-      "Tank Boots"
-    ],
-    "summary": "is a level 13 Armor set for melee characters. As the name suggests, it is intended for tanks."
-  },
-  {
-    "name": "Thaumaturge Set",
-    "slug": "thaumaturge-set",
-    "level": "33",
-    "class": "magic",
-    "pieces": [
-      "Thaumaturge Hat",
-      "Thaumaturge Chest",
-      "Thaumaturge Gloves",
-      "Thaumaturge Pants",
-      "Thaumaturge Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Tidecaller Set",
-    "slug": "tidecaller-set",
-    "level": "43",
-    "class": "magic",
-    "pieces": [
-      "Tidecaller Headpiece",
-      "Tidecaller Tunic",
-      "Tidecaller Gloves",
-      "Tidecaller Pants",
-      "Tidecaller Shoes"
-    ],
-    "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for magic characters. It is intended for wizards. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin."
-  },
-  {
-    "name": "Trailblazer Set",
-    "slug": "trailblazer-set",
-    "level": "33",
-    "class": "ranged",
-    "pieces": [
-      "Trailblazer Hood",
-      "Trailblazer Chest",
-      "Trailblazer Gloves",
-      "Trailblazer Trousers",
-      "Trailblazer Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Warden Set",
-    "slug": "warden-set",
-    "level": "23",
-    "class": "melee",
-    "pieces": [
-      "Warden Helmet",
-      "Warden Chestplate",
-      "Warden Gloves",
-      "Warden Trousers",
-      "Warden Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Warlock Set",
-    "slug": "warlock-set",
-    "level": "23",
-    "class": "magic",
-    "pieces": [
-      "Warlock Helmet",
-      "Warlock Shirt",
-      "Warlock Gloves",
-      "Warlock Pants",
-      "Warlock Boots"
-    ],
-    "summary": "to unlock."
-  },
-  {
-    "name": "Warrior Set",
-    "slug": "warrior-set",
-    "level": "13",
-    "class": "melee",
-    "pieces": [],
-    "summary": "is a level 13 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike damage with one-handed weapons such as Swords. The Adventurer Set provides lower damage bonuses, but applies to all melee damage."
-  },
-  {
-    "name": "Waveborne Ritualist Set",
-    "slug": "waveborne-ritualist-set",
-    "level": "43",
-    "class": "magic",
-    "pieces": [
-      "Waveborne Ritualist Helmet",
-      "Waveborne Ritualist Tunic",
-      "Waveborne Ritualist Gloves",
-      "Waveborne Ritualist Pants",
-      "Waveborne Ritualist Boots"
-    ],
-    "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for magic characters. It is intended for healers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin."
-  },
-  {
-    "name": "Wizard Set",
-    "slug": "wizard-set",
-    "level": "13",
-    "class": "magic",
-    "pieces": [],
-    "summary": ""
-  },
-  {
-    "name": "Wolf's Fang Set",
-    "slug": "wolf-s-fang-set",
-    "level": "33",
-    "class": "melee",
-    "pieces": [
-      "Wolf's Fang Hood",
-      "Wolf's Fang Chest",
-      "Wolf's Fang Gloves",
-      "Wolf's Fang Trousers",
-      "Wolf's Fang Boots"
-    ],
-    "summary": "and in a during to unlock."
-  }
+ {
+  "name": "Adventurer Set",
+  "slug": "adventurer-set",
+  "level": "13",
+  "class": "melee",
+  "pieces": [
+   "Adventurer Helmet",
+   "Adventurer Chest",
+   "Adventurer Gloves",
+   "Adventurer Trousers",
+   "Adventurer Boots"
+  ],
+  "summary": "is a level 13 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Warrior Set.",
+  "icon": "/icons/Adventurer_Set.png"
+ },
+ {
+  "name": "Alchemist Apprentice Set",
+  "slug": "alchemist-apprentice-set",
+  "level": "8",
+  "class": "magic",
+  "pieces": [
+   "Alchemist Apprentice Hat",
+   "Alchemist Apprentice Chest",
+   "Alchemist Apprentice Gloves",
+   "Alchemist Apprentice Trousers",
+   "Alchemist Apprentice Boots"
+  ],
+  "summary": "is a level 8 starter Armor set for magic characters. The set pieces provide stats suitable for all magic playstyles (Trickster, Wizard, Healer, and Battlemage).",
+  "icon": "/icons/Alchemist_Apprentice_Set.png"
+ },
+ {
+  "name": "Alpine Antler Set",
+  "slug": "alpine-antler-set",
+  "level": "33",
+  "class": "ranged",
+  "pieces": [
+   "Alpine Antler Hood",
+   "Alpine Antler Chest",
+   "Alpine Antler Gloves",
+   "Alpine Antler Trousers",
+   "Alpine Antler Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Alpine_Antler_Set.png"
+ },
+ {
+  "name": "Archer Set",
+  "slug": "archer-set",
+  "level": "13",
+  "class": "ranged",
+  "pieces": [
+   "Archer Helmet",
+   "Archer Chest",
+   "Archer Gloves",
+   "Archer Trousers",
+   "Archer Boots"
+  ],
+  "summary": "is a level 13 Armor set for ranged characters. Contrary to its name, this set is intended for Beastmaster characters specializing in Daggers.",
+  "icon": "/icons/Archer_Set.png"
+ },
+ {
+  "name": "Archmage Set",
+  "slug": "archmage-set",
+  "level": "23",
+  "class": "magic",
+  "pieces": [
+   "Archmage Hat",
+   "Archmage Chest",
+   "Archmage Gloves",
+   "Archmage Trousers",
+   "Archmage Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Archmage_Set.png"
+ },
+ {
+  "name": "Assassin Set",
+  "slug": "assassin-set",
+  "level": "23",
+  "class": "ranged",
+  "pieces": [
+   "Assassin Hood",
+   "Assassin Chest",
+   "Assassin Gloves",
+   "Assassin Trousers",
+   "Assassin Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Assassin_Set.png"
+ },
+ {
+  "name": "Blackguard Set",
+  "slug": "blackguard-set",
+  "level": "16",
+  "class": "melee",
+  "pieces": [
+   "Blackguard Helmet",
+   "Blackguard Chest",
+   "Blackguard Gloves",
+   "Blackguard Trousers",
+   "Blackguard Boots"
+  ],
+  "summary": "is a level 16 Armor set for melee characters. The set pieces provide exceptional bonuses against the Shroud.",
+  "icon": ""
+ },
+ {
+  "name": "Bloodfeather Set",
+  "slug": "bloodfeather-set",
+  "level": "43",
+  "class": "ranged",
+  "pieces": [
+   "Bloodfeather Helmet",
+   "Bloodfeather Chest",
+   "Bloodfeather Gloves",
+   "Bloodfeather Pants",
+   "Bloodfeather Shoes"
+  ],
+  "summary": "",
+  "icon": ""
+ },
+ {
+  "name": "Brazen Bull Set",
+  "slug": "brazen-bull-set",
+  "level": "33",
+  "class": "melee",
+  "pieces": [
+   "Brazen Bull Helmet",
+   "Brazen Bull Chest",
+   "Brazen Bull Gloves",
+   "Brazen Bull Trousers",
+   "Brazen Bull Boots"
+  ],
+  "summary": "to unlock. The crafting recipe for the Gloves requires obtaining to unlock.",
+  "icon": "/icons/Brazen_Bull_Set.png"
+ },
+ {
+  "name": "Deadeye Set",
+  "slug": "deadeye-set",
+  "level": "23",
+  "class": "ranged",
+  "pieces": [
+   "Deadeye Hood",
+   "Deadeye Vest",
+   "Deadeye Gloves",
+   "Deadeye Trousers",
+   "Deadeye Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Deadeye_Set.png"
+ },
+ {
+  "name": "Deerstalker Set",
+  "slug": "deerstalker-set",
+  "level": "23",
+  "class": "ranged",
+  "pieces": [
+   "Deerstalker Hood",
+   "Deerstalker Chest",
+   "Deerstalker Gloves",
+   "Deerstalker Trousers",
+   "Deerstalker Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Deerstalker_Set.png"
+ },
+ {
+  "name": "Eagle Eye Set",
+  "slug": "eagle-eye-set",
+  "level": "25",
+  "class": "ranged",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Eagle_Eye_Set.png"
+ },
+ {
+  "name": "Elder Set",
+  "slug": "elder-set",
+  "level": "25",
+  "class": "magic",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Elder_Set.png"
+ },
+ {
+  "name": "Elite Hollow Set",
+  "slug": "elite-hollow-set",
+  "level": "23",
+  "class": "melee",
+  "pieces": [],
+  "summary": ".",
+  "icon": "/icons/Elite_Hollow_Set.png"
+ },
+ {
+  "name": "Fowler Set",
+  "slug": "fowler-set",
+  "level": "18",
+  "class": "ranged",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Fowler_Set.png"
+ },
+ {
+  "name": "Frostbite Slasher Set",
+  "slug": "frostbite-slasher-set",
+  "level": "33",
+  "class": "ranged",
+  "pieces": [
+   "Frostbite Slasher Hood",
+   "Frostbite Slasher Chest",
+   "Frostbite Slasher Gloves",
+   "Frostbite Slasher Trousers",
+   "Frostbite Slasher Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Frostbite_Slasher_Set.png"
+ },
+ {
+  "name": "Fur Armor Set",
+  "slug": "fur-armor-set",
+  "level": "5",
+  "class": "",
+  "pieces": [
+   "Fur Hood",
+   "Fur Chest",
+   "Fur Gloves",
+   "Fur Trousers",
+   "Fur Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Fur_Armor_Set.png"
+ },
+ {
+  "name": "Gloom Monarch Set",
+  "slug": "gloom-monarch-set",
+  "level": "23",
+  "class": "melee",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Gloom_Monarch_Set.png"
+ },
+ {
+  "name": "Golden Bulwark Set",
+  "slug": "golden-bulwark-set",
+  "level": "43",
+  "class": "melee",
+  "pieces": [
+   "Golden Bulwark Helmet",
+   "Golden Bulwark Chest Plate",
+   "Golden Bulwark Gloves",
+   "Golden Bulwark Pants",
+   "Golden Bulwark Boots"
+  ],
+  "summary": "",
+  "icon": "/icons/Golden_Bulwark_Set.png"
+ },
+ {
+  "name": "Guard of the North Set",
+  "slug": "guard-of-the-north-set",
+  "level": "13",
+  "class": "melee",
+  "pieces": [],
+  "summary": "in Revelwood.",
+  "icon": "/icons/Guard_of_the_North_Set.png"
+ },
+ {
+  "name": "Guardian Set",
+  "slug": "guardian-set",
+  "level": "18",
+  "class": "melee",
+  "pieces": [
+   "Guardian Helmet",
+   "Guardian Chestplate",
+   "Guardian Gloves",
+   "Guardian Trousers",
+   "Guardian Boots"
+  ],
+  "summary": "is a level 18 Armor set for melee characters. It is intended for tanks.",
+  "icon": "/icons/Guardian_Set.png"
+ },
+ {
+  "name": "Hailcaster Set",
+  "slug": "hailcaster-set",
+  "level": "33",
+  "class": "magic",
+  "pieces": [
+   "Hailcaster Hat",
+   "Hailcaster Chest",
+   "Hailcaster Gloves",
+   "Hailcaster Pants",
+   "Hailcaster Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Hailcaster_Set.png"
+ },
+ {
+  "name": "Hawk Set",
+  "slug": "hawk-set",
+  "level": "23",
+  "class": "ranged",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Hawk_Set.png"
+ },
+ {
+  "name": "Healer Set",
+  "slug": "healer-set",
+  "level": "13",
+  "class": "magic",
+  "pieces": [
+   "Healer Headwrap",
+   "Healer Tunic",
+   "Healer Gloves",
+   "Healer Pants",
+   "Healer Boots"
+  ],
+  "summary": "during to unlock.",
+  "icon": "/icons/Healer_Set.png"
+ },
+ {
+  "name": "Herbalist Set",
+  "slug": "herbalist-set",
+  "level": "18",
+  "class": "magic",
+  "pieces": [
+   "Herbalist Headwrap",
+   "Herbalist Tunic",
+   "Herbalist Gloves",
+   "Herbalist Pants",
+   "Herbalist Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Herbalist_Set.png"
+ },
+ {
+  "name": "Hunter Set",
+  "slug": "hunter-set",
+  "level": "18",
+  "class": "ranged",
+  "pieces": [
+   "Hunter Hood",
+   "Hunter Vest",
+   "Hunter Gloves",
+   "Hunter Trousers",
+   "Hunter Boots"
+  ],
+  "summary": "is a level 18 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Sharpshooter Set.",
+  "icon": "/icons/Hunter_Set.png"
+ },
+ {
+  "name": "Knight Set",
+  "slug": "knight-set",
+  "level": "18",
+  "class": "melee",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Knight_Set.png"
+ },
+ {
+  "name": "Mage Set",
+  "slug": "mage-set",
+  "level": "13",
+  "class": "magic",
+  "pieces": [
+   "Mage Hat",
+   "Mage Chest",
+   "Mage Gloves",
+   "Mage Trousers",
+   "Mage Boots"
+  ],
+  "summary": "is a level 13 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. Because lower level characters tend to have insufficient mana regeneration, the Wizard Set which prioritizes Wand damage is generally considered superior, although it is harder to obtain.",
+  "icon": "/icons/Mage_Set.png"
+ },
+ {
+  "name": "Magician Set",
+  "slug": "magician-set",
+  "level": "18",
+  "class": "magic",
+  "pieces": [
+   "Magician Hat",
+   "Magician Chest",
+   "Magician Gloves",
+   "Magician Trousers",
+   "Magician Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Magician_Set.png"
+ },
+ {
+  "name": "Marksman Set",
+  "slug": "marksman-set",
+  "level": "13",
+  "class": "ranged",
+  "pieces": [
+   "Marksman Hood",
+   "Marksman Vest",
+   "Marksman Gloves",
+   "Marksman Trousers",
+   "Marksman Boots"
+  ],
+  "summary": "is a level 13 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Ranger Set provides lower damage bonuses, but applies to all ranged damage.",
+  "icon": "/icons/Marksman_Set.png"
+ },
+ {
+  "name": "Mercenary Set",
+  "slug": "mercenary-set",
+  "level": "18",
+  "class": "melee",
+  "pieces": [
+   "Mercenary Helmet",
+   "Mercenary Chest",
+   "Mercenary Gloves",
+   "Mercenary Trousers",
+   "Mercenary Boots"
+  ],
+  "summary": "is a level 18 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Knight Set.",
+  "icon": "/icons/Mercenary_Set.png"
+ },
+ {
+  "name": "Mountain's Shadow Set",
+  "slug": "mountain-s-shadow-set",
+  "level": "33",
+  "class": "melee",
+  "pieces": [
+   "Mountain's Shadow Helmet",
+   "Mountain's Shadow Chest",
+   "Mountain's Shadow Gloves",
+   "Mountain's Shadow Trousers",
+   "Mountain's Shadow Boots"
+  ],
+  "summary": "is a level 33 Armor set for melee characters. This set is intended for characters specializing in dealing damage with two-handed weapons such as Hammers. The similar Wolf's Fang Set should be used with characters specializing in dealing damage with one-handed weapons such as Swords. The set pieces i",
+  "icon": "/icons/Mountain_s_Shadow_Set.png"
+ },
+ {
+  "name": "Mystic Set",
+  "slug": "mystic-set",
+  "level": "18",
+  "class": "magic",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Mystic_Set.png"
+ },
+ {
+  "name": "Omen Set",
+  "slug": "omen-set",
+  "level": "16",
+  "class": "magic",
+  "pieces": [
+   "Omen Helmet",
+   "Omen Chest",
+   "Omen Gloves",
+   "Omen Trousers",
+   "Omen Boots"
+  ],
+  "summary": "is a level 16 Armor set for magic characters. The set pieces provide exceptional bonuses against the Shroud.",
+  "icon": ""
+ },
+ {
+  "name": "Pearlfrost Mentor Set",
+  "slug": "pearlfrost-mentor-set",
+  "level": "33",
+  "class": "magic",
+  "pieces": [
+   "Pearlfrost Mentor Hat",
+   "Pearlfrost Mentor Chest",
+   "Pearlfrost Mentor Gloves",
+   "Pearlfrost Mentor Pants",
+   "Pearlfrost Mentor Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Pearlfrost_Mentor_Set.png"
+ },
+ {
+  "name": "Plaguebringer Set",
+  "slug": "plaguebringer-set",
+  "level": "16",
+  "class": "ranged",
+  "pieces": [
+   "Plaguebringer Hood",
+   "Plaguebringer Chest",
+   "Plaguebringer Gloves",
+   "Plaguebringer Trousers",
+   "Plaguebringer Boots"
+  ],
+  "summary": "is a level 16 Armor set for ranged characters. The set pieces provide exceptional bonuses against the Shroud.",
+  "icon": ""
+ },
+ {
+  "name": "Quetzal Hunter Set",
+  "slug": "quetzal-hunter-set",
+  "level": "43",
+  "class": "ranged",
+  "pieces": [
+   "Quetzal Hunter Helmet",
+   "Quetzal Hunter Chest",
+   "Quetzal Hunter Gloves",
+   "Quetzal Hunter Pants",
+   "Quetzal Hunter Shoes"
+  ],
+  "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "icon": ""
+ },
+ {
+  "name": "Radiant Paladin Set",
+  "slug": "radiant-paladin-set",
+  "level": "25",
+  "class": "melee",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Radiant_Paladin_Set.png"
+ },
+ {
+  "name": "Ragged Set",
+  "slug": "ragged-set",
+  "level": "3",
+  "class": "",
+  "pieces": [
+   "Ragged Shirt",
+   "Ragged Pants",
+   "Ragged Boots"
+  ],
+  "summary": "is a level 3 Armor set that can be crafted very early from Manual Crafting. It provides physical and magical resistances but no other stats.",
+  "icon": "/icons/Ragged_Set.png"
+ },
+ {
+  "name": "Ranger Set",
+  "slug": "ranger-set",
+  "level": "13",
+  "class": "ranged",
+  "pieces": [
+   "Ranger Hood",
+   "Ranger Vest",
+   "Ranger Gloves",
+   "Ranger Trousers",
+   "Ranger Boots"
+  ],
+  "summary": "is a level 13 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Marksman Set.",
+  "icon": "/icons/Ranger_Set.png"
+ },
+ {
+  "name": "Rising Fighter Set",
+  "slug": "rising-fighter-set",
+  "level": "8",
+  "class": "melee",
+  "pieces": [
+   "Rising Fighter Helmet",
+   "Rising Fighter Chest",
+   "Rising Fighter Gloves",
+   "Rising Fighter Trousers",
+   "Rising Fighter Boots"
+  ],
+  "summary": "is a level 8 starter Armor set for melee characters. The set pieces provide stats suitable for all melee playstyles (Athelete, Barbarian, Warrior, and Tank).",
+  "icon": "/icons/Rising_Fighter_Set.png"
+ },
+ {
+  "name": "Rogue Set",
+  "slug": "rogue-set",
+  "level": "23",
+  "class": "melee",
+  "pieces": [
+   "Rogue Helmet",
+   "Rogue Chestplate",
+   "Rogue Gloves",
+   "Rogue Trousers",
+   "Rogue Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Rogue_Set.png"
+ },
+ {
+  "name": "Sage Set",
+  "slug": "sage-set",
+  "level": "23",
+  "class": "magic",
+  "pieces": [
+   "Sage Headwrap",
+   "Sage Tunic",
+   "Sage Gloves",
+   "Sage Pants",
+   "Sage Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Sage_Set.png"
+ },
+ {
+  "name": "Scout Set",
+  "slug": "scout-set",
+  "level": "8",
+  "class": "ranged",
+  "pieces": [
+   "Scout Hood",
+   "Scout Chest",
+   "Scout Gloves",
+   "Scout Pants",
+   "Scout Boots"
+  ],
+  "summary": "is a level 8 starter Armor set for ranged characters. The set pieces provide stats suitable for all ranged playstyles (Survivor, Beastmaster, Ranger, and Assassin).",
+  "icon": "/icons/Scout_Set.png"
+ },
+ {
+  "name": "Sharpshooter Set",
+  "slug": "sharpshooter-set",
+  "level": "18",
+  "class": "ranged",
+  "pieces": [
+   "Sharpshooter Hood",
+   "Sharpshooter Vest",
+   "Sharpshooter Gloves",
+   "Sharpshooter Trousers",
+   "Sharpshooter Boots"
+  ],
+  "summary": "is a level 18 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Hunter Set provides lower damage bonuses, but applies to all ranged damage.",
+  "icon": "/icons/Sharpshooter_Set.png"
+ },
+ {
+  "name": "Skull Stalker Set",
+  "slug": "skull-stalker-set",
+  "level": "43",
+  "class": "ranged",
+  "pieces": [
+   "Skull Stalker Helmet",
+   "Skull Stalker Chest",
+   "Skull Stalker Gloves",
+   "Skull Stalker Pants",
+   "Skull Stalker Shoes"
+  ],
+  "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "icon": ""
+ },
+ {
+  "name": "Soldier Set",
+  "slug": "soldier-set",
+  "level": "23",
+  "class": "melee",
+  "pieces": [
+   "Soldier Helmet",
+   "Soldier Chestplate",
+   "Soldier Gloves",
+   "Soldier Trousers",
+   "Soldier Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Soldier_Set.png"
+ },
+ {
+  "name": "Spellbreaker Set",
+  "slug": "spellbreaker-set",
+  "level": "23",
+  "class": "magic",
+  "pieces": [],
+  "summary": "is a level 23 Armor set for magic characters. The set pieces provide stats geared towards melee damage and are generally not recommended.",
+  "icon": "/icons/Spellbreaker_Set.png"
+ },
+ {
+  "name": "Sunpiercer Set",
+  "slug": "sunpiercer-set",
+  "level": "43",
+  "class": "melee",
+  "pieces": [
+   "Sunpiercer Helmet",
+   "Sunpiercer Chestplate",
+   "Sunpiercer Gloves",
+   "Sunpiercer Pants",
+   "Sunpiercer Shoes"
+  ],
+  "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for melee characters. It is intended for barbarians. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "icon": ""
+ },
+ {
+  "name": "Tank Set",
+  "slug": "tank-set",
+  "level": "13",
+  "class": "melee",
+  "pieces": [
+   "Tank Helmet",
+   "Tank Chestplate",
+   "Tank Gloves",
+   "Tank Trousers",
+   "Tank Boots"
+  ],
+  "summary": "is a level 13 Armor set for melee characters. As the name suggests, it is intended for tanks.",
+  "icon": "/icons/Tank_Set.png"
+ },
+ {
+  "name": "Thaumaturge Set",
+  "slug": "thaumaturge-set",
+  "level": "33",
+  "class": "magic",
+  "pieces": [
+   "Thaumaturge Hat",
+   "Thaumaturge Chest",
+   "Thaumaturge Gloves",
+   "Thaumaturge Pants",
+   "Thaumaturge Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Thaumaturge_Set.png"
+ },
+ {
+  "name": "Tidecaller Set",
+  "slug": "tidecaller-set",
+  "level": "43",
+  "class": "magic",
+  "pieces": [
+   "Tidecaller Headpiece",
+   "Tidecaller Tunic",
+   "Tidecaller Gloves",
+   "Tidecaller Pants",
+   "Tidecaller Shoes"
+  ],
+  "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for magic characters. It is intended for wizards. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "icon": "/icons/Tidecaller_Set.png"
+ },
+ {
+  "name": "Trailblazer Set",
+  "slug": "trailblazer-set",
+  "level": "33",
+  "class": "ranged",
+  "pieces": [
+   "Trailblazer Hood",
+   "Trailblazer Chest",
+   "Trailblazer Gloves",
+   "Trailblazer Trousers",
+   "Trailblazer Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Trailblazer_Set.png"
+ },
+ {
+  "name": "Warden Set",
+  "slug": "warden-set",
+  "level": "23",
+  "class": "melee",
+  "pieces": [
+   "Warden Helmet",
+   "Warden Chestplate",
+   "Warden Gloves",
+   "Warden Trousers",
+   "Warden Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Warden_Set.png"
+ },
+ {
+  "name": "Warlock Set",
+  "slug": "warlock-set",
+  "level": "23",
+  "class": "magic",
+  "pieces": [
+   "Warlock Helmet",
+   "Warlock Shirt",
+   "Warlock Gloves",
+   "Warlock Pants",
+   "Warlock Boots"
+  ],
+  "summary": "to unlock.",
+  "icon": "/icons/Warlock_Set.png"
+ },
+ {
+  "name": "Warrior Set",
+  "slug": "warrior-set",
+  "level": "13",
+  "class": "melee",
+  "pieces": [],
+  "summary": "is a level 13 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike damage with one-handed weapons such as Swords. The Adventurer Set provides lower damage bonuses, but applies to all melee damage.",
+  "icon": "/icons/Warrior_Set.png"
+ },
+ {
+  "name": "Waveborne Ritualist Set",
+  "slug": "waveborne-ritualist-set",
+  "level": "43",
+  "class": "magic",
+  "pieces": [
+   "Waveborne Ritualist Helmet",
+   "Waveborne Ritualist Tunic",
+   "Waveborne Ritualist Gloves",
+   "Waveborne Ritualist Pants",
+   "Waveborne Ritualist Boots"
+  ],
+  "summary": ".png|thumb|right|400px]] The is a level 43 Armor set for magic characters. It is intended for healers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "icon": ""
+ },
+ {
+  "name": "Wizard Set",
+  "slug": "wizard-set",
+  "level": "13",
+  "class": "magic",
+  "pieces": [],
+  "summary": "",
+  "icon": "/icons/Wizard_Set.png"
+ },
+ {
+  "name": "Wolf's Fang Set",
+  "slug": "wolf-s-fang-set",
+  "level": "33",
+  "class": "melee",
+  "pieces": [
+   "Wolf's Fang Hood",
+   "Wolf's Fang Chest",
+   "Wolf's Fang Gloves",
+   "Wolf's Fang Trousers",
+   "Wolf's Fang Boots"
+  ],
+  "summary": "and in a during to unlock.",
+  "icon": "/icons/Wolf_s_Fang_Set.png"
+ }
 ]
