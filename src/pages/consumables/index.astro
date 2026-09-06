@@ -1,0 +1,76 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import items from "../../data/consumables.json";
+
+const rows = items
+  .map((c) => ({
+    name: c.name,
+    group: c.group,
+    effects: c.effects.join(", ") || "-",
+    duration: c.duration || "-",
+    crafter: c.crafter || "-",
+    href: `/consumables/${c.slug}/`,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const byGroup = {};
+for (const c of items) (byGroup[c.group] ||= []).push(c);
+const GROUP_SLUGS = {};
+for (const g of Object.keys(byGroup)) GROUP_SLUGS[g] = g.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+---
+
+<Base
+  title="Enshrouded Consumables Database – Food, Drinks & Potions with Effects"
+  description={`Complete list of all ${items.length} consumables in Enshrouded: food, drinks, potions and flasks with exact effects, duration and crafting recipes from the Alchemist and Farmer.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <span>Consumables</span>
+  </nav>
+  <h1>Enshrouded Consumables Database</h1>
+  <p>
+    All <strong>{items.length} consumables</strong> in Enshrouded — food, drinks, potions and
+    utility items. Click any item for exact effects, duration and crafting recipes.
+  </p>
+
+  <div class="card" style="margin:1rem 0">
+    <h2 style="margin-top:0">Browse by Group</h2>
+    <ul class="cols2">
+      {Object.entries(byGroup)
+        .sort(([a], [b]) => b[1].length - a[1].length)
+        .map(([g, list]) => (
+          <li>
+            <a href={`/consumables/group/${GROUP_SLUGS[g]}/`}>{g}</a>
+            <span class="muted"> ({list.length})</span>
+          </li>
+        ))}
+    </ul>
+  </div>
+
+  <h2>All Consumables</h2>
+  <DataTable
+    id="consumables"
+    rows={rows}
+    searchPlaceholder="Search consumables..."
+    columns={[
+      { key: "name", label: "Item", href: "href" },
+      { key: "group", label: "Group" },
+      { key: "effects", label: "Effects" },
+      { key: "duration", label: "Duration" },
+      { key: "crafter", label: "Crafted By" },
+    ]}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Enshrouded Consumables Database",
+    numberOfItems: items.length,
+    itemListElement: items.slice(0, 50).map((c, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: c.name,
+      url: `/consumables/${c.slug}/`,
+    })),
+  })} />
+</Base>

@@ -1,0 +1,106 @@
+---
+import Base from "../layouts/Base.astro";
+import armor from "../data/armor.json";
+import consumables from "../data/consumables.json";
+
+type Ing = { name: string; qty: number };
+const cleanIng = (raw: unknown): Ing[] => {
+  if (!Array.isArray(raw)) return [];
+  return raw
+    .filter((x) => x && typeof x.name === "string" && x.name.trim())
+    .map((x) => ({ name: x.name, qty: Number(x.qty) || 0 }));
+};
+
+const items = [
+  ...armor
+    .filter((a) => cleanIng(a.ingredients).length > 0)
+    .map((a) => ({ name: a.name, slug: a.slug, kind: "Armor", ings: cleanIng(a.ingredients) })),
+  ...consumables
+    .filter((c) => cleanIng(c.ingredients).length > 0)
+    .map((c) => ({ name: c.name, slug: c.slug, kind: "Consumable", ings: cleanIng(c.ingredients) })),
+].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Base
+  title="Enshrouded Materials Calculator — Total Crafting Ingredients"
+  description="Tick the armor and consumables you want to craft and get the combined material list with quantities. Free Enshrouded tool."
+>
+  <h1>Materials Calculator</h1>
+  <p class="muted">
+    Tick everything you plan to craft — armor pieces, potions, food. The material list totals automatically, so you know exactly what to gather before hitting the workbench.
+  </p>
+
+  <div class="planner">
+    <div class="pick">
+      <input id="q" type="text" placeholder="Filter items..." />
+      <div id="list" class="list">
+        {items.map((it) => (
+          <label class="row">
+            <input
+              type="checkbox"
+              data-name={it.name}
+              data-ings={JSON.stringify(it.ings)}
+            />
+            <span class="n">{it.name}</span>
+            <span class="k">{it.kind}</span>
+          </label>
+        ))}
+      </div>
+    </div>
+
+    <aside class="totals">
+      <h2>Materials needed</h2>
+      <div id="mats"><p class="muted small">Tick items to see the combined material list.</p></div>
+      <button id="clear" type="button">Clear all</button>
+    </aside>
+  </div>
+
+  <script>
+    const boxes = Array.from(document.querySelectorAll('#list input[type="checkbox"]'));
+    const q = document.getElementById("q") as HTMLInputElement;
+    const matsEl = document.getElementById("mats")!;
+    function update() {
+      const totals = new Map<string, number>();
+      boxes.forEach((b) => {
+        if (!(b as HTMLInputElement).checked) return;
+        const ings = JSON.parse(b.getAttribute("data-ings") || "[]") as { name: string; qty: number }[];
+        ings.forEach((ing) => totals.set(ing.name, (totals.get(ing.name) || 0) + ing.qty));
+      });
+      if (totals.size === 0) {
+        matsEl.innerHTML = '<p class="muted small">Tick items to see the combined material list.</p>';
+        return;
+      }
+      const rows = [...totals.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, qty]) => `<div class="t"><span>${name}</span><strong>${qty}</strong></div>`)
+        .join("");
+      matsEl.innerHTML = rows;
+    }
+    boxes.forEach((b) => b.addEventListener("change", update));
+    q?.addEventListener("input", () => {
+      const s = q.value.toLowerCase();
+      document.querySelectorAll("#list .row").forEach((r) => {
+        const n = (r.querySelector(".n") as HTMLElement).textContent!.toLowerCase();
+        (r as HTMLElement).style.display = n.includes(s) ? "" : "none";
+      });
+    });
+    document.getElementById("clear")?.addEventListener("click", () => {
+      boxes.forEach((b) => ((b as HTMLInputElement).checked = false));
+      update();
+    });
+  </script>
+
+  <style>
+    .planner { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1rem; align-items: start; }
+    .list { max-height: 520px; overflow-y: auto; border: 1px solid var(--border); border-radius: 8px; background: var(--card); }
+    .row { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.4rem 0.7rem; border-bottom: 1px solid var(--border); cursor: pointer; }
+    .row:last-child { border-bottom: none; }
+    .row:hover { background: var(--bg-soft); }
+    .row .n { flex: 1; font-weight: 600; }
+    .row .k { color: var(--muted); font-size: 0.78rem; }
+    .totals { position: sticky; top: 4.5rem; }
+    .t { display: flex; justify-content: space-between; border-left: 3px solid var(--accent-2); padding-left: 0.75rem; margin: 0.45rem 0; }
+    .small { font-size: 0.82rem; }
+    @media (max-width: 800px) { .planner { grid-template-columns: 1fr; } }
+  </style>
+</Base>

@@ -1,0 +1,72 @@
+---
+import Base from "../layouts/Base.astro";
+import armor from "../data/armor.json";
+import consumables from "../data/consumables.json";
+
+const num = (v: unknown): number => {
+  const n = parseFloat(String(v ?? "").replace("+", "").replace("%", "").trim());
+  return Number.isFinite(n) ? n : 0;
+};
+
+const topArmor = [...armor]
+  .filter((a) => num(a.physical) > 0 || num(a.magical) > 0)
+  .sort((a, b) => num(b.physical) + num(b.magical) - (num(a.physical) + num(a.magical)))
+  .slice(0, 15);
+
+const mins = (v: unknown): number => {
+  const m = /^(\d+):(\d+)/.exec(String(v ?? ""));
+  return m ? parseInt(m[1]) + parseInt(m[2]) / 60 : 0;
+};
+
+const topBuffs = [...consumables]
+  .filter((c) => mins(c.duration) > 0)
+  .sort((a, b) => mins(b.duration) - mins(a.duration))
+  .slice(0, 12);
+---
+
+<Base
+  title="Enshrouded Rankings — Strongest Armor & Longest Buffs"
+  description="Answer-first rankings for Enshrouded: strongest armor pieces by physical and magical resistance, longest-duration consumable buffs."
+>
+  <h1>Rankings</h1>
+  <p class="muted">The short answers, no digging.</p>
+
+  <h2 id="armor">Strongest armor pieces</h2>
+  <p class="muted">Sorted by combined physical + magical resistance. Higher-level pieces naturally dominate.</p>
+  <table>
+    <thead><tr><th>#</th><th>Piece</th><th>Slot</th><th>Class</th><th>Physical</th><th>Magical</th><th>Level</th></tr></thead>
+    <tbody>
+      {topArmor.map((a, i) => (
+        <tr>
+          <td>{i + 1}</td>
+          <td><a href={`/armor/${a.slug}/`}>{a.name}</a></td>
+          <td>{a.slot || "—"}</td>
+          <td>{a.armorClass || "—"}</td>
+          <td><strong>{a.physical || "—"}</strong></td>
+          <td>{a.magical || "—"}</td>
+          <td>{a.level || "—"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p><a href="/armor/">See all {armor.length} armor pieces →</a></p>
+
+  <h2 id="buffs">Longest consumable buffs</h2>
+  <table>
+    <thead><tr><th>#</th><th>Consumable</th><th>Duration</th><th>Effects</th></tr></thead>
+    <tbody>
+      {topBuffs.map((c, i) => (
+        <tr>
+          <td>{i + 1}</td>
+          <td><a href={`/consumables/${c.slug}/`}>{c.name}</a></td>
+          <td><strong>{c.duration}</strong></td>
+          <td>{(c.effects || []).slice(0, 2).join(", ") || "—"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p><a href="/consumables/">See all {consumables.length} consumables →</a></p>
+
+  <h2>Plan a craft</h2>
+  <p>Use the <a href="/materials-calculator/">materials calculator</a> to total crafting materials across everything you want to make.</p>
+</Base>

@@ -1,0 +1,71 @@
+---
+import Base from "../../../layouts/Base.astro";
+import DataTable from "../../../components/DataTable.astro";
+import weapons from "../../../data/weapons.json";
+
+export function getStaticPaths() {
+  const cats = {};
+  for (const w of weapons) (cats[w.category] ||= []).push(w);
+  return Object.entries(cats).map(([cat, list]) => ({
+    params: { category: cat.toLowerCase().replace(/[^a-z0-9]+/g, "-") },
+    props: { cat, list },
+  }));
+}
+
+const { cat, list } = Astro.props;
+const rows = list
+  .map((w) => ({
+    name: w.name,
+    level: w.level || "-",
+    attackSpeed: w.attackSpeed || "-",
+    perks: w.perks.join(", "),
+    source: w.source.join(", "),
+    href: `/weapons/${w.slug}/`,
+  }))
+  .sort((a, b) => (parseInt(a.level) || 0) - (parseInt(b.level) || 0) || a.name.localeCompare(b.name));
+const title = `Enshrouded ${cat} – Complete List (${list.length})`;
+---
+
+<Base
+  title={title}
+  description={`All ${list.length} ${cat} in Enshrouded with level, attack speed, perks and locations. Sortable table, click any weapon for details.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/weapons/">Weapons</a> › <span>{cat}</span>
+  </nav>
+  <h1>Enshrouded {cat}</h1>
+  <p>
+    Complete list of all <strong>{list.length} {cat.toLowerCase()}</strong> in Enshrouded,
+    sorted by level. Click a weapon for full stats, perks and where to find it.
+  </p>
+
+  <DataTable
+    id={`w-${list.length}`}
+    rows={rows}
+    searchPlaceholder={`Search ${cat.toLowerCase()}...`}
+    columns={[
+      { key: "name", label: "Weapon", href: "href" },
+      { key: "level", label: "Level", type: "number" },
+      { key: "attackSpeed", label: "Atk Speed" },
+      { key: "perks", label: "Perks" },
+      { key: "source", label: "Found In" },
+    ]}
+  />
+
+  <p style="margin-top:1.5rem">
+    <a href="/weapons/">← Back to all weapons</a>
+  </p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `Enshrouded ${cat}`,
+    numberOfItems: list.length,
+    itemListElement: list.slice(0, 30).map((w, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: w.name,
+      url: `/weapons/${w.slug}/`,
+    })),
+  })} />
+</Base>

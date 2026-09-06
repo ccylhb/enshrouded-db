@@ -1,0 +1,86 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import armor from "../../data/armor.json";
+
+const CAT_LABELS = {
+  melee: "Melee Armor",
+  magic: "Magic Armor",
+  ranged: "Ranged Armor",
+  misc: "Miscellaneous Armor",
+};
+
+const rows = armor
+  .map((a) => ({
+    name: a.name,
+    slot: a.slot,
+    cls: a.armorClass,
+    level: a.level || "-",
+    physical: a.physical || "-",
+    magical: a.magical || "-",
+    set: a.set || "-",
+    href: `/armor/${a.slug}/`,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const byClass = {};
+for (const a of armor) (byClass[a.category] ||= []).push(a);
+---
+
+<Base
+  title="Enshrouded Armor Database – All 300+ Armor Pieces with Stats"
+  description={`Complete list of all ${armor.length} armor pieces in Enshrouded: helmets, chests, gloves, trousers and boots for melee, magic and ranged builds, with physical/magical armor values, effects and crafting recipes.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <span>Armor</span>
+  </nav>
+  <h1>Enshrouded Armor Database</h1>
+  <p>
+    All <strong>{armor.length} armor pieces</strong> in Enshrouded, sortable and searchable.
+    Click any piece for full stats, set bonuses, effects and crafting recipes.
+  </p>
+
+  <div class="card" style="margin:1rem 0">
+    <h2 style="margin-top:0">Browse by Class</h2>
+    <ul class="cols2">
+      {Object.entries(byClass)
+        .sort(([a], [b]) => b[1].length - a[1].length)
+        .map(([cat, list]) => (
+          <li>
+            <a href={`/armor/class/${cat}/`}>{CAT_LABELS[cat] || cat}</a>
+            <span class="muted"> ({list.length})</span>
+          </li>
+        ))}
+      <li><a href="/armor/sets/">All Armor Sets</a> <span class="muted">(59)</span></li>
+    </ul>
+  </div>
+
+  <h2>All Armor Pieces</h2>
+  <DataTable
+    id="armor"
+    rows={rows}
+    searchPlaceholder="Search armor..."
+    columns={[
+      { key: "name", label: "Armor", href: "href" },
+      { key: "slot", label: "Slot" },
+      { key: "cls", label: "Class" },
+      { key: "level", label: "Level" },
+      { key: "physical", label: "Physical" },
+      { key: "magical", label: "Magical" },
+      { key: "set", label: "Set" },
+    ]}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Enshrouded Armor Database",
+    numberOfItems: armor.length,
+    itemListElement: armor.slice(0, 50).map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: a.name,
+      url: `/armor/${a.slug}/`,
+    })),
+  })} />
+</Base>

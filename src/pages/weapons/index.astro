@@ -1,0 +1,74 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import weapons from "../../data/weapons.json";
+
+const rows = weapons
+  .map((w) => ({
+    name: w.name,
+    type: w.type,
+    level: w.level || "-",
+    attackSpeed: w.attackSpeed || "-",
+    source: w.source.join(", "),
+    href: `/weapons/${w.slug}/`,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const byCategory = {};
+for (const w of weapons) (byCategory[w.category] ||= []).push(w);
+---
+
+<Base
+  title="Enshrouded Weapons Database – All 290+ Weapons with Stats"
+  description={`Complete list of all ${weapons.length} weapons in Enshrouded: swords, axes, clubs, daggers, bows, staves and wands with level, attack speed, perks and where to find them.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <span>Weapons</span>
+  </nav>
+  <h1>Enshrouded Weapons Database</h1>
+  <p>
+    All <strong>{weapons.length} weapons</strong> in Enshrouded, sortable and searchable.
+    Click any weapon for full stats, perks and crafting / drop sources.
+  </p>
+
+  <div class="card" style="margin:1rem 0">
+    <h2 style="margin-top:0">Browse by Type</h2>
+    <ul class="cols2">
+      {Object.entries(byCategory)
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([cat, list]) => (
+          <li>
+            <a href={`/weapons/type/${cat.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/`}>{cat}</a>
+            <span class="muted"> ({list.length})</span>
+          </li>
+        ))}
+    </ul>
+  </div>
+
+  <h2>All Weapons</h2>
+  <DataTable
+    id="weapons"
+    rows={rows}
+    searchPlaceholder="Search weapons..."
+    columns={[
+      { key: "name", label: "Weapon", href: "href" },
+      { key: "type", label: "Type" },
+      { key: "level", label: "Level", type: "number" },
+      { key: "attackSpeed", label: "Atk Speed" },
+      { key: "source", label: "Found In" },
+    ]}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Enshrouded Weapons Database",
+    numberOfItems: weapons.length,
+    itemListElement: weapons.slice(0, 50).map((w, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: w.name,
+      url: `/weapons/${w.slug}/`,
+    })),
+  })} />
+</Base>

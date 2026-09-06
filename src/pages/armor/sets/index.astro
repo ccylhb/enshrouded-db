@@ -1,0 +1,40 @@
+---
+import Base from "../../../layouts/Base.astro";
+import sets from "../../../data/armor-sets.json";
+---
+
+<Base
+  title="Enshrouded Armor Sets – All 59 Sets with Levels and Pieces"
+  description={`Complete list of all ${sets.length} armor sets in Enshrouded: set level, class (melee/magic/ranged) and every piece in each set, from Adventurer to endgame sets.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/armor/">Armor</a> › <span>Sets</span>
+  </nav>
+  <h1>Enshrouded Armor Sets</h1>
+  <p>
+    All <strong>{sets.length} armor sets</strong> in Enshrouded. Click a set to see every piece
+    with stats and crafting recipes.
+  </p>
+
+  <ul class="cols2">
+    {sets.map((s) => (
+      <li>
+        <a href={`/armor/sets/${s.slug}/`}>{s.name}</a>
+        <span class="muted"> (Lv {s.level}{s.class ? `, ${s.class}` : ""})</span>
+      </li>
+    ))}
+  </ul>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Enshrouded Armor Sets",
+    numberOfItems: sets.length,
+    itemListElement: sets.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: s.name,
+      url: `/armor/sets/${s.slug}/`,
+    })),
+  })} />
+</Base>

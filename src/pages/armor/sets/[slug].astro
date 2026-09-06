@@ -1,0 +1,64 @@
+---
+import Base from "../../../layouts/Base.astro";
+import armor from "../../../data/armor.json";
+import sets from "../../../data/armor-sets.json";
+
+const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+export function getStaticPaths() {
+  return sets.map((s) => ({
+    params: { slug: s.slug },
+    props: { set: s },
+  }));
+}
+
+const { set } = Astro.props;
+const pieces = set.pieces
+  .map((name) => armor.find((a) => a.name === name))
+  .filter(Boolean);
+const title = `${set.name} – Enshrouded Armor Set Guide`;
+const desc = `${set.name} is a level ${set.level} ${set.class || ""} armor set in Enshrouded with ${set.pieces.length} pieces.`;
+---
+
+<Base title={title} description={`${desc} See every piece with stats, effects and crafting recipes.`}>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/armor/">Armor</a> › <a href="/armor/sets/">Sets</a> ›
+    <span>{set.name}</span>
+  </nav>
+  <h1>{set.name}</h1>
+
+  <div class="card" style="margin:1rem 0">
+    <table>
+      <tr><th>Set Level</th><td>{set.level}</td></tr>
+      {set.class && <tr><th>Class</th><td style="text-transform:capitalize">{set.class}</td></tr>}
+      <tr><th>Pieces</th><td>{set.pieces.length}</td></tr>
+    </table>
+  </div>
+
+  {set.summary && <p>{set.name} {set.summary}</p>}
+
+  <h2>Set Pieces</h2>
+  <div class="card">
+    <table>
+      <tr><th>Piece</th><th>Slot</th><th>Level</th><th>Physical</th><th>Magical</th></tr>
+      {pieces.map((p) => (
+        <tr>
+          <td><a href={`/armor/${p.slug}/`}>{p.name}</a></td>
+          <td>{p.slot}</td>
+          <td>{p.level || "-"}</td>
+          <td>{p.physical || "-"}</td>
+          <td>{p.magical || "-"}</td>
+        </tr>
+      ))}
+    </table>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${set.name} – Enshrouded Armor Set`,
+    description: desc,
+    about: { "@type": "Thing", name: set.name },
+    isPartOf: { "@type": "WebSite", name: "EmberDB" },
+  })} />
+</Base>

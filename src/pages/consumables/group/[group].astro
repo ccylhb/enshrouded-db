@@ -1,0 +1,68 @@
+---
+import Base from "../../../layouts/Base.astro";
+import DataTable from "../../../components/DataTable.astro";
+import items from "../../../data/consumables.json";
+
+const GROUPS = ["Food", "Drinks", "Potions & Consumable Items"];
+const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
+export function getStaticPaths() {
+  return [
+    { params: { group: "food" }, props: { group: "Food" } },
+    { params: { group: "drinks" }, props: { group: "Drinks" } },
+    { params: { group: "potions-consumable-items" }, props: { group: "Potions & Consumable Items" } },
+  ];
+}
+
+const { group } = Astro.props;
+const list = items.filter((c) => c.group === group);
+const rows = list
+  .map((c) => ({
+    name: c.name,
+    effects: c.effects.join(", ") || "-",
+    duration: c.duration || "-",
+    crafter: c.crafter || "-",
+    href: `/consumables/${c.slug}/`,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+const title = `Enshrouded ${group} – All ${list.length} Items with Effects`;
+---
+
+<Base
+  title={title}
+  description={`All ${list.length} ${group.toLowerCase()} in Enshrouded with exact effects, duration and crafting recipes. Compare every item in one searchable table.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/consumables/">Consumables</a> › <span>{group}</span>
+  </nav>
+  <h1>Enshrouded {group}</h1>
+  <p>
+    All <strong>{list.length} {group.toLowerCase()}</strong> in Enshrouded, searchable and sortable
+    by effect, duration and crafter.
+  </p>
+
+  <DataTable
+    id={`consumables-${slugify(group)}`}
+    rows={rows}
+    searchPlaceholder={`Search ${group.toLowerCase()}...`}
+    columns={[
+      { key: "name", label: "Item", href: "href" },
+      { key: "effects", label: "Effects" },
+      { key: "duration", label: "Duration" },
+      { key: "crafter", label: "Crafted By" },
+    ]}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `Enshrouded ${group}`,
+    numberOfItems: list.length,
+    itemListElement: list.slice(0, 50).map((c, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: c.name,
+      url: `/consumables/${c.slug}/`,
+    })),
+  })} />
+</Base>

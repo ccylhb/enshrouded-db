@@ -1,0 +1,42 @@
+---
+import Base from "../../layouts/Base.astro";
+import items from "../../data/items.json";
+
+export function getStaticPaths() {
+  return items.map((item) => ({
+    params: { slug: item.slug },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+const related = items.filter((i) => i.category === item.category && i.slug !== item.slug).slice(0, 6);
+---
+
+<Base title={item.name} description={`Everything about ${item.name}: stats, sources, and how to get it.`}>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/database/">Database</a> › <span>{item.name}</span>
+  </nav>
+  <h1>{item.name}</h1>
+  <div class="card" style="margin:1rem 0">
+    <table>
+      <tr><th>Category</th><td>{item.category}</td></tr>
+      <tr><th>Value</th><td>{item.value}</td></tr>
+      <tr><th>Description</th><td>{item.description}</td></tr>
+    </table>
+  </div>
+  {related.length > 0 && (
+    <>
+      <h2>Related Items</h2>
+      <ul>
+        {related.map((r) => <li><a href={`/database/${r.slug}/`}>{r.name}</a></li>)}
+      </ul>
+    </>
+  )}
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: item.name,
+    description: item.description,
+  })} />
+</Base>

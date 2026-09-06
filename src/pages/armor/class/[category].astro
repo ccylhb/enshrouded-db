@@ -1,0 +1,76 @@
+---
+import Base from "../../../layouts/Base.astro";
+import DataTable from "../../../components/DataTable.astro";
+import armor from "../../../data/armor.json";
+
+const CAT_LABELS = {
+  melee: "Melee Armor",
+  magic: "Magic Armor",
+  ranged: "Ranged Armor",
+  misc: "Miscellaneous Armor",
+};
+
+export function getStaticPaths() {
+  return ["melee", "magic", "ranged", "misc"].map((cat) => ({
+    params: { category: cat },
+    props: { cat },
+  }));
+}
+
+const { cat } = Astro.props;
+const pieces = armor.filter((a) => a.category === cat);
+const rows = pieces
+  .map((a) => ({
+    name: a.name,
+    slot: a.slot,
+    level: a.level || "-",
+    physical: a.physical || "-",
+    magical: a.magical || "-",
+    set: a.set || "-",
+    href: `/armor/${a.slug}/`,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+const label = CAT_LABELS[cat];
+const title = `Enshrouded ${label} – All ${pieces.length} Pieces with Stats`;
+---
+
+<Base
+  title={title}
+  description={`All ${pieces.length} ${label.toLowerCase()} pieces in Enshrouded with slot, level, physical and magical armor values, effects and set info. Compare every ${cat} armor piece in one table.`}
+>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/armor/">Armor</a> › <span>{label}</span>
+  </nav>
+  <h1>Enshrouded {label}</h1>
+  <p>
+    All <strong>{pieces.length} {label.toLowerCase()} pieces</strong> in Enshrouded —
+    helmets, chests, gloves, trousers and boots for {cat} builds.
+  </p>
+
+  <DataTable
+    id={`armor-${cat}`}
+    rows={rows}
+    searchPlaceholder={`Search ${label.toLowerCase()}...`}
+    columns={[
+      { key: "name", label: "Armor", href: "href" },
+      { key: "slot", label: "Slot" },
+      { key: "level", label: "Level" },
+      { key: "physical", label: "Physical" },
+      { key: "magical", label: "Magical" },
+      { key: "set", label: "Set" },
+    ]}
+  />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `Enshrouded ${label}`,
+    numberOfItems: pieces.length,
+    itemListElement: pieces.slice(0, 50).map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: a.name,
+      url: `/armor/${a.slug}/`,
+    })),
+  })} />
+</Base>

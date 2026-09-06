@@ -1,0 +1,74 @@
+---
+import Base from "../../layouts/Base.astro";
+import weapons from "../../data/weapons.json";
+
+export function getStaticPaths() {
+  return weapons.map((w) => ({
+    params: { slug: w.slug },
+    props: { weapon: w },
+  }));
+}
+
+const { weapon } = Astro.props;
+const sameType = weapons
+  .filter((w) => w.category === weapon.category && w.slug !== weapon.slug)
+  .slice(0, 8);
+const title = `${weapon.name} – Enshrouded Weapon Guide`;
+const desc =
+  weapon.description ||
+  `${weapon.name} is ${/^[aeiou]/i.test(weapon.type) ? "an" : "a"} ${weapon.type} in Enshrouded.`;
+---
+
+<Base title={title} description={`Enshrouded ${weapon.name}: type, level, attack speed, perks, where to find it and more. ${desc.slice(0, 100)}`}>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/weapons/">Weapons</a> ›
+    <a href={`/weapons/type/${weapon.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/`}>{weapon.category}</a> ›
+    <span>{weapon.name}</span>
+  </nav>
+  <h1>{weapon.name}</h1>
+
+  <div class="card" style="margin:1rem 0">
+    <table>
+      <tr><th>Type</th><td>{weapon.type}</td></tr>
+      <tr><th>Category</th><td>{weapon.category}</td></tr>
+      {weapon.level && <tr><th>Level</th><td>{weapon.level}</td></tr>}
+      {weapon.attackSpeed && <tr><th>Attack Speed</th><td>{weapon.attackSpeed}</td></tr>}
+      {weapon.perks.length > 0 && <tr><th>Perks</th><td>{weapon.perks.join(", ")}</td></tr>}
+      {weapon.source.length > 0 && <tr><th>Where to Find</th><td>{weapon.source.join(", ")}</td></tr>}
+    </table>
+  </div>
+
+  {weapon.description && (
+    <>
+      <h2>About {weapon.name}</h2>
+      <p>{weapon.description}</p>
+    </>
+  )}
+
+  {weapon.level && (
+    <p class="muted">
+      {weapon.name} is {/^[aeiou]/i.test(weapon.type) ? "an" : "a"} level {weapon.level} {weapon.type.toLowerCase()} in Enshrouded.
+      Compare it with other {weapon.category.toLowerCase()} using the table below.
+    </p>
+  )}
+
+  {sameType.length > 0 && (
+    <>
+      <h2>More {weapon.category}</h2>
+      <ul class="cols2">
+        {sameType.map((w) => (
+          <li><a href={`/weapons/${w.slug}/`}>{w.name}</a>{w.level ? <span class="muted"> (Lv {w.level})</span> : ""}</li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${weapon.name} – Enshrouded Weapon`,
+    description: desc,
+    about: { "@type": "Thing", name: weapon.name },
+    isPartOf: { "@type": "WebSite", name: "EmberDB" },
+  })} />
+</Base>

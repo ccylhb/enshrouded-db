@@ -1,0 +1,28 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import items from "../../data/items.json";
+
+// TODO: replace items.json with real scraped data and adjust columns.
+const columns = [
+  { key: "name", label: "Name", type: "string" },
+  { key: "category", label: "Category", type: "string" },
+  { key: "value", label: "Value", type: "number" },
+];
+---
+
+<Base title="Item Database" description="Complete searchable database of all items with stats and sources.">
+  <h1>Item Database</h1>
+  <p class="muted">Click a column header to sort. Use the search box to filter.</p>
+  <DataTable rows={items} columns={columns} id="items" />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    numberOfItems: items.length,
+    itemListElement: items.slice(0, 30).map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.name,
+    })),
+  })} />
+</Base>

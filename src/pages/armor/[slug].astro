@@ -1,0 +1,116 @@
+---
+import Base from "../../layouts/Base.astro";
+import armor from "../../data/armor.json";
+import sets from "../../data/armor-sets.json";
+
+const CAT_LABELS = {
+  melee: "Melee Armor",
+  magic: "Magic Armor",
+  ranged: "Ranged Armor",
+  misc: "Miscellaneous Armor",
+};
+
+export function getStaticPaths() {
+  return armor.map((a) => ({
+    params: { slug: a.slug },
+    props: { piece: a },
+  }));
+}
+
+const { piece } = Astro.props;
+const setInfo = sets.find((s) => s.name === piece.set);
+const sameSet = armor.filter((a) => a.set === piece.set && a.slug !== piece.slug);
+const sameSlot = armor
+  .filter((a) => a.slot === piece.slot && a.category === piece.category && a.slug !== piece.slug)
+  .slice(0, 8);
+const title = `${piece.name} – Enshrouded Armor Stats & Crafting Recipe`;
+const desc =
+  piece.description ||
+  `${piece.name} is ${/^[aeiou]/i.test(piece.slot) ? "an" : "a"} ${piece.slot} in Enshrouded.`;
+---
+
+<Base title={title} description={`Enshrouded ${piece.name}: armor values, level, rarity, effects, set bonuses and how to craft it. ${desc.slice(0, 100)}`}>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/armor/">Armor</a> ›
+    <a href={`/armor/class/${piece.category}/`}>{CAT_LABELS[piece.category] || piece.category}</a> ›
+    <span>{piece.name}</span>
+  </nav>
+  <h1>{piece.name}</h1>
+
+  <div class="card" style="margin:1rem 0">
+    <table>
+      <tr><th>Slot</th><td>{piece.slot}</td></tr>
+      <tr><th>Class</th><td>{piece.armorClass}</td></tr>
+      {piece.level && <tr><th>Level</th><td>{piece.level}</td></tr>}
+      {piece.rarity && <tr><th>Rarity</th><td>{piece.rarity}</td></tr>}
+      {piece.physical && <tr><th>Physical Armor</th><td>{piece.physical}</td></tr>}
+      {piece.magical && <tr><th>Magical Armor</th><td>{piece.magical}</td></tr>}
+      {piece.effect && <tr><th>Effect</th><td>{piece.effect}</td></tr>}
+      {piece.set && (
+        <tr>
+          <th>Armor Set</th>
+          <td>
+            {setInfo
+              ? <a href={`/armor/sets/${setInfo.slug}/`}>{piece.set}</a>
+              : piece.set}
+          </td>
+        </tr>
+      )}
+    </table>
+  </div>
+
+  {piece.description && (
+    <>
+      <h2>About {piece.name}</h2>
+      <p>{piece.description}</p>
+    </>
+  )}
+
+  {piece.ingredients.length > 0 && (
+    <>
+      <h2>How to Craft {piece.name}</h2>
+      <p>
+        {piece.name} is crafted by the <strong>{piece.crafter}</strong>
+        {piece.craftTime ? ` (${piece.craftTime})` : ""} using:
+      </p>
+      <div class="card">
+        <table>
+          {piece.ingredients.map((ing) => (
+            <tr><th>{ing.name}</th><td>{ing.qty}</td></tr>
+          ))}
+        </table>
+      </div>
+    </>
+  )}
+
+  {sameSet.length > 0 && (
+    <>
+      <h2>More from the {piece.set || "Same Tier"}</h2>
+      <ul class="cols2">
+        {sameSet.map((a) => (
+          <li><a href={`/armor/${a.slug}/`}>{a.name}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {sameSlot.length > 0 && (
+    <>
+      <h2>Other {piece.slot}s</h2>
+      <ul class="cols2">
+        {sameSlot.map((a) => (
+          <li><a href={`/armor/${a.slug}/`}>{a.name}</a>{a.level ? <span class="muted"> (Lv {a.level})</span> : ""}</li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${piece.name} – Enshrouded Armor`,
+    description: desc,
+    about: { "@type": "Thing", name: piece.name },
+    isPartOf: { "@type": "WebSite", name: "EmberDB" },
+  })} />
+</Base>

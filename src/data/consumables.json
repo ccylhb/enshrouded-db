@@ -1,0 +1,4301 @@
+[
+  {
+    "name": "Black Coffee",
+    "slug": "black-coffee",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 30 Stamina",
+      "+ 6% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Ground Coffee Beans",
+        "qty": 5
+      },
+      {
+        "name": "Gold Coins",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Buttermilk",
+    "slug": "buttermilk",
+    "group": "Drinks",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 30 Stamina",
+      "+ 9 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "15:00",
+    "ingredients": [
+      {
+        "name": "Any Milk",
+        "qty": 5
+      }
+    ],
+    "description": "A refreshing jug of buttermilk. With its lightly sour flavor and silky texture, it’s very refreshing.",
+    "image": "Buttermilk.png"
+  },
+  {
+    "name": "Chamomile Tea",
+    "slug": "chamomile-tea",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "+ 12 Health Regeneration",
+      "+ 20 Stamina"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Chamomile",
+        "qty": 5
+      }
+    ],
+    "description": "A very healthy beverage that helps the body recover and prepare for the day to come.",
+    "image": "Chamomile Tea.png"
+  },
+  {
+    "name": "Coconana Smoothie",
+    "slug": "coconana-smoothie",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 9 Health Regeneration",
+      "+ 30 Stamina",
+      "+ 30 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "qty": 5
+      },
+      {
+        "name": "Coconut Milk",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Coconut Milk",
+    "slug": "coconut-milk",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 60 Stamina",
+      "+ 27 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "4 minutes",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 2
+      },
+      {
+        "name": "Coconut",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Cooked Fae Deer Milk",
+    "slug": "cooked-fae-deer-milk",
+    "group": "Drinks",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 20 Stamina",
+      "+ 15 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "1:00",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 1
+      },
+      {
+        "name": "Uncooked Fae Deer Milk",
+        "qty": 4
+      }
+    ],
+    "description": "A delicious jug of Fae Deer milk. Drinking it will grant you endurance and recharge your stamina faster!",
+    "image": "Cooked Fae Deer Milk.png"
+  },
+  {
+    "name": "Frizzy Goat Milk",
+    "slug": "frizzy-goat-milk",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 4 Endurance"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A delicious jug of Frizzy Goat milk. Drinking it will grant you endurance.",
+    "image": "Frizzy Goat Milk.png"
+  },
+  {
+    "name": "Ginger Tea",
+    "slug": "ginger-tea",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 60 Stamina",
+      "+ 10% Ice Resistance",
+      "+ 3 Frost Resistance"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Ginger",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Glimmer Gentian Tea",
+    "slug": "glimmer-gentian-tea",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 15% Damage against shroud",
+      "+ 5min Time in the shroud"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 3
+      },
+      {
+        "name": "Glimmer Gentian",
+        "qty": 3
+      },
+      {
+        "name": "Stapelia Starflower",
+        "qty": 3
+      }
+    ],
+    "description": "This is an herbal tea with added glimmer gentian. The Blossoms create a smooth texture and extend your Time in the shroud.",
+    "image": "Glimmer Gentian Tea.png"
+  },
+  {
+    "name": "Herbal Mountain Tea",
+    "slug": "herbal-mountain-tea",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+100 Mana",
+      "+50 Stamina",
+      "+24 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Gentian",
+        "qty": 5
+      },
+      {
+        "name": "Water",
+        "qty": 5
+      }
+    ],
+    "description": "A strong, herbal tea. It increases your mana and stamina.",
+    "image": "Herbal Mountain Tea.png"
+  },
+  {
+    "name": "Latte",
+    "slug": "latte",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 30 Stamina",
+      "+ 6% Magic Damage"
+    ],
+    "crafter": "",
+    "craftTime": "3:00",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Milk",
+        "qty": 3
+      },
+      {
+        "name": "Gold Coins",
+        "qty": 5
+      },
+      {
+        "name": "Ground Coffee Beans",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Milk",
+    "slug": "milk",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 10 Stamina",
+      "+ 6 Stamina Regemeration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A delicious jug of milk. Drinking it will grant you endurance and recharge your stamina faster!",
+    "image": "Milk.png"
+  },
+  {
+    "name": "Rooibos Tea",
+    "slug": "rooibos-tea",
+    "group": "Drinks",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 30 Stamina",
+      "+ 18 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Rooibos",
+        "qty": 5
+      }
+    ],
+    "description": "An aromatic ingredient that calms the body, providing an instant boost of Stamina for the user.",
+    "image": "Rooibos Tea.png"
+  },
+  {
+    "name": "Spiced Tea",
+    "slug": "spiced-tea",
+    "group": "Drinks",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 40 Stamina",
+      "+ 21 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Saffron",
+        "qty": 5
+      },
+      {
+        "name": "Spice",
+        "qty": 2
+      }
+    ],
+    "description": "Hot and spicy! The best drink for heated areas, refreshing and cooling the body at the same time.",
+    "image": "Spiced Tea.png"
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "slug": "strawberry-milkshake",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 18 Health Regeneration",
+      "+ 12 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "qty": 5
+      },
+      {
+        "name": "Frizzy Goat Milk",
+        "qty": 5
+      },
+      {
+        "name": "Snow",
+        "qty": 5
+      },
+      {
+        "name": "Sugar",
+        "qty": 5
+      }
+    ],
+    "description": "A delightful milkshake. Be careful with the sugar rush! It will recharge your endurance and stamina more quickly.",
+    "image": "Strawberry Milkshake.png"
+  },
+  {
+    "name": "Sweet Mokka",
+    "slug": "sweet-mokka",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 30 Stamina",
+      "+ 30 Stamina Regeneration",
+      "+ 6% Ranged Damage",
+      "+ 6% Dagger Damage"
+    ],
+    "crafter": "",
+    "craftTime": "3:00",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Sugar",
+        "qty": 3
+      },
+      {
+        "name": "Gold Coins",
+        "qty": 5
+      },
+      {
+        "name": "Ground Coffee Beans",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Uncooked Fae Deer Milk",
+    "slug": "uncooked-fae-deer-milk",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 40 Health",
+      "- 30 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Raw Fae Deer Milk. It has to be cooked to be consumed safely.",
+    "image": "Uncooked Fae Deer Milk.png"
+  },
+  {
+    "name": "Water",
+    "slug": "water",
+    "group": "Drinks",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "",
+    "effects": [],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "Water.png"
+  },
+  {
+    "name": "Water Pouch",
+    "slug": "water-pouch",
+    "group": "Drinks",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 5 Stamina",
+      "+ 10 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [
+      {
+        "name": "Animal Fur",
+        "qty": 1
+      }
+    ],
+    "description": "This pouch can be filled at a well or lake. A sip of water helps recharge your power!",
+    "image": "Water Pouch.png"
+  },
+  {
+    "name": "Algae",
+    "slug": "algae",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 120 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Algae Buds",
+    "slug": "algae-buds",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "6:00",
+    "effects": [
+      "- 80 Health",
+      "- 70 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Algae Salad",
+    "slug": "algae-salad",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 120 Mana",
+      "+ 21% Magic Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Algae",
+        "qty": 5
+      },
+      {
+        "name": "Ginger",
+        "qty": 4
+      },
+      {
+        "name": "Sugar",
+        "qty": 3
+      },
+      {
+        "name": "Shiitake Mushroom",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Aureolin Flower",
+    "slug": "aureolin-flower",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "10:00",
+    "effects": [
+      "+ 20 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A beautiful yellow flower with magical properties that blesses the user's spirit.",
+    "image": "Aureolin Flower.png"
+  },
+  {
+    "name": "Azure Russula",
+    "slug": "azure-russula",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 40 Health",
+      "- 30 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Should be cooked before eating.",
+    "image": "Azure Russula.png"
+  },
+  {
+    "name": "Banana",
+    "slug": "banana",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "6:00",
+    "effects": [
+      "+ 21 Health Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Beef Stew",
+    "slug": "beef-stew",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 240 Health",
+      "+ 12 Health Regeneration",
+      "+ 1 Frost Resistance"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "qty": 2
+      },
+      {
+        "name": "Raw Fatty Meat",
+        "qty": 3
+      },
+      {
+        "name": "Tomato",
+        "qty": 4
+      },
+      {
+        "name": "Frizzy Goat Milk",
+        "qty": 3
+      }
+    ],
+    "description": "A burning hot, meaty stew. Increases your resistance against extreme cold and improves your health and health regeneration.",
+    "image": "Beef Stew.png"
+  },
+  {
+    "name": "Bell Pepper",
+    "slug": "bell-pepper",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+9% Ranged Damage",
+      "+9% Dagger Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A plant of sweet flavor and powerful red color. Grants the user dexterity upon consumption.",
+    "image": "Bell Pepper.png"
+  },
+  {
+    "name": "Boiled Eggs",
+    "slug": "boiled-eggs",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 9 Health Regeneration",
+      "+ 9 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Eggs",
+        "qty": 5
+      },
+      {
+        "name": "Water",
+        "qty": 5
+      }
+    ],
+    "description": "Simple but nourishing. Boosts regeneration in all areas.",
+    "image": "Boiled Eggs.png"
+  },
+  {
+    "name": "Butter",
+    "slug": "butter",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "",
+    "effects": [],
+    "crafter": "",
+    "craftTime": "2:00",
+    "ingredients": [
+      {
+        "name": "Any Milk",
+        "qty": 1
+      }
+    ],
+    "description": "Creamy butter with milky richness-perfect for bringing depth and tenderness to your baked creations.",
+    "image": "Butter.png"
+  },
+  {
+    "name": "Calla Luna Soup",
+    "slug": "calla-luna-soup",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 40 Mana",
+      "+ 6 Mana Regeneration",
+      "+ 3min Time in the Shroud"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Salt",
+        "qty": 1
+      },
+      {
+        "name": "Calla Luna",
+        "qty": 3
+      },
+      {
+        "name": "Sage Leaves",
+        "qty": 5
+      }
+    ],
+    "description": "A soup made from various vegetables and calla luna flowers. It glows in the dark and extends your time in the Shroud!",
+    "image": "Calla Luna Soup.png"
+  },
+  {
+    "name": "Candied Ginger",
+    "slug": "candied-ginger",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "9:00",
+    "effects": [
+      "+ 48 Mana Regeneration",
+      "+ 21 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Ginger",
+        "qty": 5
+      },
+      {
+        "name": "Sugar",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Chanterelle",
+    "slug": "chanterelle",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "0:45s",
+    "effects": [
+      "- 75 Stamina",
+      "- 5 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "It tastes incredibly bitter when raw, but develops a zesty aroma while cooked.",
+    "image": "Chanterelle.png"
+  },
+  {
+    "name": "Chicken Soup",
+    "slug": "chicken-soup",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 160 Health",
+      "+ 6% Ranged Damage",
+      "+ 6% Dagger Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Forest Beet",
+        "qty": 3
+      },
+      {
+        "name": "Salt",
+        "qty": 1
+      },
+      {
+        "name": "Raw Bird Meat",
+        "qty": 3
+      },
+      {
+        "name": "Bell Pepper",
+        "qty": 3
+      }
+    ],
+    "description": "A very healthy soup made by boiling chicken for a period of time. An old house maiden's dish to help protect the body from illness",
+    "image": "Chicken Soup.png"
+  },
+  {
+    "name": "Cooked Rice",
+    "slug": "cooked-rice",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "1:4000",
+    "effects": [
+      "+ 21% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [
+      {
+        "name": "Raw Rice",
+        "qty": 4
+      },
+      {
+        "name": "Salt",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Corncob",
+    "slug": "corncob",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "10:00",
+    "effects": [
+      "+ 3% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A very versatile crop that can be dried, grilled or consumed raw, strengthening the consumer for a short duration.",
+    "image": "Corncob.png"
+  },
+  {
+    "name": "Crab Cakes",
+    "slug": "crab-cakes",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 280 Health",
+      "+ 21% Damage against Wildlife and Wildbeasts"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Crab Meat",
+        "qty": 5
+      },
+      {
+        "name": "Eggs",
+        "qty": 3
+      },
+      {
+        "name": "Salt",
+        "qty": 5
+      },
+      {
+        "name": "Milk",
+        "qty": 2
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Crab Meat",
+    "slug": "crab-meat",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 80 Health",
+      "- 70 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Creamy Mushroom Spaetzle",
+    "slug": "creamy-mushroom-spaetzle",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 20 Stamina",
+      "+ 9 Stamina Regeneration",
+      "+ 18% Melee Damage",
+      "+ 1 Frost Resistance"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "qty": 2
+      },
+      {
+        "name": "Eggs",
+        "qty": 5
+      },
+      {
+        "name": "Frizzy Goat Milk",
+        "qty": 3
+      },
+      {
+        "name": "Penny Bun",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Crimsonback",
+    "slug": "crimsonback",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 10 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Dried Banana Chips",
+    "slug": "dried-banana-chips",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "18:00",
+    "effects": [
+      "+ 8 Health Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "6:00",
+    "ingredients": [
+      {
+        "name": "Banana",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Dried Purple Berry",
+    "slug": "dried-purple-berry",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "8:00",
+    "effects": [
+      "+ 3 Health Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Purple Berries",
+        "qty": 1
+      }
+    ],
+    "description": "When conserved, the Dried Purple Berry do not regenerate as much Health as the Purple berries. However, the duration lasts longer.",
+    "image": "Dried Purple Berry.png"
+  },
+  {
+    "name": "Ectoplasm Soup",
+    "slug": "ectoplasm-soup",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "- 50 Health",
+      "+10% Damage against Hollow",
+      "+ 8% Life Leech Chance against Hollow"
+    ],
+    "crafter": "Collector",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 1
+      },
+      {
+        "name": "Ectoplasm",
+        "qty": 1
+      }
+    ],
+    "description": "Unnerving goo. It bestows great powers on those who eat it.",
+    "image": "Ectoplasm Soup.png"
+  },
+  {
+    "name": "Eggs",
+    "slug": "eggs",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "10m",
+    "effects": [
+      "+ 15 Stamina",
+      "+ 9 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A great source of protein that enhances the muscle mass. Best consumed before a good exercise.",
+    "image": "Eggs.png"
+  },
+  {
+    "name": "Emberfin",
+    "slug": "emberfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "3 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Excellent Ectoplasm Soup",
+    "slug": "excellent-ectoplasm-soup",
+    "group": "Food",
+    "rarity": "Epic",
+    "stackSize": "",
+    "duration": "1:00",
+    "effects": [
+      "- 150 Health",
+      "+15% Damage against Hollow",
+      "+ 10% Life Leech Chance against Hollow"
+    ],
+    "crafter": "Collector",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Yucca Fruit",
+        "qty": 1
+      },
+      {
+        "name": "Excellent Ectoplasm",
+        "qty": 1
+      }
+    ],
+    "description": "Even the most carefully cooked Ectoplasm Soup still tastes a little bit...fermented.",
+    "image": "Excellent Ectoplasm Soup.png"
+  },
+  {
+    "name": "Fish Chowder",
+    "slug": "fish-chowder",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 15 Stamina",
+      "+ 6 Stamina Regeneration",
+      "+ 30 Maximum Oxygen"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Corncob",
+        "qty": 3
+      },
+      {
+        "name": "Any Rare Fish",
+        "qty": 3
+      },
+      {
+        "name": "Forest Beet",
+        "qty": 5
+      },
+      {
+        "name": "Milk",
+        "qty": 5
+      },
+      {
+        "name": "Flour",
+        "qty": 2
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Fish Cutlet",
+    "slug": "fish-cutlet",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "10:00",
+    "effects": [
+      "+ 80 Health"
+    ],
+    "crafter": "Fisher",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Any Rare Fish",
+        "qty": 1
+      },
+      {
+        "name": "Gold Coins",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Fish Filet",
+    "slug": "fish-filet",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 120 Health"
+    ],
+    "crafter": "Fisher",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Any Epic Fish",
+        "qty": 1
+      },
+      {
+        "name": "Gold Coins",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Flat Bread",
+    "slug": "flat-bread",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 12% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "2:30",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Salt",
+        "qty": 2
+      },
+      {
+        "name": "Flour",
+        "qty": 3
+      }
+    ],
+    "description": "A simple meal, granting a lasting Melee Damage boost upon consumption. It tastes better in combination with other things, though.",
+    "image": "Flat Bread.png"
+  },
+  {
+    "name": "Forest Beet",
+    "slug": "forest-beet",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "12:30",
+    "effects": [
+      "+ 6% Ranged Damage",
+      "+ 6% Dagger Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "The edible root of a forest plant. Not all that sustaining on its own. Maybe good as an ingredient?",
+    "image": "Forest Beet.png"
+  },
+  {
+    "name": "Fried Rice",
+    "slug": "fried-rice",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 10 Stamina",
+      "+ 21% Melee Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Cooked Rice",
+        "qty": 5
+      },
+      {
+        "name": "Eggs",
+        "qty": 5
+      },
+      {
+        "name": "Bell Pepper",
+        "qty": 3
+      },
+      {
+        "name": "Corncob",
+        "qty": 3
+      },
+      {
+        "name": "Raw Taro",
+        "qty": 2
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Fruit Bowl",
+    "slug": "fruit-bowl",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 15 Health Regeneration",
+      "+ 9 Stamina Recharge"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 5
+      },
+      {
+        "name": "Strawberry",
+        "qty": 4
+      },
+      {
+        "name": "Purple Berries",
+        "qty": 4
+      },
+      {
+        "name": "Yucca Fruit",
+        "qty": 5
+      },
+      {
+        "name": "Gloomberry",
+        "qty": 4
+      }
+    ],
+    "description": "A refreshing bowl of fruits with positive health benefits.",
+    "image": "Fruit Bowl.png"
+  },
+  {
+    "name": "Gentian",
+    "slug": "gentian",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 100 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": ""
+  },
+  {
+    "name": "Ginger",
+    "slug": "ginger",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 18% Ranged damage",
+      "+ 18% Dagger Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Gloomberry",
+    "slug": "gloomberry",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "12:30",
+    "effects": [
+      "+ 6 Health Regeneration",
+      "+ 2min Time in the Shroud"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A special berry that can only be harvested at night in the Revelwood. It can be used to enhance various dishes and to create deep blue pigments.",
+    "image": "Gloomberry.png"
+  },
+  {
+    "name": "Glow Soup",
+    "slug": "glow-soup",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 8 Mana Regeneration",
+      "+ 15% Magic Damage",
+      "+ 4:00 Time in the Shroud"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Spice",
+        "qty": 4
+      },
+      {
+        "name": "Azure Russula",
+        "qty": 10
+      }
+    ],
+    "description": "A weird brew emitting a blue glow...Nobody quite knows why.",
+    "image": "Glow Soup.png"
+  },
+  {
+    "name": "Grapple Plant",
+    "slug": "grapple-plant",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "17:30",
+    "effects": [
+      "+ 80 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A resilient herb, growing in the harsh Kindlewastes climate. Spiritualists were known to use it for mystical purposes.",
+    "image": "Grapple Plant.png"
+  },
+  {
+    "name": "Greater Ectoplasm Soup",
+    "slug": "greater-ectoplasm-soup",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "- 100 Health",
+      "+12% Damage against Hollow",
+      "+ 9% Life Leech Chance against Hollow"
+    ],
+    "crafter": "Collector",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "qty": 1
+      },
+      {
+        "name": "Greater Ectoplasm",
+        "qty": 1
+      }
+    ],
+    "description": "This slimy soup was improved with some salt, slow-cooked broth, and the added aroma of fearing death.",
+    "image": "Greater Ectoplasm Soup.png"
+  },
+  {
+    "name": "Grilled Algae Buds",
+    "slug": "grilled-algae-buds",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "1:40:00",
+    "effects": [
+      "+ 140 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Algae Buds",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Bird Meat",
+    "slug": "grilled-bird-meat",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 120 Health"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Raw Bird Meat",
+        "qty": 1
+      }
+    ],
+    "description": "A healthy protein rich snack. The color looks just perfect..",
+    "image": "Grilled Bird Meat.png"
+  },
+  {
+    "name": "Grilled Crab Meat",
+    "slug": "grilled-crab-meat",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 240 Health"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Crab Meat",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Crimsonback",
+    "slug": "grilled-crimsonback",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "+ 50 Health",
+      "+ 20 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Crimsonback",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Dune Armadillo",
+    "slug": "grilled-dune-armadillo",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "+ 160 Health"
+    ],
+    "crafter": "",
+    "craftTime": "4:00",
+    "ingredients": [
+      {
+        "name": "Raw Dune Armadillo Meat",
+        "qty": 1
+      }
+    ],
+    "description": "A specialty of the Kindlewastes - customers love it because of its health benefits!",
+    "image": "Grilled Dune Armadillo.png"
+  },
+  {
+    "name": "Grilled Emberfin",
+    "slug": "grilled-emberfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 17 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Emberfin",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Fatty Meat",
+    "slug": "grilled-fatty-meat",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 5 Constitution",
+      "+ 1 Frost Resistance"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Raw Fatty Meat",
+        "qty": 1
+      }
+    ],
+    "description": "Beautifully tender, juicy meat. It fills the belly and warms the soul by providing better frost resistance!",
+    "image": "Grilled Fatty Meat.png"
+  },
+  {
+    "name": "Grilled Fish with Coconut Rice",
+    "slug": "grilled-fish-with-coconut-rice",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 100 Health",
+      "+ 30 Stamina",
+      "+ 30 Stamina Regeneration",
+      "+ 60 Maximum Oxygen"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Seared Fish Filet",
+        "qty": 5
+      },
+      {
+        "name": "Coconut Milk",
+        "qty": 5
+      },
+      {
+        "name": "Cooked Rice",
+        "qty": 5
+      },
+      {
+        "name": "Grilled Algae Buds",
+        "qty": 5
+      },
+      {
+        "name": "Raw Taro",
+        "qty": 2
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Game",
+    "slug": "grilled-game",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 80 Health"
+    ],
+    "crafter": "",
+    "craftTime": "3:00",
+    "ingredients": [
+      {
+        "name": "Raw Game",
+        "qty": 1
+      }
+    ],
+    "description": "A staple in many traditional Revelwood dishes. It has a rejuvenating effect.",
+    "image": "Grilled Game.png"
+  },
+  {
+    "name": "Grilled Lakehopper",
+    "slug": "grilled-lakehopper",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 10 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Lakehopper",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Lean Meat",
+    "slug": "grilled-lean-meat",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 40 Health"
+    ],
+    "crafter": "",
+    "craftTime": "2:00",
+    "ingredients": [
+      {
+        "name": "Raw Lean Meat",
+        "qty": 1
+      }
+    ],
+    "description": "Rich in protein and delicious, but only a small snack. Increases the Constitution of the user by a small margin.",
+    "image": "Grilled Lean Meat.png"
+  },
+  {
+    "name": "Grilled Penny Bun",
+    "slug": "grilled-penny-bun",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 6% Magic Damage"
+    ],
+    "crafter": "",
+    "craftTime": "1:00",
+    "ingredients": [
+      {
+        "name": "Penny Bun",
+        "qty": 1
+      }
+    ],
+    "description": "A smoky grilled mushroom that temporarily amplifies your magical power when eaten.",
+    "image": "Grilled Penny Bun.png"
+  },
+  {
+    "name": "Grilled Shadowtail",
+    "slug": "grilled-shadowtail",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "+ 50 Health",
+      "+ 20 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Shadowtail",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Shimmerfin",
+    "slug": "grilled-shimmerfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 10 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Shimmerfin",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Shockfin",
+    "slug": "grilled-shockfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 50 Health",
+      "+ 25 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Shockfin",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Silverback",
+    "slug": "grilled-silverback",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 15 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Silverback",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Stripetail",
+    "slug": "grilled-stripetail",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 12 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Stripetail",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Sunscale",
+    "slug": "grilled-sunscale",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 12 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Sunscale",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Thornridge",
+    "slug": "grilled-thornridge",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 50 Health",
+      "+ 25 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Thornridge",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Waveleaper",
+    "slug": "grilled-waveleaper",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 17 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Waveleaper",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Whiskerfin",
+    "slug": "grilled-whiskerfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 15 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Whiskerfin",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Wolf Meat",
+    "slug": "grilled-wolf-meat",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 60 Health"
+    ],
+    "crafter": "",
+    "craftTime": "2:30",
+    "ingredients": [
+      {
+        "name": "Raw Wolf Meat",
+        "qty": 1
+      }
+    ],
+    "description": "Roasted ribs were a delicacy back in the day, granting a good amount of Constitution to the consumer.",
+    "image": "Grilled Wolf Meat.png"
+  },
+  {
+    "name": "Grilled Yellowfin",
+    "slug": "grilled-yellowfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 50 Health",
+      "+ 25 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Yellowfin",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Grilled Yucca Fruit",
+    "slug": "grilled-yucca-fruit",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "5:00",
+    "effects": [
+      "+ 55 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Yucca Fruit",
+        "qty": 5
+      }
+    ],
+    "description": "When cooked, the Yucca Fruit becomes very sweet. Makes the mouth water and recovers Stamina.",
+    "image": "Grilled Yucca Fruit.png"
+  },
+  {
+    "name": "Hazelnut",
+    "slug": "hazelnut",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "12:30",
+    "effects": [
+      "+ 6% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A nice snack for the way. The strength it takes to crack its shell, it gives back upon consumption.",
+    "image": "Hazelnut.png"
+  },
+  {
+    "name": "Honey",
+    "slug": "honey",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "1:00",
+    "effects": [
+      "+ 30 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "2:30",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 2
+      },
+      {
+        "name": "Sugar",
+        "qty": 1
+      }
+    ],
+    "description": "The following sugar rush recharges stamina!",
+    "image": "Honey.png"
+  },
+  {
+    "name": "Honey Baked Banana",
+    "slug": "honey-baked-banana",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "9:00",
+    "effects": [
+      "+ 21 Health Regeneration",
+      "+ 85 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 5
+      },
+      {
+        "name": "Banana",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Lakehopper",
+    "slug": "lakehopper",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "6:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{Lakehopper"
+  },
+  {
+    "name": "Meat and Corncob Skewer",
+    "slug": "meat-and-corncob-skewer",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 3 Health Regeneration",
+      "+ 9% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "Unknown",
+    "ingredients": [
+      {
+        "name": "Raw Meat and Corncob Skewer",
+        "qty": 1
+      }
+    ],
+    "description": "With just some meat, a corncob, and a small fire, you can make this nutritious skewer anywhere and at any time.",
+    "image": "Meat and Corncob Skewer.png"
+  },
+  {
+    "name": "Meat and Mushroom Skewer",
+    "slug": "meat-and-mushroom-skewer",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 4 Mana Regeneration",
+      "+ 9% Magic Damage"
+    ],
+    "crafter": "",
+    "craftTime": "Unknown",
+    "ingredients": [
+      {
+        "name": "Raw Meat and Mushroom Skewer",
+        "qty": 1
+      }
+    ],
+    "description": "It's a simple combination — a mushroom and some meat on a skewer — but the flavor and the effects go a long way.",
+    "image": "Meat and Mushroom Skewer.png"
+  },
+  {
+    "name": "Meat and Tomato Skewer",
+    "slug": "meat-and-tomato-skewer",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 3 Stamina Regeneration",
+      "+ 9% Ranged Damage",
+      "+ 9% Dagger Damage"
+    ],
+    "crafter": "",
+    "craftTime": "Unknown",
+    "ingredients": [
+      {
+        "name": "Raw Meat and Tomato Skewer",
+        "qty": 1
+      }
+    ],
+    "description": "Even in the simplest setting, this skewer comes together easily with meat, a tomato, and a small flame.",
+    "image": "Meat and Tomato Skewer.png"
+  },
+  {
+    "name": "Meat Wrap",
+    "slug": "meat-wrap",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 200 Health",
+      "+ 6% Magic Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Penny Bun",
+        "qty": 5
+      },
+      {
+        "name": "Raw Dune Armadillo Meat",
+        "qty": 3
+      },
+      {
+        "name": "Flat Bread",
+        "qty": 5
+      }
+    ],
+    "description": "Filled with the power of life, this wrap will increase the Health of the consumer.",
+    "image": "Meat Wrap.png"
+  },
+  {
+    "name": "Midnight Lily",
+    "slug": "midnight-lily",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "10min",
+    "effects": [
+      "+ 3 Health Regeneration",
+      "+ 1min Time in the Shroud"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "An edible flower used to enhance the effect of certain dishes. It only blooms at night in the Springlands.",
+    "image": "Midnight Lily.png"
+  },
+  {
+    "name": "Mushroom Omelette",
+    "slug": "mushroom-omelette",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 12% Magic Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Penny Bun",
+        "qty": 10
+      },
+      {
+        "name": "Eggs",
+        "qty": 5
+      }
+    ],
+    "description": "A delicious meal with an earthly taste.",
+    "image": "Mushroom Omelette.png"
+  },
+  {
+    "name": "Open Sandwich",
+    "slug": "open-sandwich",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 80 Health",
+      "+ 15% Melee Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Saffron",
+        "qty": 5
+      },
+      {
+        "name": "Grilled Wolf Meat",
+        "qty": 5
+      },
+      {
+        "name": "Flat Bread",
+        "qty": 5
+      }
+    ],
+    "description": "A relatively simple, but strengthening meal. Fast and ready to go!",
+    "image": "Open Sandwich.png"
+  },
+  {
+    "name": "Penny Bun",
+    "slug": "penny-bun",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "10:00",
+    "effects": [
+      "+ 3% Magic Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A great snack that stimulates the brain.\nIncreases your intelligence by a small amount.",
+    "image": "Penny Bun.png"
+  },
+  {
+    "name": "Plantain",
+    "slug": "plantain",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 80 Health",
+      "- 70 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Plantain Curry",
+    "slug": "plantain-curry",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 21 Health Regeneration",
+      "+ 9 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Cooked Rice",
+        "qty": 5
+      },
+      {
+        "name": "Plantain",
+        "qty": 5
+      },
+      {
+        "name": "Coconut Milk",
+        "qty": 5
+      },
+      {
+        "name": "Spice",
+        "qty": 2
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Popcorn",
+    "slug": "popcorn",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "4:00",
+    "effects": [
+      "+ 20 Stamina Regeneration",
+      "+ 4% Melee Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Corncob",
+        "qty": 5
+      },
+      {
+        "name": "Honey",
+        "qty": 1
+      }
+    ],
+    "description": "Greatly regenerates Stamina upon consumption. Delightful and sweet.",
+    "image": "Popcorn.png"
+  },
+  {
+    "name": "Pumpkin",
+    "slug": "pumpkin",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "",
+    "effects": [],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Everyone unanimously agees that it is the spookiest vegetable of them all.",
+    "image": "Pumpkin.png"
+  },
+  {
+    "name": "Pumpkin Soup",
+    "slug": "pumpkin-soup",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 12 Stamina Regeneration",
+      "+ 18% Ranged Damage",
+      "+ 18% Dagger Damage",
+      "+ 1 Frost Resistance"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "qty": 5
+      },
+      {
+        "name": "Gentian",
+        "qty": 3
+      },
+      {
+        "name": "Frizzy Goat Milk",
+        "qty": 3
+      },
+      {
+        "name": "Salt",
+        "qty": 3
+      }
+    ],
+    "description": "A tasty pumpkin soup. It's creamy and rich in flavor. It will also keep you warm. What’s not to love?",
+    "image": "Pumpkin Soup.png"
+  },
+  {
+    "name": "Purple Berries",
+    "slug": "purple-berries",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "30s",
+    "effects": [
+      "+ 6 Health Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Tasty and fresh berries, stimulating the bodily regeneration abilities with fresh vitamins for a short duration.",
+    "image": "Purple Berries.png"
+  },
+  {
+    "name": "Purple Berry Cake",
+    "slug": "purple-berry-cake",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "6:00",
+    "effects": [
+      "+ 6 Health Regeneration",
+      "+ 65 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Shortcrust Pastry Base",
+        "qty": 5
+      },
+      {
+        "name": "Dried Purple Berry",
+        "qty": 10
+      },
+      {
+        "name": "Gloomberry",
+        "qty": 5
+      }
+    ],
+    "description": "The sugar rush powers your stamina regeneration for a short amount of time.",
+    "image": "Purple Berry Cake.png"
+  },
+  {
+    "name": "Raw Bird Meat",
+    "slug": "raw-bird-meat",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 50 Health",
+      "- 40 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "It's not properly cooked. Eating this raw would cause nausea.",
+    "image": "Raw Bird Meat.png"
+  },
+  {
+    "name": "Raw Dune Armadillo Meat",
+    "slug": "raw-dune-armadillo-meat",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 60 Health",
+      "- 50 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Fleshy and tough. Better not eat it like this.",
+    "image": "Raw Dune Armadillo Meat.png"
+  },
+  {
+    "name": "Raw Fatty Meat",
+    "slug": "raw-fatty-meat",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "0:45s",
+    "effects": [
+      "- 75 Stamina",
+      "- 4 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A tender, raw slab of fatty meat. It is uncooked, and therefore not consumable.",
+    "image": "Raw Fatty Meat.png"
+  },
+  {
+    "name": "Raw Game",
+    "slug": "raw-game",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "-40 Health",
+      "-30 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Uncooked game. Must be roasted over a fire.",
+    "image": "Raw Game.png"
+  },
+  {
+    "name": "Raw Lean Meat",
+    "slug": "raw-lean-meat",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Inedible, raw meat. Must be cooked over a campfire.",
+    "image": "Raw Lean Meat.png"
+  },
+  {
+    "name": "Raw Taro",
+    "slug": "raw-taro",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "- 80 Health",
+      "- 70 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Raw Wolf Meat",
+    "slug": "raw-wolf-meat",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Raw Wolf meat. Must be cooked for proper consumption.",
+    "image": "Raw Wolf Meat.png"
+  },
+  {
+    "name": "Roasted Azure Russula",
+    "slug": "roasted-azure-russula",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 9% Magic Damage"
+    ],
+    "crafter": "",
+    "craftTime": "2:00",
+    "ingredients": [
+      {
+        "name": "Azure Russula",
+        "qty": 1
+      }
+    ],
+    "description": "Watery and a little strange, this mushroom's odd taste comes from pure magic coursing throughout. Great power awaits the consumer.",
+    "image": "Roasted Azure Russula.png"
+  },
+  {
+    "name": "Roasted Corncob",
+    "slug": "roasted-corncob",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "20:00",
+    "effects": [
+      "+ 6% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "2:30",
+    "ingredients": [
+      {
+        "name": "Corncob",
+        "qty": 1
+      }
+    ],
+    "description": "Roasted with a smoky aroma, it's a real pleasure for the taste buds, able to set free all of its strengthening attributes.",
+    "image": "Roasted Corncob.png"
+  },
+  {
+    "name": "Roasted Shiitake Mushroom",
+    "slug": "roasted-shiitake-mushroom",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 21% Magic Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Shiitake Mushroom",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Sage Leaves",
+    "slug": "sage-leaves",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 60 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A bitter tasting herb that can be found in dry areas. It's said to have enlightening abilities.",
+    "image": "Sage Leaves.png"
+  },
+  {
+    "name": "Seared Fish Cutlet",
+    "slug": "seared-fish-cutlet",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 10 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "2:30",
+    "ingredients": [
+      {
+        "name": "Fish Cutlet",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Seared Fish Filet",
+    "slug": "seared-fish-filet",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 70 Health",
+      "+ 20 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "4:00",
+    "ingredients": [
+      {
+        "name": "Fish Filet",
+        "qty": 1
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Shadowbloom Wrap",
+    "slug": "shadowbloom-wrap",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 160 Health",
+      "+ 4min Time in the Shroud"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Yucca Fruit",
+        "qty": 2
+      },
+      {
+        "name": "Shadowbloom",
+        "qty": 3
+      },
+      {
+        "name": "Flat Bread",
+        "qty": 5
+      }
+    ],
+    "description": "This wrap is a good alternative to the more commonly seen meat wrap. It still increases your health, and additionally, the shadowbloom stocks are very filling and extend your time in the Shroud.",
+    "image": "Shadowbloom Wrap.png"
+  },
+  {
+    "name": "Shadowtail",
+    "slug": "shadowtail",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "3 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Shiitake Mushroom",
+    "slug": "shiitake-mushroom",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 18% Magic damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Shimmerfin",
+    "slug": "shimmerfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "6:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Shockfin",
+    "slug": "shockfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Shortcrust Pastry Base",
+    "slug": "shortcrust-pastry-base",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "",
+    "effects": [],
+    "crafter": "",
+    "craftTime": "5:00",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "qty": 4
+      },
+      {
+        "name": "Butter",
+        "qty": 3
+      },
+      {
+        "name": "Flour",
+        "qty": 5
+      },
+      {
+        "name": "Eggs",
+        "qty": 3
+      },
+      {
+        "name": "Salt",
+        "qty": 1
+      }
+    ],
+    "description": "Perfectly crisp and buttery- a golden foundation for your sweetest baking experiments.",
+    "image": "Shortcrust Pastry Base.png"
+  },
+  {
+    "name": "Shroud Meteor Shower",
+    "slug": "shroud-meteor-shower",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "",
+    "effects": [],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "This scroll is enchanted with the power of the Shroud Meteor Shower. It releases a giant shower of Shroud Meteors on enemies around the caster. But be careful, it drains your remaining time in the Shroud upon usage.",
+    "image": "Shroud Meteor Shower.png"
+  },
+  {
+    "name": "Silverback",
+    "slug": "silverback",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 7 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Stinging Nettle",
+    "slug": "stinging-nettle",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "12:30",
+    "effects": [
+      "+ 40 Mana"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "One has to be careful when harvesting this herb, but the reward is surely worth it.",
+    "image": "Stinging Nettle.png"
+  },
+  {
+    "name": "Stir-Fried Vegetables",
+    "slug": "stir-fried-vegetables",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+15% Ranged Damage",
+      "+15% Dagger Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Corncob",
+        "qty": 5
+      },
+      {
+        "name": "Forest Beet",
+        "qty": 5
+      },
+      {
+        "name": "Tomato",
+        "qty": 5
+      },
+      {
+        "name": "Bell Pepper",
+        "qty": 5
+      },
+      {
+        "name": "Spice",
+        "qty": 3
+      }
+    ],
+    "description": "A healthy mix of vegetables. If handled with care, it won't only fill the stomach.",
+    "image": "Stir-Fried Vegetables.png"
+  },
+  {
+    "name": "Strawberry",
+    "slug": "strawberry",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "1:00",
+    "effects": [
+      "+ 9 Health Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A delicious aggregate-accessory fruit, predominantly found in the Revelwood.",
+    "image": "Strawberry.png"
+  },
+  {
+    "name": "Strawberry Cake",
+    "slug": "strawberry-cake",
+    "group": "Food",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "7:00",
+    "effects": [
+      "+ 15 Health Regeneration",
+      "+ 60 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Shortcrust Pastry Base",
+        "qty": 5
+      },
+      {
+        "name": "Strawberry",
+        "qty": 10
+      },
+      {
+        "name": "Saffron",
+        "qty": 5
+      }
+    ],
+    "description": "The sugar rush powers your stamina regeneration for a short amount of time.",
+    "image": "Strawberry Cake.png"
+  },
+  {
+    "name": "Stripetail",
+    "slug": "stripetail",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Sugar",
+    "slug": "sugar",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "4:00",
+    "effects": [
+      "+ 50 Stamina Regeneration"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "3 minutes",
+    "ingredients": [
+      {
+        "name": "Sugar Cane",
+        "qty": 10
+      }
+    ],
+    "description": "The sugar rush powers your stamina regeneration for a short amount of time.",
+    "image": "Sugar.png"
+  },
+  {
+    "name": "Sugar Cane",
+    "slug": "sugar-cane",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "+ 40 Stamina Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A sweet candy alternative made from plant fiber. The sugar rush is known to regenerate energy for a short amount of time.",
+    "image": "Sugar Cane.png"
+  },
+  {
+    "name": "Sunscale",
+    "slug": "sunscale",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "- 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Sushi",
+    "slug": "sushi",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 40 Maximum Oxygen"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Algae",
+        "qty": 5
+      },
+      {
+        "name": "Cooked Rice",
+        "qty": 5
+      },
+      {
+        "name": "Any Back Fish",
+        "qty": 5
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Taro Root Curry",
+    "slug": "taro-root-curry",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "55:00",
+    "effects": [
+      "+ 60 Mana",
+      "+ 21% Ranged Damage",
+      "+ 21% Dagger Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Raw Taro",
+        "qty": 5
+      },
+      {
+        "name": "Cooked Rice",
+        "qty": 5
+      },
+      {
+        "name": "Bell Pepper",
+        "qty": 3
+      },
+      {
+        "name": "Coconut Milk",
+        "qty": 2
+      },
+      {
+        "name": "Spice",
+        "qty": 2
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Thornridge",
+    "slug": "thornridge",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "+ 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Tomato",
+    "slug": "tomato",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "10:00",
+    "effects": [
+      "+ 3% Ranged Damage",
+      "+ 3% Dagger Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A red and juicy Tomato! If handled with care, it can have Dexterity enhancing effects.",
+    "image": "Tomato.png"
+  },
+  {
+    "name": "Tomato Fish Soup",
+    "slug": "tomato-fish-soup",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 20 Maximum Oxygen"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Tomato",
+        "qty": 5
+      },
+      {
+        "name": "Stripetail",
+        "qty": 3
+      }
+    ],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Vegetable Puree",
+    "slug": "vegetable-puree",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "35:00",
+    "effects": [
+      "+ 9 Stamina Regeneration",
+      "+ 9% Ranged Damage",
+      "+ 9% Dagger Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Forest Beet",
+        "qty": 5
+      },
+      {
+        "name": "Salt",
+        "qty": 1
+      }
+    ],
+    "description": "Cooking is a delicate art form. This basic puree will aid any person on their way to becoming an exquisite chef.",
+    "image": "Vegetable Puree.png"
+  },
+  {
+    "name": "Vegetable Soup",
+    "slug": "vegetable-soup",
+    "group": "Food",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "40:00",
+    "effects": [
+      "+ 12% Ranged Damage",
+      "+ 12% Dagger Damage"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Forest Beet",
+        "qty": 3
+      },
+      {
+        "name": "Salt",
+        "qty": 1
+      },
+      {
+        "name": "Bell Pepper",
+        "qty": 3
+      },
+      {
+        "name": "Tomato",
+        "qty": 3
+      }
+    ],
+    "description": "A warm soup made from various vegetables. Full of vitamins and energy.",
+    "image": "Vegetable Soup.png"
+  },
+  {
+    "name": "Waveleaper",
+    "slug": "waveleaper",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "3:00",
+    "effects": [
+      "3 30 Health",
+      "- 20 Stamina"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Whiskerfin",
+    "slug": "whiskerfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "15:00",
+    "effects": [
+      "+ 30 Health",
+      "+ 7 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Wolfsbane",
+    "slug": "wolfsbane",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "",
+    "effects": [],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "This plant is notable due to its stunning electrifying colorway, its delicate petals, and its deadly poison.",
+    "image": "Wolfsbane.png"
+  },
+  {
+    "name": "Yellow Glow Soup",
+    "slug": "yellow-glow-soup",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "50:00",
+    "effects": [
+      "+ 100 Mana",
+      "+ 10 Mana Regeneration",
+      "+ 18% Magic Damage",
+      "+ 1 Frost Resistance"
+    ],
+    "crafter": "Farmer",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 5
+      },
+      {
+        "name": "Chanterelle",
+        "qty": 5
+      },
+      {
+        "name": "Gentian",
+        "qty": 5
+      }
+    ],
+    "description": "It tastes a bit bitter, but is known to increase mana, mana regeneration and magic damage. What a magical soup!",
+    "image": "Yellow Glow Soup.png"
+  },
+  {
+    "name": "Yellowfin",
+    "slug": "yellowfin",
+    "group": "Food",
+    "rarity": "",
+    "stackSize": "",
+    "duration": "25:00",
+    "effects": [
+      "+ 40 Health",
+      "+ 12 Maximum Oxygen"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "",
+    "image": "{{PAGENAME"
+  },
+  {
+    "name": "Yucca Fruit",
+    "slug": "yucca-fruit",
+    "group": "Food",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "2:00",
+    "effects": [
+      "+ 15 Health Regeneration"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "A sweet fruit that grows in dry areas, needing little water. Despite that, it's quite refresing.",
+    "image": "Yucca Fruit.png"
+  },
+  {
+    "name": "Antidote",
+    "slug": "antidote",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "Cure poison"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Poison Sack",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "qty": 3
+      },
+      {
+        "name": "Spider Gland",
+        "qty": 5
+      }
+    ],
+    "description": "An antidote that will provide a cure for poison.",
+    "image": "Antidote.png"
+  },
+  {
+    "name": "Bandage",
+    "slug": "bandage",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "10s",
+    "effects": [
+      "+ 4% Healing Per Second"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "This item heals 40% health over 10 seconds if applied to a wound. Receiving any damage interrupts the healing effect.",
+    "image": "Bandage.png"
+  },
+  {
+    "name": "Cleaned Bandage",
+    "slug": "cleaned-bandage",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "0:10s",
+    "effects": [
+      "+ 6% Healing Per Second"
+    ],
+    "crafter": "Hunter",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "String",
+        "qty": 1
+      },
+      {
+        "name": "Antiseptic",
+        "qty": 1
+      },
+      {
+        "name": "Torn Cloth",
+        "qty": 1
+      }
+    ],
+    "description": "Restores 60% of health over 10 seconds. Stops when damage is received.",
+    "image": "Cleaned Bandage.png"
+  },
+  {
+    "name": "Diver's Endurance Flask",
+    "slug": "diver-s-endurance-flask",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "- 20% Stamina Depletion Swim Sprinting"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Algae",
+        "qty": 10
+      },
+      {
+        "name": "Algae Buds",
+        "qty": 10
+      },
+      {
+        "name": "Mother-Of-Pearl",
+        "qty": 10
+      },
+      {
+        "name": "Pearl",
+        "qty": 1
+      }
+    ],
+    "description": "A flask brewed from rare underwater materials, easing the strain of every powerful stroke.",
+    "image": "Diver's Endurance Flask.png"
+  },
+  {
+    "name": "Drak Soulward Flask",
+    "slug": "drak-soulward-flask",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 10% Damage against Drak"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Drak Scales",
+        "qty": 10
+      },
+      {
+        "name": "Drak Teeth",
+        "qty": 10
+      },
+      {
+        "name": "Drak Claws",
+        "qty": 10
+      },
+      {
+        "name": "Drak Blood",
+        "qty": 10
+      }
+    ],
+    "description": "A dark concoction distilled from enemy remains. It unveils the writings of their kin and sharpens your blade against them.",
+    "image": "Drak Soulward Flask.png"
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 20% Damage against Fell",
+      "- 2min Time in the Shroud"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "This Elixir of the Shroud contains great power.... at a cost.",
+    "image": "Elixir.png"
+  },
+  {
+    "name": "Experience Scroll",
+    "slug": "experience-scroll",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 100 XP"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "The most different experiences gathered and described on a scroll. Gain a small amount of experience based upon absorption of the content.",
+    "image": "Experience Scroll.png"
+  },
+  {
+    "name": "Fell Curse Cleansing Tonic",
+    "slug": "fell-curse-cleansing-tonic",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "1h",
+    "effects": [
+      "Fell Curse Protection"
+    ],
+    "crafter": "",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 1
+      },
+      {
+        "name": "Fresh Shroud Spore",
+        "qty": 2
+      }
+    ],
+    "description": "Removes Fell Curse upon use.\n\nAlso applies a buff that prevents the curse from affecting the user for an hour.",
+    "image": "Fell Curse Cleansing Tonic.png"
+  },
+  {
+    "name": "Fire Wisp Summon",
+    "slug": "fire-wisp-summon",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "1:00 min approximately",
+    "effects": [
+      "Summons Fire Wisp"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "The scroll summons a Fire Wisp that follows, assists you in battle and provides light.",
+    "image": "Fire Wisp Summon.png"
+  },
+  {
+    "name": "Flask of the Fell",
+    "slug": "flask-of-the-fell",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 20 Stamina"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Active Mycelium",
+        "qty": 10
+      },
+      {
+        "name": "Strawberry",
+        "qty": 1
+      },
+      {
+        "name": "Shroud Mushroom",
+        "qty": 10
+      }
+    ],
+    "description": "The Shroud grants power to not only the Fell, but to whoever drinks from this flask.",
+    "image": "Flask of the Fell.png"
+  },
+  {
+    "name": "Greater Antidote",
+    "slug": "greater-antidote",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "Remedied"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Poison Sack",
+        "qty": 1
+      },
+      {
+        "name": "Shroud Vapor",
+        "qty": 3
+      },
+      {
+        "name": "Wolfsbane",
+        "qty": 1
+      },
+      {
+        "name": "Coal Powder",
+        "qty": 1
+      }
+    ],
+    "description": "An improved antidote that will cure poison and negate the next poisoning.",
+    "image": "Greater Antidote.png"
+  },
+  {
+    "name": "Greater Health Potion",
+    "slug": "greater-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 400HP Restored"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 1
+      },
+      {
+        "name": "Water",
+        "qty": 1
+      },
+      {
+        "name": "Purple Berries",
+        "qty": 1
+      },
+      {
+        "name": "Chamomile",
+        "qty": 1
+      }
+    ],
+    "description": "After finetuning the Health Potion, the ingredients were adjusted, instantly restoring a great amount of health upon consumption.",
+    "image": "Greater Health Potion.png"
+  },
+  {
+    "name": "Greater Health Potion +",
+    "slug": "greater-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "+ 240 Health",
+      "+ 20 Healing per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Greater Health Potion",
+        "qty": 1
+      },
+      {
+        "name": "Gloomberry",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores a medium amount of health, and continuosly heals for 10 seconds.",
+    "image": "Greater Health Potion +.png"
+  },
+  {
+    "name": "Greater Mana Potion",
+    "slug": "greater-mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 150 MP Restored"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Azure Russula",
+        "qty": 4
+      },
+      {
+        "name": "Alchemical Base",
+        "qty": 1
+      }
+    ],
+    "description": "A mana potion with higher concentration, instantly restoring a great amount of mana upon use.",
+    "image": "Greater Mana Potion.png"
+  },
+  {
+    "name": "Greater Mana Potion +",
+    "slug": "greater-mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "+ 90 Mana",
+      "+ 8 Mana per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Calla Luna",
+        "qty": 1
+      },
+      {
+        "name": "Greater Mana Potion",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores a medium amount of mana, and continuously replenishes it for 10 seconds.",
+    "image": "Greater Mana Potion +.png"
+  },
+  {
+    "name": "Greater Shroud Survival Flask",
+    "slug": "greater-shroud-survival-flask",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 4min Time in the Shroud"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Alchemical Base",
+        "qty": 1
+      },
+      {
+        "name": "Mint Mushroom Meat",
+        "qty": 15
+      },
+      {
+        "name": "Critter Glands",
+        "qty": 1
+      }
+    ],
+    "description": "Contains cleansed Shroud Liquid, enhancing the resistance of the user.\nExtends the Maximum time in the shroud after consumption by 4 Minutes. This effect will last for 45 Minutes.",
+    "image": "Greater Shroud Survival Flask.png"
+  },
+  {
+    "name": "Health Potion",
+    "slug": "health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 200 Health"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Water",
+        "qty": 1
+      },
+      {
+        "name": "Penny Bun",
+        "qty": 1
+      },
+      {
+        "name": "Purple Berries",
+        "qty": 1
+      }
+    ],
+    "description": "Filled with vitalizing ingredients, it instantly restores a good amount of health.",
+    "image": "Health Potion.png"
+  },
+  {
+    "name": "Health Potion +",
+    "slug": "health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "+ 120 Health",
+      "+ 10 Healing per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Health Potion",
+        "qty": 1
+      },
+      {
+        "name": "Midnight Lily",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores a small amount of health, and continuously heals for 10 seconds.",
+    "image": "Health Potion +.png"
+  },
+  {
+    "name": "Hemotoxin Antidote",
+    "slug": "hemotoxin-antidote",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "1h",
+    "effects": [
+      "Hemotoxin Protection"
+    ],
+    "crafter": "",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Spider Gland",
+        "qty": 2
+      },
+      {
+        "name": "Moth",
+        "qty": 1
+      }
+    ],
+    "description": "Removes Hemotoxin debuff upon use.\n\nAlso applies a buff that prevents the hemotoxin from affecting the user for an hour.",
+    "image": "Hemotoxin Antidote.png"
+  },
+  {
+    "name": "Ice Protection Lotion",
+    "slug": "ice-protection-lotion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "Blazing Skin"
+    ],
+    "crafter": "Collector",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Salt",
+        "qty": 5
+      },
+      {
+        "name": "Bonemeal",
+        "qty": 5
+      },
+      {
+        "name": "Ectoplasm",
+        "qty": 2
+      }
+    ],
+    "description": "A lotion that protects you from the cold seeping in. It grants its user +1 ice armor per level.",
+    "image": "Ice Protection Lotion.png"
+  },
+  {
+    "name": "Improved Bandage",
+    "slug": "improved-bandage",
+    "group": "Potions & Consumable Items",
+    "rarity": "Epic",
+    "stackSize": "",
+    "duration": "0:10s",
+    "effects": [
+      "+ 8% Healing Per Second"
+    ],
+    "crafter": "Hunter",
+    "craftTime": "",
+    "ingredients": [
+      {
+        "name": "Linen",
+        "qty": 1
+      },
+      {
+        "name": "Wound Ointment",
+        "qty": 1
+      },
+      {
+        "name": "Fabric",
+        "qty": 1
+      },
+      {
+        "name": "Moss",
+        "qty": 2
+      }
+    ],
+    "description": "A bandage that was made more absorbent by moss. The added silver dust and wound ointment prevent infection.",
+    "image": "Improved Bandage.png"
+  },
+  {
+    "name": "Mana Potion",
+    "slug": "mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 80 Mana"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Azure Russula",
+        "qty": 2
+      }
+    ],
+    "description": "Created with mana-potent ingredients, the Mana Potion restores a good amount of mana.",
+    "image": "Mana Potion.png"
+  },
+  {
+    "name": "Pocket Heater",
+    "slug": "pocket-heater",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 2 Frost Resistance"
+    ],
+    "crafter": "Hunter",
+    "craftTime": "",
+    "ingredients": [
+      {
+        "name": "Metal Sheets",
+        "qty": 1
+      },
+      {
+        "name": "Reptile Leather",
+        "qty": 1
+      },
+      {
+        "name": "Coal",
+        "qty": 1
+      }
+    ],
+    "description": "After ignition the leather limits the amount of air around the coal, causing it to burn slower. This will keep you warm for a bit.",
+    "image": "Pocket Heater.png"
+  },
+  {
+    "name": "Prayer of the Flame Scroll",
+    "slug": "prayer-of-the-flame-scroll",
+    "group": "Potions & Consumable Items",
+    "rarity": "Epic",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 20% Increased Fire Damage",
+      "+ 2min Time in the Shroud"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Offers a small prayer to the Flame, that increases your magic damage and the maximum time in the Shroud for a short duration.",
+    "image": "Prayer of the Flame Scroll.png"
+  },
+  {
+    "name": "Revitalizing Health Potion",
+    "slug": "revitalizing-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 800 HP Restored"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 1
+      },
+      {
+        "name": "Aloe",
+        "qty": 1
+      },
+      {
+        "name": "Chamomile",
+        "qty": 1
+      },
+      {
+        "name": "Alchemical Base",
+        "qty": 1
+      }
+    ],
+    "description": "The pinnacle of potioncraft. It gained its name after rescuing users from countless near-death situations. Instantly restores an unbelievable amount of health.",
+    "image": "Revitalizing Health Potion.png"
+  },
+  {
+    "name": "Revitalizing Health Potion +",
+    "slug": "revitalizing-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "+ 480 Health",
+      "+ 40 Healing per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Revitalizing Health Potion",
+        "qty": 1
+      },
+      {
+        "name": "Shadowbloom",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores a lot of health, and continuosly heals for 10 seconds.",
+    "image": "Revitalizing Health Potion +.png"
+  },
+  {
+    "name": "Sacred Vukah Scroll",
+    "slug": "sacred-vukah-scroll",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "30:00",
+    "effects": [
+      "+ 25 Health",
+      "+ 20% Melee Damage"
+    ],
+    "crafter": "",
+    "craftTime": "",
+    "ingredients": [],
+    "description": "Offers a prayer to the ancient Vukah. If answered, the user receives a buff in stamina and strength.",
+    "image": "Sacred Vukah Scroll.png"
+  },
+  {
+    "name": "Shroud Survival Flask",
+    "slug": "shroud-survival-flask",
+    "group": "Potions & Consumable Items",
+    "rarity": "Common",
+    "stackSize": "",
+    "duration": "45:00",
+    "effects": [
+      "+ 2min Time in the Shroud"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Fresh Shroud Spore",
+        "qty": 1
+      },
+      {
+        "name": "Active Mycelium",
+        "qty": 20
+      },
+      {
+        "name": "Wood Acid",
+        "qty": 1
+      }
+    ],
+    "description": "Contains cleansed Shroud Liquid, enhancing the resistance of the user. Extends the remaining time in the Shroud after consumption by 2 minutes. This effect will last for 45 minutes.",
+    "image": "Shroud Survival Flask.png"
+  },
+  {
+    "name": "Superior Health Potion",
+    "slug": "superior-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 1000 HP Restored"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 1
+      },
+      {
+        "name": "Gentian",
+        "qty": 1
+      },
+      {
+        "name": "Chamomile",
+        "qty": 1
+      },
+      {
+        "name": "Shroud Vapor",
+        "qty": 1
+      }
+    ],
+    "description": "It's a truly inspired concotion, and vastly superior to all other currently known Health Potions.",
+    "image": "Superior Health Potion.png"
+  },
+  {
+    "name": "Superior Health Potion +",
+    "slug": "superior-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "+ 600 Health",
+      "+ 50 Healing per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Superior Health Potion",
+        "qty": 1
+      },
+      {
+        "name": "Glimmer Gentian",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores health massively, and continuosly heals for 10 seconds.",
+    "image": "Superior Health Potion +.png"
+  },
+  {
+    "name": "Superior Mana Potion",
+    "slug": "superior-mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 250 MP Restored"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Gentian",
+        "qty": 4
+      },
+      {
+        "name": "Shroud Vapor",
+        "qty": 1
+      },
+      {
+        "name": "Moss",
+        "qty": 1
+      }
+    ],
+    "description": "A precisely formulated mana potion that instantly restores a massive amount of mana upon use.",
+    "image": "Superior Mana Potion.png"
+  },
+  {
+    "name": "Superior Mana Potion +",
+    "slug": "superior-mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "",
+    "effects": [
+      "+ 160 Mana",
+      "+ 12 Mana per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Superior Mana Potion",
+        "qty": 1
+      },
+      {
+        "name": "Stapelia Starflower",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores a large amount of mana, and continuously replenishes it for 10 seconds.",
+    "image": "Superior Mana Potion +.png"
+  },
+  {
+    "name": "Ultimate Health Potion",
+    "slug": "ultimate-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 1250 Health"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Honey",
+        "qty": 1
+      },
+      {
+        "name": "Ginger",
+        "qty": 1
+      },
+      {
+        "name": "Chamomile",
+        "qty": 1
+      },
+      {
+        "name": "Shroud Sludge",
+        "qty": 1
+      },
+      {
+        "name": "Aquamarine Dust",
+        "qty": 1
+      }
+    ],
+    "description": "Hard to believe there is an even better concoction.",
+    "image": "Ultimate Health Potion.png"
+  },
+  {
+    "name": "Ultimate Health Potion +",
+    "slug": "ultimate-health-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 600 Health",
+      "+ 50 Healing per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Ultimate Health Potion",
+        "qty": 1
+      },
+      {
+        "name": "Passionflower",
+        "qty": 1
+      },
+      {
+        "name": "Electric Nerve",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores health massively, and continuously heals for 10 seconds.",
+    "image": "Ultimate Health Potion +.png"
+  },
+  {
+    "name": "Ultimate Mana Potion",
+    "slug": "ultimate-mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 350 Health"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Ginger",
+        "qty": 4
+      },
+      {
+        "name": "Shroud Sludge",
+        "qty": 1
+      },
+      {
+        "name": "Green Vitriol Dust",
+        "qty": 1
+      }
+    ],
+    "description": "An excellently formulated mana potion that instantly restores a massive amount of mana upon use.",
+    "image": "Ultimate Mana Potion.png"
+  },
+  {
+    "name": "Ultimate Mana Potion +",
+    "slug": "ultimate-mana-potion",
+    "group": "Potions & Consumable Items",
+    "rarity": "Rare",
+    "stackSize": "",
+    "duration": "Instant",
+    "effects": [
+      "+ 240 Health",
+      "+ 16 Mana per second"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Gleam Root",
+        "qty": 1
+      },
+      {
+        "name": "Ultimate Mana Potion",
+        "qty": 1
+      }
+    ],
+    "description": "Instantly restores a large amount of mana, and continuously replenishes it for 10 seconds.",
+    "image": "Ultimate Mana Potion +.png"
+  },
+  {
+    "name": "Wisp of Light",
+    "slug": "wisp-of-light",
+    "group": "Potions & Consumable Items",
+    "rarity": "Uncommon",
+    "stackSize": "",
+    "duration": "5:00",
+    "effects": [
+      "Provides light around consumer"
+    ],
+    "crafter": "Alchemist",
+    "craftTime": "Instant",
+    "ingredients": [
+      {
+        "name": "Bug Dust",
+        "qty": 3
+      },
+      {
+        "name": "Glow Dust",
+        "qty": 2
+      },
+      {
+        "name": "Resin",
+        "qty": 1
+      }
+    ],
+    "description": "An imprisoned Wisp of Light. Opening the flask releases a glowing wisp that lights the darkness.",
+    "image": "Wisp of Light.png"
+  }
+]

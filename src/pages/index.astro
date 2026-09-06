@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import GuideLink from "../components/GuideLink.astro";
+import site from "../../site.config.json";
+import weapons from "../data/weapons.json";
+import armor from "../data/armor.json";
+import sets from "../data/armor-sets.json";
+import consumables from "../data/consumables.json";
+---
+
+<Base title={`${site.siteName} - ${site.tagline}`} description={site.description}>
+  <h1>{site.siteName}</h1>
+  <p class="muted">{site.tagline}</p>
+  <div class="grid grid-3">
+    <GuideLink
+      title="Weapons Database"
+      desc={`All ${weapons.length} weapons with stats, perks and locations.`}
+      href="/weapons/"
+      badge="290+ Items"
+    />
+    <GuideLink
+      title="Armor Database"
+      desc={`All ${armor.length} armor pieces with stats, effects and recipes.`}
+      href="/armor/"
+      badge="300+ Items"
+    />
+    <GuideLink
+      title="Consumables Database"
+      desc={`Food, drinks and potions with exact effects and recipes.`}
+      href="/consumables/"
+      badge="180+ Items"
+    />
+  </div>
+  <div class="card" style="margin:1.5rem 0">
+    <h2 style="margin-top:0">Popular Sections</h2>
+    <ul class="cols2">
+      <li><a href="/weapons/type/one-handed-swords/">One-handed Swords</a></li>
+      <li><a href="/weapons/type/bows/">Bows</a></li>
+      <li><a href="/weapons/type/wands/">Wands</a></li>
+      <li><a href="/armor/class/melee/">Melee Armor</a></li>
+      <li><a href="/armor/class/magic/">Magic Armor</a></li>
+      <li><a href="/armor/class/ranged/">Ranged Armor</a></li>
+      <li><a href="/armor/sets/">All {sets.length} Armor Sets</a></li>
+      <li><a href="/consumables/group/potions-consumable-items/">Potions & Flasks</a></li>
+      <li><a href="/consumables/group/food/">Food</a></li>
+      <li><a href="/consumables/group/drinks/">Drinks</a></li>
+    </ul>
+    <p class="muted" style="margin-bottom:0">
+      <a href="/weapons/">All {weapons.length} weapons</a> ·
+      <a href="/armor/">all {armor.length} armor pieces</a> ·
+      <a href="/consumables/">all {consumables.length} consumables</a>
+    </p>
+  </div>
+</Base>

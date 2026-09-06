@@ -1,0 +1,81 @@
+---
+import Base from "../../layouts/Base.astro";
+import items from "../../data/consumables.json";
+
+export function getStaticPaths() {
+  return items.map((c) => ({
+    params: { slug: c.slug },
+    props: { item: c },
+  }));
+}
+
+const { item } = Astro.props;
+const sameGroup = items
+  .filter((c) => c.group === item.group && c.slug !== item.slug)
+  .slice(0, 8);
+const title = `${item.name} – Enshrouded Effects & Crafting Recipe`;
+const desc =
+  item.description ||
+  `${item.name} is a consumable item in Enshrouded.`;
+---
+
+<Base title={title} description={`Enshrouded ${item.name}: effects, duration, rarity and how to craft it. ${desc.slice(0, 100)}`}>
+  <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
+    <a href="/">Home</a> › <a href="/consumables/">Consumables</a> › <span>{item.name}</span>
+  </nav>
+  <h1>{item.name}</h1>
+
+  <div class="card" style="margin:1rem 0">
+    <table>
+      <tr><th>Group</th><td>{item.group}</td></tr>
+      {item.rarity && <tr><th>Rarity</th><td>{item.rarity}</td></tr>}
+      {item.stackSize && <tr><th>Stack Size</th><td>{item.stackSize}</td></tr>}
+      {item.duration && <tr><th>Duration</th><td>{item.duration}</td></tr>}
+      {item.effects.length > 0 && <tr><th>Effects</th><td>{item.effects.join(", ")}</td></tr>}
+    </table>
+  </div>
+
+  {item.description && (
+    <>
+      <h2>About {item.name}</h2>
+      <p>{item.description}</p>
+    </>
+  )}
+
+  {item.ingredients.length > 0 && (
+    <>
+      <h2>How to Craft {item.name}</h2>
+      <p>
+        {item.name} is crafted by the <strong>{item.crafter}</strong>
+        {item.craftTime && item.craftTime.toLowerCase() !== "instant" ? ` (${item.craftTime})` : ""} using:
+      </p>
+      <div class="card">
+        <table>
+          {item.ingredients.map((ing) => (
+            <tr><th>{ing.name}</th><td>{ing.qty}</td></tr>
+          ))}
+        </table>
+      </div>
+    </>
+  )}
+
+  {sameGroup.length > 0 && (
+    <>
+      <h2>More {item.group}</h2>
+      <ul class="cols2">
+        {sameGroup.map((c) => (
+          <li><a href={`/consumables/${c.slug}/`}>{c.name}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${item.name} – Enshrouded Consumable`,
+    description: desc,
+    about: { "@type": "Thing", name: item.name },
+    isPartOf: { "@type": "WebSite", name: "EmberDB" },
+  })} />
+</Base>
