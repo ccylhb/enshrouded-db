@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import armor from "../../data/armor.json";
 import sets from "../../data/armor-sets.json";
 
+import Related from "../../components/Related.astro";
 const CAT_LABELS = {
   melee: "Melee Armor",
   magic: "Magic Armor",
@@ -113,4 +114,14 @@ const desc =
     about: { "@type": "Thing", name: piece.name },
     isPartOf: { "@type": "WebSite", name: "EmberDB" },
   })} />
+
+
+  <Related
+    heading="Next steps"
+    links={[
+
+    { href: "/rankings/", title: "Rankings", sub: "Best-in-slot comparison across all weapons & armor", tool: true },
+    { href: "/materials-calculator/", title: "Materials Calculator", sub: "Plan crafting: aggregate every ingredient you need", tool: true },
+  ]}
+  />
 </Base>

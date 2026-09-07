@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import weapons from "../../data/weapons.json";
 
+import Related from "../../components/Related.astro";
 export function getStaticPaths() {
   return weapons.map((w) => ({
     params: { slug: w.slug },
@@ -71,4 +72,14 @@ const desc =
     about: { "@type": "Thing", name: weapon.name },
     isPartOf: { "@type": "WebSite", name: "EmberDB" },
   })} />
+
+
+  <Related
+    heading="Next steps"
+    links={[
+
+    { href: "/rankings/", title: "Rankings", sub: "Best-in-slot comparison across all weapons & armor", tool: true },
+    { href: "/materials-calculator/", title: "Materials Calculator", sub: "Plan crafting: aggregate every ingredient you need", tool: true },
+  ]}
+  />
 </Base>

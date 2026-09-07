@@ -3,6 +3,7 @@ import Base from "../../../layouts/Base.astro";
 import armor from "../../../data/armor.json";
 import sets from "../../../data/armor-sets.json";
 
+import Related from "../../../components/Related.astro";
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 export function getStaticPaths() {
@@ -61,4 +62,14 @@ const desc = `${set.name} is a level ${set.level} ${set.class || ""} armor set i
     about: { "@type": "Thing", name: set.name },
     isPartOf: { "@type": "WebSite", name: "EmberDB" },
   })} />
+
+
+  <Related
+    heading="Next steps"
+    links={[
+
+    { href: "/rankings/", title: "Rankings", sub: "Best-in-slot comparison across all weapons & armor", tool: true },
+    { href: "/materials-calculator/", title: "Materials Calculator", sub: "Plan crafting: aggregate every ingredient you need", tool: true },
+  ]}
+  />
 </Base>
