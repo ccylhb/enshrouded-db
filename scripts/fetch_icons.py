@@ -90,7 +90,7 @@ def main() -> None:
     items = {}
     for ds in DATASETS:
         for i, it in enumerate(json.load(open(DATA / f"{ds}.json", encoding="utf-8"))):
-            items.setdefault(it["title"], []).append((ds, i))
+            items.setdefault(it.get("title") or it.get("name"), []).append((ds, i))
     titles = sorted(items)
     print(f"unique titles: {len(titles)}")
 
@@ -136,7 +136,7 @@ def main() -> None:
         data = json.load(open(path, encoding="utf-8"))
         hit = 0
         for it in data:
-            it["icon"] = icon_path.get(it["title"], "")
+            it["icon"] = icon_path.get(it.get("title") or it.get("name"), "")
             if it["icon"]:
                 hit += 1
         json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

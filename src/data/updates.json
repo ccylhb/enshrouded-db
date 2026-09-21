@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-21",
+    "text": "Wiki sync: Mana Potion + consumable added; armor set ingredients, crafting times and weapon descriptions updated",
+    "href": "/consumables/"
+  },
+  {
     "date": "2026-09-06",
     "text": "Item icons added across the database",
     "href": "/weapons/"

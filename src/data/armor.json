@@ -30,7 +30,7 @@
     "qty": 15
    }
   ],
-  "description": "Simple leather boots-a perfect fit.",
+  "description": "Simple leather boots — a perfect fit.",
   "image": "Alchemist Apprentice Boots.png",
   "icon": "/icons/Alchemist_Apprentice_Boots.png"
  },
@@ -108,7 +108,7 @@
     "qty": 2
    }
   ],
-  "description": "tarting out on the path of the alchemist apprentice, these gloves will make your life a little more comfortable.",
+  "description": "Starting out on the path of the alchemist apprentice, these gloves will make your life a little more comfortable.",
   "image": "Alchemist Apprentice Gloves.png",
   "icon": "/icons/Alchemist_Apprentice_Gloves.png"
  },
@@ -1601,19 +1601,19 @@
   "ingredients": [
    {
     "name": "Critter Glands",
-    "qty": 6
+    "qty": 8
    },
    {
     "name": "Monstrous Ribs",
     "qty": 2
    },
    {
-    "name": "Leather",
-    "qty": 6
+    "name": "Bronze Bars",
+    "qty": 4
    },
    {
-    "name": "Bronze Bars",
-    "qty": 6
+    "name": "Leather",
+    "qty": 4
    }
   ],
   "description": "An ordinary leather coat. A fungal growth overtook the flat grain texture., , Offers extended protection against the Shroud.",
@@ -2341,7 +2341,7 @@
    },
    {
     "name": "Hardened Leather",
-    "qty": 2
+    "qty": 4
    },
    {
     "name": "Enshrouded Ice",
@@ -3052,6 +3052,10 @@
    {
     "name": "Brittle Shroud Petals",
     "qty": 1
+   },
+   {
+    "name": "Any Fiber",
+    "qty": 1
    }
   ],
   "description": "These boots are perfect for any terrain. Easy to clean, robust, and light.",
@@ -3163,7 +3167,7 @@
     "qty": 2
    }
   ],
-  "description": "A simple but reliable helmet. You still might get a bump or two if you get hit, but that's part of the fun.",
+  "description": "A simple but reliable helmet. You might still get a bump or two if you get hit, but that's part of the fun.",
   "image": "Adventurer Helmet.png",
   "icon": "/icons/Adventurer_Helmet.png"
  },
@@ -3272,7 +3276,7 @@
     "qty": 5
    }
   ],
-  "description": "A metal cuirass with subtle embossing on it. The pattern is reminiscent of golden tangled vines, now spouting with delicate mycelium., , Offers extended protection against the Shroud.",
+  "description": "A metal cuirass with subtle embossing on it. The pattern is reminiscent of golden tangled vines, now sprouting with delicate mycelium.\n\nOffers extended protection against the Shroud.",
   "image": "Blackguard Chest.png",
   "icon": "/icons/Blackguard_Chest.png"
  },
@@ -5853,7 +5857,7 @@
   "ingredients": [
    {
     "name": "Silver Bars",
-    "qty": 21
+    "qty": 2
    },
    {
     "name": "Warm Padding",
@@ -6583,7 +6587,7 @@
   "set": "Archer Set",
   "crafter": "",
   "ingredients": [],
-  "description": "The leather on this nature - bound armor piece was layered to resemble the leaves of a blossoming forest.",
+  "description": "The leather on this nature-bound armor piece was layered to resemble the leaves of a blossoming forest.",
   "image": "Archer Chest.png",
   "icon": "/icons/Archer_Chest.png"
  },
@@ -6601,7 +6605,7 @@
   "set": "Archer Set",
   "crafter": "",
   "ingredients": [],
-  "description": "These Archer gloves have been refined to be snug and effective.",
+  "description": "These Archer Gloves have been refined to be snug and effective.",
   "image": "Archer Gloves.png",
   "icon": "/icons/Archer_Gloves.png"
  },
@@ -6619,7 +6623,7 @@
   "set": "Archer Set",
   "crafter": "",
   "ingredients": [],
-  "description": "An archer's hood. The leather trim provides additional protection and camouflages the wearer between the trees",
+  "description": "An archer's hood. The leather trim provides additional protection and camouflages the wearer between the trees.",
   "image": "Archer Helmet.png",
   "icon": "/icons/Archer_Helmet.png"
  },
@@ -6637,7 +6641,7 @@
   "set": "Archer Set",
   "crafter": "",
   "ingredients": [],
-  "description": "The coloring of these pants allow the wearer to seamlessly blend into the foliage.",
+  "description": "The coloring of these pants allows the wearer to seamlessly blend into the foliage.",
   "image": "Archer Trousers.png",
   "icon": "/icons/Archer_Trousers.png"
  },
@@ -9085,7 +9089,7 @@
    },
    {
     "name": "Hardened Leather",
-    "qty": 3
+    "qty": 2
    },
    {
     "name": "Chitin Powder",

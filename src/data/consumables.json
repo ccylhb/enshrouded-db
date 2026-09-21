@@ -42,7 +42,7 @@
    "+ 9 Stamina Regeneration"
   ],
   "crafter": "",
-  "craftTime": "15:00",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Any Milk",
@@ -57,7 +57,7 @@
   "name": "Chamomile Tea",
   "slug": "chamomile-tea",
   "group": "Drinks",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "35:00",
   "effects": [
@@ -65,7 +65,7 @@
    "+ 20 Stamina"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "2:30",
   "ingredients": [
    {
     "name": "Water",
@@ -93,7 +93,7 @@
    "+ 30 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Banana",
@@ -120,7 +120,7 @@
    "+ 27 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "4 minutes",
+  "craftTime": "4:00",
   "ingredients": [
    {
     "name": "Water",
@@ -192,7 +192,7 @@
    "+ 3 Frost Resistance"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Water",
@@ -211,7 +211,7 @@
   "name": "Glimmer Gentian Tea",
   "slug": "glimmer-gentian-tea",
   "group": "Drinks",
-  "rarity": "Common",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "50:00",
   "effects": [
@@ -219,7 +219,7 @@
    "+ 5min Time in the shroud"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Water",
@@ -242,7 +242,7 @@
   "name": "Herbal Mountain Tea",
   "slug": "herbal-mountain-tea",
   "group": "Drinks",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "50:00",
   "effects": [
@@ -251,7 +251,7 @@
    "+24 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Gentian",
@@ -278,7 +278,7 @@
    "+ 6% Magic Damage"
   ],
   "crafter": "",
-  "craftTime": "3:00",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Water",
@@ -331,7 +331,7 @@
    "+ 18 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "",
+  "craftTime": "5:00",
   "ingredients": [
    {
     "name": "Water",
@@ -358,7 +358,7 @@
    "+ 21 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Water",
@@ -381,7 +381,7 @@
   "name": "Strawberry Milkshake",
   "slug": "strawberry-milkshake",
   "group": "Drinks",
-  "rarity": "Common",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "50:00",
   "effects": [
@@ -389,7 +389,7 @@
    "+ 12 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Strawberry",
@@ -426,7 +426,7 @@
    "+ 6% Dagger Damage"
   ],
   "crafter": "",
-  "craftTime": "3:00",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Water",
@@ -552,7 +552,7 @@
    "+ 21% Magic Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Algae",
@@ -588,7 +588,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A beautiful yellow flower with magical properties that blesses the user's spirit.",
+  "description": "A beautiful yellow flower with magical properties that increases the user's mana.",
   "image": "Aureolin Flower.png",
   "icon": "/icons/Aureolin_Flower.png"
  },
@@ -606,7 +606,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "Should be cooked before eating.",
+  "description": "The Azure Russula — an ancient mushroom, existing and consuming magic since the beginning of time. Unfortunately inedible if not cooked.",
   "image": "Azure Russula.png",
   "icon": "/icons/Azure_Russula.png"
  },
@@ -631,7 +631,7 @@
   "name": "Beef Stew",
   "slug": "beef-stew",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "50:00",
   "effects": [
@@ -640,7 +640,7 @@
    "+ 1 Frost Resistance"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Eggs",
@@ -677,7 +677,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A plant of sweet flavor and powerful red color. Grants the user dexterity upon consumption.",
+  "description": "A crisp, vibrant red bell pepper with a sweet, juicy flavor and a glossy skin.",
   "image": "Bell Pepper.png",
   "icon": "/icons/Bell_Pepper.png"
  },
@@ -685,7 +685,7 @@
   "name": "Boiled Eggs",
   "slug": "boiled-eggs",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "30:00",
   "effects": [
@@ -693,7 +693,7 @@
    "+ 9 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "3:00",
   "ingredients": [
    {
     "name": "Eggs",
@@ -732,7 +732,7 @@
   "name": "Calla Luna Soup",
   "slug": "calla-luna-soup",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "40:00",
   "effects": [
@@ -741,7 +741,7 @@
    "+ 3min Time in the Shroud"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:30",
   "ingredients": [
    {
     "name": "Water",
@@ -776,7 +776,7 @@
    "+ 21 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Ginger",
@@ -822,7 +822,7 @@
    "+ 6% Dagger Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:30",
   "ingredients": [
    {
     "name": "Water",
@@ -860,7 +860,7 @@
    "+ 21% Melee Damage"
   ],
   "crafter": "",
-  "craftTime": "",
+  "craftTime": "5:00",
   "ingredients": [
    {
     "name": "Raw Rice",
@@ -904,7 +904,7 @@
    "+ 21% Damage against Wildlife and Wildbeasts"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:00",
   "ingredients": [
    {
     "name": "Crab Meat",
@@ -959,7 +959,7 @@
    "+ 1 Frost Resistance"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Flour",
@@ -1048,7 +1048,7 @@
   "name": "Ectoplasm Soup",
   "slug": "ectoplasm-soup",
   "group": "Food",
-  "rarity": "Uncommon",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "35:00",
   "effects": [
@@ -1061,11 +1061,11 @@
   "ingredients": [
    {
     "name": "Honey",
-    "qty": 1
+    "qty": 5
    },
    {
     "name": "Ectoplasm",
-    "qty": 1
+    "qty": 5
    }
   ],
   "description": "Unnerving goo. It bestows great powers on those who eat it.",
@@ -1112,7 +1112,7 @@
   "name": "Excellent Ectoplasm Soup",
   "slug": "excellent-ectoplasm-soup",
   "group": "Food",
-  "rarity": "Epic",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "1:00",
   "effects": [
@@ -1125,11 +1125,11 @@
   "ingredients": [
    {
     "name": "Yucca Fruit",
-    "qty": 1
+    "qty": 5
    },
    {
     "name": "Excellent Ectoplasm",
-    "qty": 1
+    "qty": 5
    }
   ],
   "description": "Even the most carefully cooked Ectoplasm Soup still tastes a little bit...fermented.",
@@ -1150,7 +1150,7 @@
    "+ 30 Maximum Oxygen"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "3:00",
   "ingredients": [
    {
     "name": "Corncob",
@@ -1233,7 +1233,7 @@
   "name": "Flat Bread",
   "slug": "flat-bread",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "40:00",
   "effects": [
@@ -1289,7 +1289,7 @@
    "+ 21% Melee Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Cooked Rice",
@@ -1328,7 +1328,7 @@
    "+ 9 Stamina Recharge"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "2:00",
   "ingredients": [
    {
     "name": "Honey",
@@ -1412,7 +1412,7 @@
   "name": "Glow Soup",
   "slug": "glow-soup",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "45:00",
   "effects": [
@@ -1421,7 +1421,7 @@
    "+ 4:00 Time in the Shroud"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "5:00",
   "ingredients": [
    {
     "name": "Water",
@@ -1474,11 +1474,11 @@
   "ingredients": [
    {
     "name": "Sugar",
-    "qty": 1
+    "qty": 5
    },
    {
     "name": "Greater Ectoplasm",
-    "qty": 1
+    "qty": 5
    }
   ],
   "description": "This slimy soup was improved with some salt, slow-cooked broth, and the added aroma of fearing death.",
@@ -1496,7 +1496,7 @@
    "+ 140 Mana"
   ],
   "crafter": "",
-  "craftTime": "Instant",
+  "craftTime": "5:00",
   "ingredients": [
    {
     "name": "Algae Buds",
@@ -1518,7 +1518,7 @@
    "+ 120 Health"
   ],
   "crafter": "",
-  "craftTime": "5:00",
+  "craftTime": "3:30",
   "ingredients": [
    {
     "name": "Raw Bird Meat",
@@ -1540,7 +1540,7 @@
    "+ 240 Health"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:00",
   "ingredients": [
    {
     "name": "Crab Meat",
@@ -1623,7 +1623,7 @@
   "name": "Grilled Fatty Meat",
   "slug": "grilled-fatty-meat",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "40:00",
   "effects": [
@@ -1631,7 +1631,7 @@
    "+ 1 Frost Resistance"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:30",
   "ingredients": [
    {
     "name": "Raw Fatty Meat",
@@ -1656,7 +1656,7 @@
    "+ 60 Maximum Oxygen"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:00",
   "ingredients": [
    {
     "name": "Seared Fish Filet",
@@ -2035,7 +2035,7 @@
    "+ 55 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "3:00",
   "ingredients": [
    {
     "name": "Yucca Fruit",
@@ -2101,7 +2101,7 @@
    "+ 85 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Honey",
@@ -2147,7 +2147,7 @@
    "+ 9% Melee Damage"
   ],
   "crafter": "",
-  "craftTime": "Unknown",
+  "craftTime": "1:00",
   "ingredients": [
    {
     "name": "Raw Meat and Corncob Skewer",
@@ -2171,7 +2171,7 @@
    "+ 9% Magic Damage"
   ],
   "crafter": "",
-  "craftTime": "Unknown",
+  "craftTime": "1:00",
   "ingredients": [
    {
     "name": "Raw Meat and Mushroom Skewer",
@@ -2196,7 +2196,7 @@
    "+ 9% Dagger Damage"
   ],
   "crafter": "",
-  "craftTime": "Unknown",
+  "craftTime": "1:00",
   "ingredients": [
    {
     "name": "Raw Meat and Tomato Skewer",
@@ -2219,7 +2219,7 @@
    "+ 6% Magic Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:45",
   "ingredients": [
    {
     "name": "Water",
@@ -2271,7 +2271,7 @@
    "+ 12% Magic Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "3:00",
   "ingredients": [
    {
     "name": "Penny Bun",
@@ -2298,7 +2298,7 @@
    "+ 15% Melee Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:30",
   "ingredients": [
    {
     "name": "Saffron",
@@ -2364,7 +2364,7 @@
    "+ 9 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Cooked Rice",
@@ -2399,7 +2399,7 @@
    "+ 4% Melee Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "1:30",
   "ingredients": [
    {
     "name": "Corncob",
@@ -2433,7 +2433,7 @@
   "name": "Pumpkin Soup",
   "slug": "pumpkin-soup",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "50:00",
   "effects": [
@@ -2443,7 +2443,7 @@
    "+ 1 Frost Resistance"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Pumpkin",
@@ -2495,7 +2495,7 @@
    "+ 65 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Shortcrust Pastry Base",
@@ -2781,7 +2781,7 @@
    "+ 4min Time in the Shroud"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:45",
   "ingredients": [
    {
     "name": "Yucca Fruit",
@@ -2911,7 +2911,7 @@
   "name": "Shroud Meteor Shower",
   "slug": "shroud-meteor-shower",
   "group": "Food",
-  "rarity": "Rare",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "",
   "effects": [],
@@ -2961,7 +2961,7 @@
   "name": "Stir-Fried Vegetables",
   "slug": "stir-fried-vegetables",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "45:00",
   "effects": [
@@ -2969,7 +2969,7 @@
    "+15% Dagger Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "8:00",
   "ingredients": [
    {
     "name": "Corncob",
@@ -3025,7 +3025,7 @@
    "+ 60 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Shortcrust Pastry Base",
@@ -3073,7 +3073,7 @@
    "+ 50 Stamina Regeneration"
   ],
   "crafter": "Farmer",
-  "craftTime": "3 minutes",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Sugar Cane",
@@ -3131,7 +3131,7 @@
    "+ 40 Maximum Oxygen"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "4:00",
   "ingredients": [
    {
     "name": "Algae",
@@ -3163,7 +3163,7 @@
    "+ 21% Dagger Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "5:00",
   "ingredients": [
    {
     "name": "Raw Taro",
@@ -3238,7 +3238,7 @@
    "+ 20 Maximum Oxygen"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "3:00",
   "ingredients": [
    {
     "name": "Water",
@@ -3270,7 +3270,7 @@
    "+ 9% Dagger Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "5:00",
   "ingredients": [
    {
     "name": "Water",
@@ -3301,7 +3301,7 @@
    "+ 12% Dagger Damage"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "3:30",
   "ingredients": [
    {
     "name": "Water",
@@ -3383,7 +3383,7 @@
   "name": "Yellow Glow Soup",
   "slug": "yellow-glow-soup",
   "group": "Food",
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "stackSize": "",
   "duration": "50:00",
   "effects": [
@@ -3393,7 +3393,7 @@
    "+ 1 Frost Resistance"
   ],
   "crafter": "Farmer",
-  "craftTime": "Instant",
+  "craftTime": "6:00",
   "ingredients": [
    {
     "name": "Water",
@@ -3451,7 +3451,7 @@
   "name": "Antidote",
   "slug": "antidote",
   "group": "Potions & Consumable Items",
-  "rarity": "Uncommon",
+  "rarity": "Common",
   "stackSize": "",
   "duration": "",
   "effects": [
@@ -3473,7 +3473,7 @@
     "qty": 5
    }
   ],
-  "description": "An antidote that will provide a cure for poison.",
+  "description": "An antidote that instantly cures any poison effect.",
   "image": "Antidote.png",
   "icon": "/icons/Antidote.png"
  },
@@ -3965,7 +3965,7 @@
   "name": "Ice Protection Lotion",
   "slug": "ice-protection-lotion",
   "group": "Potions & Consumable Items",
-  "rarity": "Uncommon",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "30:00",
   "effects": [
@@ -3995,7 +3995,7 @@
   "name": "Improved Bandage",
   "slug": "improved-bandage",
   "group": "Potions & Consumable Items",
-  "rarity": "Epic",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "0:10s",
   "effects": [
@@ -4045,6 +4045,30 @@
   ],
   "description": "Created with mana-potent ingredients, the Mana Potion restores a good amount of mana.",
   "image": "Mana Potion.png",
+  "icon": "/icons/Mana_Potion.png"
+ },
+ {
+  "name": "Mana Potion +",
+  "slug": "mana-potion",
+  "group": "Potions & Consumable Items",
+  "rarity": "Common",
+  "stackSize": "",
+  "duration": "",
+  "effects": [],
+  "crafter": "Alchemist",
+  "craftTime": "Instant",
+  "ingredients": [
+   {
+    "name": "Moth",
+    "qty": 1
+   },
+   {
+    "name": "Mana Potion",
+    "qty": 1
+   }
+  ],
+  "description": "Instantly restores a small amount of mana, and continuously replenishes it for 10 seconds.",
+  "image": "Mana Potion +.png",
   "icon": "/icons/Mana_Potion.png"
  },
  {
@@ -4208,7 +4232,7 @@
   "name": "Superior Health Potion",
   "slug": "superior-health-potion",
   "group": "Potions & Consumable Items",
-  "rarity": "Uncommon",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "Instant",
   "effects": [
@@ -4269,7 +4293,7 @@
   "name": "Superior Mana Potion",
   "slug": "superior-mana-potion",
   "group": "Potions & Consumable Items",
-  "rarity": "Uncommon",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "Instant",
   "effects": [
@@ -4452,7 +4476,7 @@
   "name": "Wisp of Light",
   "slug": "wisp-of-light",
   "group": "Potions & Consumable Items",
-  "rarity": "Uncommon",
+  "rarity": "Rare",
   "stackSize": "",
   "duration": "5:00",
   "effects": [

@@ -2533,7 +2533,7 @@
   "source": [
    "Scavenger Enemy Drop"
   ],
-  "description": "A cleaver coated with acid and bile. Its victims can mend the bleeding but rarely stop the toxins from spreading.",
+  "description": "A cleaver coated with acid and bile. Its victims can mend the bleeding — but rarely stop the toxins from spreading.",
   "image": "",
   "icon": "/icons/Acid_Cleaver.png"
  },
@@ -3334,7 +3334,7 @@
   "source": [
    "Nomad Highlands"
   ],
-  "description": "Every apprentice knows that the Blackened Staff hides dark secrets. Trying to uncover, them leads to migraines, nausea, and paranoïa.",
+  "description": "Every apprentice knows that the Blackened Staff hides dark secrets. Trying to uncover them leads to migraines, nausea, and paranoia.",
   "image": "",
   "icon": "/icons/Blackened_Staff.png"
  },
@@ -4994,7 +4994,7 @@
   "source": [
    "Nomad Highlands"
   ],
-  "description": "A heavy hammer that strikes true, like a bird of prey",
+  "description": "A heavy hammer that strikes true, like a bird of prey.",
   "image": "",
   "icon": "/icons/Aerostriker.png"
  },
@@ -5396,7 +5396,7 @@
   "source": [
    "Kindlewastes"
   ],
-  "description": "A wand that deals significiant fire damage, eradicating anything in its path.",
+  "description": "A wand that deals significant fire damage, eradicating anything in its path.",
   "image": "",
   "icon": "/icons/Blazing_Wand.png"
  },
