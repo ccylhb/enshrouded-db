@@ -53,6 +53,26 @@ def list_category(cat):
             return titles
 
 
+# --- wiki 魔术字展开 ---------------------------------------------------------
+# 清洗器整段删无名模板，{{PAGENAME}}（条目名）随之消失，正文出现主语缺失残句。
+_MAGIC_TITLE = re.compile(r"\{\{\s*(?:SUB|BASE|FULL)?PAGENAME(?:E)?\s*\}\}", re.I)
+_MAGIC_GAME = re.compile(r"\{\{\s*(?:Gamename|Game|SITENAME|Sitename)\s*\}\}", re.I)
+_MAGIC_DROP = re.compile(
+    r"\{\{\s*(?:DISPLAYTITLE|DEFAULTSORT|#(?:expr|var|if|ifeq|ifexist|switch|tag|invoke|time|pos|len|replace|sub|explode|titleparts)[^}]*)\}\}",
+    re.I,
+)
+
+
+def expand_magic(wt, title):
+    """把 {{PAGENAME}} 换成条目名，丢弃解析器函数等元魔术字。"""
+    if not wt:
+        return wt
+    wt = _MAGIC_TITLE.sub(lambda _m: title, wt)
+    wt = _MAGIC_GAME.sub("Enshrouded", wt)
+    wt = _MAGIC_DROP.sub("", wt)
+    return wt
+
+
 def fetch_wikitexts(titles):
     out = {}
     for i in range(0, len(titles), 50):
@@ -64,7 +84,9 @@ def fetch_wikitexts(titles):
         })
         for page in d["query"]["pages"].values():
             if "revisions" in page:
-                out[page["title"]] = page["revisions"][0]["slots"]["main"]["*"]
+                out[page["title"]] = expand_magic(
+                    page["revisions"][0]["slots"]["main"]["*"], page["title"]
+                )
         time.sleep(0.5)
     return out
 
@@ -103,7 +125,38 @@ def clean(s):
     s = re.sub(r"'{2,}", "", s)
     s = re.sub(r"<br\s*/?>", ", ", s, flags=re.I)
     s = re.sub(r"\{\{[^}]*\}\}", "", s)
+    # 兜底：清掉被截断的模板尾巴与孤立括号（残留形如 '… every sorcerer. {{About Staves'）
+    s = re.sub(r"\{\{[^{}]*$", "", s)
+    s = s.replace("}}", "").replace("{{", "")
     return s.strip()
+
+
+def lead_prose(wt: str) -> str:
+    """取条目导语段落（开头 infobox 模板之后、第一个 == 标题之前）。
+
+    旧写法 re.search(r"\\}\\}(.*?)==", wt, re.S) 用「第一个 }}」定位导语起点：
+    只要正文出现任何内联模板（如 {{SUBPAGENAME}}、{{item+iconright|X}}），
+    就会从模板中途开始截 —— 导语变成 "''' is a level 13 …" 或 "to unlock."。
+    正确做法：按括号深度剥掉开头的模板块，再截到第一个二级标题。
+    """
+    t = re.sub(r"<!--.*?-->", "", wt, flags=re.S)
+    t = re.sub(r"\[\[(?:File|Image):[^\]]*\]\]", "", t)
+    while True:                                   # 剥掉开头连续的 {{...}} 块
+        m = re.search(r"\{\{", t)
+        if not m or t[: m.start()].strip():
+            break
+        depth, j = 0, m.start()
+        while j < len(t):
+            if t[j] == "{":
+                depth += 1
+            elif t[j] == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            j += 1
+        t = t[: m.start()] + t[j + 1 :]
+    t = re.split(r"^={2,}", t, flags=re.M)[0]     # 截到第一个二级标题
+    return re.sub(r"\s+", " ", clean(t)).strip()
 
 
 def parse_ingredients(s):
@@ -170,9 +223,7 @@ def main():
         wt = stexts.get(t, "")
         tpl = parse_template(wt, "Armor Set")
         lv = re.search(r"is a level (\d+)", wt)
-        intro = re.search(r"\}\}(.*?)==", wt, re.S)
-        intro_text = clean(intro.group(1)) if intro else ""
-        intro_text = re.sub(r"\s+", " ", intro_text).strip()
+        intro_text = lead_prose(wt)
         cls = re.search(r"\[\[Armor/(Melee|Magic|Ranged)", wt)
         sets.append({
             "name": t,

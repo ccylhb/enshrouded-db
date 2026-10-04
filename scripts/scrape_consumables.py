@@ -96,6 +96,9 @@ def clean(s):
     s = re.sub(r"'{2,}", "", s)
     s = re.sub(r"<br\s*/?>", ", ", s, flags=re.I)
     s = re.sub(r"\{\{[^}]*\}\}", "", s)
+    # 兜底：清掉被截断的模板尾巴与孤立括号
+    s = re.sub(r"\{\{[^{}]*$", "", s)
+    s = s.replace("}}", "").replace("{{", "")
     return s.strip()
 
 
