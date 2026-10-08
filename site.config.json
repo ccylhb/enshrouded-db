@@ -48,5 +48,31 @@
   ],
   "footerNote": "Fan-made database. Not affiliated with the game publisher.",
   "gameVersion": "0.7.2",
-  "dataUpdated": "2026-09-06"
+  "dataUpdated": "2026-09-06",
+  "sisterSites": [
+    {
+      "name": "FactorDB",
+      "url": "https://abiotic.lootseer.com",
+      "blurb": "Weapons, armour, crafting and portal destinations from the GATE facility."
+    },
+    {
+      "name": "Dinkly",
+      "url": "https://dinkly.lootseer.com",
+      "blurb": "Three-minute micro-breaks: daily draws, quizzes, jokes and sounds."
+    },
+    {
+      "name": "CoreDB",
+      "url": "https://corekeeper.lootseer.com",
+      "blurb": "Weapons, armour, food and enemies with material tiers."
+    },
+    {
+      "name": "BellwrightDB",
+      "url": "https://bellwright.lootseer.com",
+      "blurb": "Armour ratings with movement-speed penalties side by side."
+    }
+  ],
+  "hubSite": {
+    "name": "LootSeer",
+    "url": "https://lootseer.com"
+  }
 }
