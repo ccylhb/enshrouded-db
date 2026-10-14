@@ -1,5 +1,5 @@
 {
-  "/": "2026-10-04",
+  "/": "2026-10-14",
   "/armor/": "2026-10-04",
   "/armor/adventurer-boots/": "2026-10-04",
   "/armor/adventurer-chest/": "2026-10-04",
@@ -831,5 +831,10 @@
   "/weapons/wolf-s-hydra/": "2026-10-04",
   "/weapons/wolf-s-maw/": "2026-10-04",
   "/weapons/wolf-s-snarl-longbow/": "2026-10-04",
-  "/weapons/wooden-tooth/": "2026-10-04"
+  "/weapons/wooden-tooth/": "2026-10-04",
+  "/guides/": "2026-10-14",
+  "/guides/enshrouded-1-0-release/": "2026-10-14",
+  "/guides/enshrouded-1-0-new-spells/": "2026-10-14",
+  "/guides/enshrouded-1-0-skill-tree-reset/": "2026-10-14",
+  "/guides/enshrouded-1-0-sparkworks/": "2026-10-14"
 }

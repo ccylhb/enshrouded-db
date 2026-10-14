@@ -1,9 +1,54 @@
 ---
 import Base from "../../layouts/Base.astro";
+import GuideLink from "../../components/GuideLink.astro";
 ---
 
-<Base title="Guides" description="In-depth guides, farming routes, and tutorials.">
-  <h1>Guides</h1>
-  <p class="muted">Step-by-step guides will be listed here.</p>
-  <!-- Pattern: one .astro file per guide under src/pages/guides/, use GuideLink cards on this index. -->
+<Base
+  title="Enshrouded Guides: 1.0 Spells, Sparkworks and Skill Tree"
+  description="Enshrouded guides — 1.0 release details, all 9 new spells, the Sparkworks logic system and the skill tree reset, plus database walkthroughs."
+>
+  <h1>Enshrouded Guides</h1>
+  <p class="muted">
+    Practical guides for Enshrouded, starting with the 1.0 full release on October 15, 2026. Everything
+    below is written from confirmed information and updated as the game changes.
+  </p>
+
+  <h2>Enshrouded 1.0</h2>
+  <div class="grid grid-2">
+    <GuideLink
+      title="1.0 Release: Date, Platforms and Everything New"
+      desc="October 15, 2026 on PC and PS5. Level cap 50, gear 55, new biome, save compatibility and the full confirmed change list."
+      href="/guides/enshrouded-1-0-release/"
+      badge="1.0"
+    />
+    <GuideLink
+      title="All 9 New Spells and Summons"
+      desc="Mana Drain, Entangle, Pillar of Flames, Blizzard, Ball Lightning and the new summons category, plus 22 tier-7 Eternal spells."
+      href="/guides/enshrouded-1-0-new-spells/"
+      badge="1.0"
+    />
+    <GuideLink
+      title="Skill Tree Reset and New Skills"
+      desc="Why the tree resets, the 8 new skills, and how to spend your points for solo, group, boss and long-fight builds."
+      href="/guides/enshrouded-1-0-skill-tree-reset/"
+      badge="1.0"
+    />
+    <GuideLink
+      title="Sparkworks: Levers, Plates and Logic Gates"
+      desc="Wire triggers to doors, traps and enemy spawns, then publish the result with Adventure Sharing and Share Codes."
+      href="/guides/enshrouded-1-0-sparkworks/"
+      badge="1.0"
+    />
+  </div>
+
+  <h2>Database</h2>
+  <p class="muted">
+    Looking for specific numbers rather than a walkthrough? Every item, weapon, armour piece and
+    consumable in the game is searchable in the
+    <a href="/database/">Enshrouded database</a>, with stat tables for
+    <a href="/weapons/">weapons</a>, <a href="/armor/">armour</a> and
+    <a href="/consumables/">consumables</a>, plus the
+    <a href="/materials-calculator/">materials calculator</a> and
+    <a href="/rankings/">rankings</a>.
+  </p>
 </Base>
