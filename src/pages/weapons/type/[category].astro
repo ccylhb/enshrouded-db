@@ -2,6 +2,7 @@
 import Base from "../../../layouts/Base.astro";
 import DataTable from "../../../components/DataTable.astro";
 import weapons from "../../../data/weapons.json";
+import { stat, uniquePerks } from "../../../lib/builds";
 
 export function getStaticPaths() {
   const cats = {};
@@ -16,10 +17,10 @@ const { cat, list } = Astro.props;
 const rows = list
   .map((w) => ({
     name: w.name,
-    level: w.level || "-",
-    attackSpeed: w.attackSpeed || "-",
-    perks: w.perks.join(", "),
-    source: w.source.join(", "),
+    level: stat(w.level) || "-",
+    attackSpeed: stat(w.attackSpeed) || "-",
+    perks: uniquePerks(w.perks).join(", "),
+    source: (w.source || []).map(stat).filter(Boolean).join(", ") || "-",
     href: `/weapons/${w.slug}/`,
   }))
   .sort((a, b) => (parseInt(a.level) || 0) - (parseInt(b.level) || 0) || a.name.localeCompare(b.name));

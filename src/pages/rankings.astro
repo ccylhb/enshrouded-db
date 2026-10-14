@@ -2,11 +2,24 @@
 import Base from "../layouts/Base.astro";
 import armor from "../data/armor.json";
 import consumables from "../data/consumables.json";
+import weapons from "../data/weapons.json";
+import { uniquePerks, stat } from "../lib/builds";
 
 const num = (v: unknown): number => {
   const n = parseFloat(String(v ?? "").replace("+", "").replace("%", "").trim());
   return Number.isFinite(n) ? n : 0;
 };
+
+// Weapons carry no damage column in the wiki export, so the honest ranking is by
+// level (the highest tier a weapon drops at) — ties broken by attack speed.
+const topWeapons = [...weapons]
+  .sort(
+    (a, b) =>
+      num(b.level) - num(a.level) ||
+      num(String(a.attackSpeed ?? "").replace(/s$/i, "")) -
+        num(String(b.attackSpeed ?? "").replace(/s$/i, "")),
+  )
+  .slice(0, 15);
 
 const topArmor = [...armor]
   .filter((a) => num(a.physical) > 0 || num(a.magical) > 0)
@@ -25,11 +38,33 @@ const topBuffs = [...consumables]
 ---
 
 <Base
-  title="Enshrouded Rankings — Strongest Armor & Longest Buffs"
-  description="Answer-first rankings for Enshrouded: strongest armor pieces by physical and magical resistance, longest-duration consumable buffs."
+  title="Enshrouded Rankings — Strongest Weapons, Armor & Longest Buffs"
+  description={`Enshrouded rankings: the top weapons by level, strongest armor by combined physical and magical resistance, and longest consumable buffs — drawn from all ${weapons.length} weapons and ${armor.length} armor pieces.`}
 >
   <h1>Rankings</h1>
   <p class="muted">The short answers, no digging.</p>
+
+  <h2 id="weapons">Strongest weapons</h2>
+  <p class="muted">
+    The highest-level weapons in Enshrouded. Level is the tier a weapon drops at, so
+    it doubles as the best proxy for raw damage — the wiki export carries no damage column.
+    <a href="/weapons/">Browse all {weapons.length} weapons →</a>
+  </p>
+  <table>
+    <thead><tr><th>#</th><th>Weapon</th><th>Category</th><th>Level</th><th>Speed</th><th>Perks</th></tr></thead>
+    <tbody>
+      {topWeapons.map((w, i) => (
+        <tr>
+          <td>{i + 1}</td>
+          <td><a href={`/weapons/${w.slug}/`}>{w.name}</a></td>
+          <td><a href={`/weapons/type/${w.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/`}>{w.category}</a></td>
+          <td><strong>{stat(w.level) || "—"}</strong></td>
+          <td>{stat(w.attackSpeed) || "—"}</td>
+          <td>{uniquePerks(w.perks).slice(0, 3).join(", ") || "—"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
 
   <h2 id="armor">Strongest armor pieces</h2>
   <p class="muted">Sorted by combined physical + magical resistance. Higher-level pieces naturally dominate.</p>

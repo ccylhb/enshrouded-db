@@ -5,6 +5,8 @@ import sets from "../../data/armor-sets.json";
 
 import Related from "../../components/Related.astro";
 import { armorDesc } from "../../lib/seo";
+import weapons from "../../data/weapons.json";
+import { CLASS_WEAPONS, CLASS_LABEL, isBuildClass, nearestByLevel, levelOf, stat } from "../../lib/builds";
 const CAT_LABELS = {
   melee: "Melee Armor",
   magic: "Magic Armor",
@@ -25,6 +27,18 @@ const sameSet = armor.filter((a) => a.set === piece.set && a.slug !== piece.slug
 const sameSlot = armor
   .filter((a) => a.slot === piece.slot && a.category === piece.category && a.slug !== piece.slug)
   .slice(0, 8);
+// Armour class and weapon choice are two halves of the same build in Enshrouded:
+// Melee armour scales Melee damage, and so on. Linking them is useful to a reader
+// and gives crawlers a path from armour pages into the weapon branch.
+const buildClass = isBuildClass(piece.category) ? piece.category : null;
+const classWeapons = buildClass
+  ? nearestByLevel(
+      weapons.filter((w) => CLASS_WEAPONS[buildClass].includes(w.category)),
+      levelOf(piece.level),
+      8,
+      piece.slug,
+    )
+  : [];
 const title = `${piece.name} – Enshrouded Armor Stats & Crafting Recipe`;
 const desc = armorDesc(piece);
 ---
@@ -102,6 +116,26 @@ const desc = armorDesc(piece);
           <li><a href={`/armor/${a.slug}/`}>{a.name}</a>{a.level ? <span class="muted"> (Lv {a.level})</span> : ""}</li>
         ))}
       </ul>
+    </>
+  )}
+
+  {buildClass && classWeapons.length > 0 && (
+    <>
+      <h2>{CLASS_LABEL[buildClass]} weapons for this build</h2>
+      <p class="muted">
+        {CLASS_LABEL[buildClass]} armor and {CLASS_LABEL[buildClass]} weapons scale off the
+        same damage type in Enshrouded, so this piece is built to run with the weapons
+        below — closest in level to this piece first.
+      </p>
+      <ul class="cols2">
+        {classWeapons.map((w) => (
+          <li>
+            <a href={`/weapons/${w.slug}/`}>{w.name}</a>
+            {stat(w.level) ? <span class="muted"> (Lv {stat(w.level)})</span> : ""}
+          </li>
+        ))}
+      </ul>
+      <p><a href="/weapons/">See all {weapons.length} weapons →</a></p>
     </>
   )}
 

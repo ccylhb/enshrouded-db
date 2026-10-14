@@ -2,14 +2,15 @@
 import Base from "../../layouts/Base.astro";
 import DataTable from "../../components/DataTable.astro";
 import weapons from "../../data/weapons.json";
+import { stat } from "../../lib/builds";
 
 const rows = weapons
   .map((w) => ({
     name: w.name,
-    type: w.type,
-    level: w.level || "-",
-    attackSpeed: w.attackSpeed || "-",
-    source: w.source.join(", "),
+    type: stat(w.type) || w.category,
+    level: stat(w.level) || "-",
+    attackSpeed: stat(w.attackSpeed) || "-",
+    source: (w.source || []).map(stat).filter(Boolean).join(", ") || "-",
     href: `/weapons/${w.slug}/`,
   }))
   .sort((a, b) => a.name.localeCompare(b.name));

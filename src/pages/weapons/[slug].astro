@@ -1,9 +1,11 @@
 ---
 import Base from "../../layouts/Base.astro";
 import weapons from "../../data/weapons.json";
+import armor from "../../data/armor.json";
 
 import Related from "../../components/Related.astro";
 import { weaponDesc } from "../../lib/seo";
+import { WEAPON_CLASS, CLASS_LABEL, nearestByLevel, levelOf, uniquePerks, stat } from "../../lib/builds";
 export function getStaticPaths() {
   return weapons.map((w) => ({
     params: { slug: w.slug },
@@ -15,6 +17,28 @@ const { weapon } = Astro.props;
 const sameType = weapons
   .filter((w) => w.category === weapon.category && w.slug !== weapon.slug)
   .slice(0, 8);
+
+// The wiki export stores a weapon's perk roll, which repeats entries ("Piercing
+// Damage" twice), and leaks "XXX" placeholders into level/attack speed — neither
+// belongs on the page.
+const perks = uniquePerks(weapon.perks);
+const level = stat(weapon.level);
+const speed = stat(weapon.attackSpeed);
+const sources = (weapon.source || []).map(stat).filter(Boolean);
+
+// Reverse of the armour-page link: a weapon belongs to a build class, so point
+// the reader at the armour that scales it.
+const buildClass = WEAPON_CLASS[weapon.category] ?? null;
+const classArmor = buildClass
+  ? nearestByLevel(
+      armor.filter((a) => a.category === buildClass),
+      levelOf(weapon.level),
+      6,
+      weapon.slug,
+    )
+  : [];
+const typeSlug = weapon.category.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
 const title = `${weapon.name} – Enshrouded Weapon Guide`;
 const desc = weaponDesc(weapon);
 ---
@@ -22,19 +46,19 @@ const desc = weaponDesc(weapon);
 <Base title={title} description={desc}>
   <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
     <a href="/">Home</a> › <a href="/weapons/">Weapons</a> ›
-    <a href={`/weapons/type/${weapon.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/`}>{weapon.category}</a> ›
+    <a href={`/weapons/type/${typeSlug}/`}>{weapon.category}</a> ›
     <span>{weapon.name}</span>
   </nav>
   <h1>{weapon.name}</h1>
 
   <div class="card" style="margin:1rem 0">
     <table>
-      <tr><th>Type</th><td>{weapon.type}</td></tr>
+      <tr><th>Type</th><td>{stat(weapon.type) || weapon.category}</td></tr>
       <tr><th>Category</th><td>{weapon.category}</td></tr>
-      {weapon.level && <tr><th>Level</th><td>{weapon.level}</td></tr>}
-      {weapon.attackSpeed && <tr><th>Attack Speed</th><td>{weapon.attackSpeed}</td></tr>}
-      {weapon.perks.length > 0 && <tr><th>Perks</th><td>{weapon.perks.join(", ")}</td></tr>}
-      {weapon.source.length > 0 && <tr><th>Where to Find</th><td>{weapon.source.join(", ")}</td></tr>}
+      {level && <tr><th>Level</th><td>{level}</td></tr>}
+      {speed && <tr><th>Attack Speed</th><td>{speed}</td></tr>}
+      {perks.length > 0 && <tr><th>Perks</th><td>{perks.join(", ")}</td></tr>}
+      {sources.length > 0 && <tr><th>Where to Find</th><td>{sources.join(", ")}</td></tr>}
     </table>
   </div>
 
@@ -45,9 +69,9 @@ const desc = weaponDesc(weapon);
     </>
   )}
 
-  {weapon.level && (
+  {level && (
     <p class="muted">
-      {weapon.name} is {/^[aeiou]/i.test(weapon.type) ? "an" : "a"} level {weapon.level} {weapon.type.toLowerCase()} in Enshrouded.
+      {weapon.name} is {/^[aeiou]/i.test(stat(weapon.type) || weapon.category) ? "an" : "a"} level {level} {stat(weapon.type).toLowerCase() || weapon.category.toLowerCase()} in Enshrouded.
       Compare it with other {weapon.category.toLowerCase()} using the table below.
     </p>
   )}
@@ -57,9 +81,28 @@ const desc = weaponDesc(weapon);
       <h2>More {weapon.category}</h2>
       <ul class="cols2">
         {sameType.map((w) => (
-          <li><a href={`/weapons/${w.slug}/`}>{w.name}</a>{w.level ? <span class="muted"> (Lv {w.level})</span> : ""}</li>
+          <li><a href={`/weapons/${w.slug}/`}>{w.name}</a>{stat(w.level) ? <span class="muted"> (Lv {stat(w.level)})</span> : ""}</li>
         ))}
       </ul>
+    </>
+  )}
+
+  {buildClass && classArmor.length > 0 && (
+    <>
+      <h2>{CLASS_LABEL[buildClass]} armor for this build</h2>
+      <p class="muted">
+        {weapon.name} is a {CLASS_LABEL[buildClass]} weapon, and {CLASS_LABEL[buildClass]} armor
+        scales the same damage type — pair it with one of these pieces, closest in level first.
+      </p>
+      <ul class="cols2">
+        {classArmor.map((a) => (
+          <li>
+            <a href={`/armor/${a.slug}/`}>{a.name}</a>
+            {a.level ? <span class="muted"> (Lv {a.level})</span> : ""}
+          </li>
+        ))}
+      </ul>
+      <p><a href="/armor/">See all {armor.length} armor pieces →</a></p>
     </>
   )}
 
