@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import weapons from "../../data/weapons.json";
 
 import Related from "../../components/Related.astro";
+import { weaponDesc } from "../../lib/seo";
 export function getStaticPaths() {
   return weapons.map((w) => ({
     params: { slug: w.slug },
@@ -15,12 +16,10 @@ const sameType = weapons
   .filter((w) => w.category === weapon.category && w.slug !== weapon.slug)
   .slice(0, 8);
 const title = `${weapon.name} – Enshrouded Weapon Guide`;
-const desc =
-  weapon.description ||
-  `${weapon.name} is ${/^[aeiou]/i.test(weapon.type) ? "an" : "a"} ${weapon.type} in Enshrouded.`;
+const desc = weaponDesc(weapon);
 ---
 
-<Base title={title} description={`Enshrouded ${weapon.name}: type, level, attack speed, perks, where to find it and more. ${desc.slice(0, 100)}`}>
+<Base title={title} description={desc}>
   <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
     <a href="/">Home</a> › <a href="/weapons/">Weapons</a> ›
     <a href={`/weapons/type/${weapon.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}/`}>{weapon.category}</a> ›

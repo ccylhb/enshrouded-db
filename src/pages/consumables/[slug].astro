@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import items from "../../data/consumables.json";
 
 import Related from "../../components/Related.astro";
+import { consumableDesc } from "../../lib/seo";
 export function getStaticPaths() {
   return items.map((c) => ({
     params: { slug: c.slug },
@@ -15,12 +16,10 @@ const sameGroup = items
   .filter((c) => c.group === item.group && c.slug !== item.slug)
   .slice(0, 8);
 const title = `${item.name} – Enshrouded Effects & Crafting Recipe`;
-const desc =
-  item.description ||
-  `${item.name} is a consumable item in Enshrouded.`;
+const desc = consumableDesc(item);
 ---
 
-<Base title={title} description={`Enshrouded ${item.name}: effects, duration, rarity and how to craft it. ${desc.slice(0, 100)}`}>
+<Base title={title} description={desc}>
   <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
     <a href="/">Home</a> › <a href="/consumables/">Consumables</a> › <span>{item.name}</span>
   </nav>

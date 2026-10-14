@@ -4,6 +4,7 @@ import armor from "../../data/armor.json";
 import sets from "../../data/armor-sets.json";
 
 import Related from "../../components/Related.astro";
+import { armorDesc } from "../../lib/seo";
 const CAT_LABELS = {
   melee: "Melee Armor",
   magic: "Magic Armor",
@@ -25,12 +26,10 @@ const sameSlot = armor
   .filter((a) => a.slot === piece.slot && a.category === piece.category && a.slug !== piece.slug)
   .slice(0, 8);
 const title = `${piece.name} – Enshrouded Armor Stats & Crafting Recipe`;
-const desc =
-  piece.description ||
-  `${piece.name} is ${/^[aeiou]/i.test(piece.slot) ? "an" : "a"} ${piece.slot} in Enshrouded.`;
+const desc = armorDesc(piece);
 ---
 
-<Base title={title} description={`Enshrouded ${piece.name}: armor values, level, rarity, effects, set bonuses and how to craft it. ${desc.slice(0, 100)}`}>
+<Base title={title} description={desc}>
   <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
     <a href="/">Home</a> › <a href="/armor/">Armor</a> ›
     <a href={`/armor/class/${piece.category}/`}>{CAT_LABELS[piece.category] || piece.category}</a> ›

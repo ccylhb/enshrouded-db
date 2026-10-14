@@ -4,6 +4,7 @@ import armor from "../../../data/armor.json";
 import sets from "../../../data/armor-sets.json";
 
 import Related from "../../../components/Related.astro";
+import { setDesc } from "../../../lib/seo";
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 export function getStaticPaths() {
@@ -18,10 +19,10 @@ const pieces = set.pieces
   .map((name) => armor.find((a) => a.name === name))
   .filter(Boolean);
 const title = `${set.name} – Enshrouded Armor Set Guide`;
-const desc = `${set.name} is a level ${set.level} ${set.class || ""} armor set in Enshrouded with ${set.pieces.length} pieces.`;
+const desc = setDesc(set);
 ---
 
-<Base title={title} description={`${desc} See every piece with stats, effects and crafting recipes.`}>
+<Base title={title} description={desc}>
   <nav class="muted" style="font-size:0.9rem;margin-bottom:1rem">
     <a href="/">Home</a> › <a href="/armor/">Armor</a> › <a href="/armor/sets/">Sets</a> ›
     <span>{set.name}</span>
