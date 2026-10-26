@@ -75,6 +75,15 @@
   "icon": "/icons/Archmage_Set.png"
  },
  {
+  "name": "Ashwind Strider Set",
+  "slug": "ashwind-strider-set",
+  "level": "",
+  "class": "ranged",
+  "pieces": [],
+  "summary": "The Ashwind Strider Set is a Armor set <div style=\"clear:both;\"></div>",
+  "icon": ""
+ },
+ {
   "name": "Assassin Set",
   "slug": "assassin-set",
   "level": "23",
@@ -135,6 +144,24 @@
   "icon": "/icons/Brazen_Bull_Set.png"
  },
  {
+  "name": "Crestflame Set",
+  "slug": "crestflame-set",
+  "level": "",
+  "class": "melee",
+  "pieces": [],
+  "summary": "The Crestflame Set is a Armor set that can be found in Cinder’s Cradle <div style=\"clear:both;\"></div>",
+  "icon": ""
+ },
+ {
+  "name": "Cutthroat Set",
+  "slug": "cutthroat-set",
+  "level": "",
+  "class": "ranged",
+  "pieces": [],
+  "summary": "The Cutthroat Set is a Armor set <div style=\"clear:both;\"></div>",
+  "icon": ""
+ },
+ {
   "name": "Deadeye Set",
   "slug": "deadeye-set",
   "level": "23",
@@ -190,6 +217,24 @@
   "pieces": [],
   "summary": "The Elite Hollow Set is a level 23 Armor set. The set pieces provide bonuses against the Hollow.",
   "icon": "/icons/Elite_Hollow_Set.png"
+ },
+ {
+  "name": "Emberguard Set",
+  "slug": "emberguard-set",
+  "level": "",
+  "class": "melee",
+  "pieces": [],
+  "summary": "The Emberguard Set is a Armor set that can be found in Cinder’s Cradle <div style=\"clear:both;\"></div>",
+  "icon": ""
+ },
+ {
+  "name": "Flame Arcanist Set",
+  "slug": "flame-arcanist-set",
+  "level": "",
+  "class": "magic",
+  "pieces": [],
+  "summary": "The Flame Arcanist Set is a Armor set <div style=\"clear:both;\"></div>",
+  "icon": ""
  },
  {
   "name": "Fowler Set",
@@ -355,6 +400,15 @@
   "pieces": [],
   "summary": "The Knight Set is a level 18 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike and Backstab damage with one-handed weapons such as Swords. The Mercenary Set provides lower damage bonuses, but applies to all melee damage.",
   "icon": "/icons/Knight_Set.png"
+ },
+ {
+  "name": "Lifelock Set",
+  "slug": "lifelock-set",
+  "level": "",
+  "class": "magic",
+  "pieces": [],
+  "summary": "The Lifelock Set is a Armor set <div style=\"clear:both;\"></div>",
+  "icon": ""
  },
  {
   "name": "Mage Set",
@@ -628,6 +682,15 @@
   "icon": ""
  },
  {
+  "name": "Sky Specter Set",
+  "slug": "sky-specter-set",
+  "level": "",
+  "class": "ranged",
+  "pieces": [],
+  "summary": "The Sky Specter Set is a Armor set <div style=\"clear:both;\"></div>",
+  "icon": ""
+ },
+ {
   "name": "Soldier Set",
   "slug": "soldier-set",
   "level": "23",
@@ -725,6 +788,15 @@
   ],
   "summary": "The Trailblazer Set is a level 33 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Alpine Antler Set provides lower damage bonuses, but applies to all ranged damage. The set pieces increase Frost Resistance, which incre",
   "icon": "/icons/Trailblazer_Set.png"
+ },
+ {
+  "name": "Vorgoth's Soulbound Set",
+  "slug": "vorgoth-s-soulbound-set",
+  "level": "",
+  "class": "",
+  "pieces": [],
+  "summary": "The Vorgoth's Soulbound Set is a set. <div style=\"clear:both;\"></div>",
+  "icon": ""
  },
  {
   "name": "Warden Set",

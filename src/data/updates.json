@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-26",
+    "text": "Wiki sync: 8 new armor sets added (Ashwind Strider, Crestflame, Cutthroat, Emberguard, Flame Arcanist, Lifelock, Sky Specter, Vorgoth's Soulbound)",
+    "href": "/armor/"
+  },
+  {
     "date": "2026-10-19",
     "text": "1.0 content sync: 39 new weapons, 37 armor pieces and 30 consumables added to the database",
     "href": "/weapons/"

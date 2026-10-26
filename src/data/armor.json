@@ -4004,8 +4004,8 @@
    }
   ],
   "description": "Tall boots that are held by leather straps on the inside, and carry a thick layer of additional sheeting towards the outside. They end in kneegards which press upwards further in a radial shape.",
-  "image": "Crestflame boots.png",
-  "icon": ""
+  "image": "Crestflame Boots.png",
+  "icon": "/icons/Crestflame_Boots.png"
  },
  {
   "name": "Crestflame Chest",
