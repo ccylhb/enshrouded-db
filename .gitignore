@@ -4,3 +4,4 @@ dist/
 _bak_tmp*/
 dist.bak/
 _push.log
+_dep*.log
