@@ -2718,7 +2718,7 @@
   "magical": "+ 50",
   "effect": "+ 18% Staff Damage",
   "set": "Tidecaller Set",
-  "crafter": "",
+  "crafter": "Alchemist",
   "ingredients": [
    {
     "name": "Piscine Ivory Dust",
@@ -2757,7 +2757,7 @@
   "magical": "+ 76",
   "effect": "+ 18% Magical Critical Strike Chance",
   "set": "Tidecaller Set",
-  "crafter": "",
+  "crafter": "Alchemist",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -2792,7 +2792,7 @@
   "magical": "+ 126",
   "effect": "+ 54 Mana",
   "set": "Tidecaller Set",
-  "crafter": "",
+  "crafter": "Alchemist",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -2866,7 +2866,7 @@
   "magical": "+ 201",
   "effect": "+ 180 Health",
   "set": "Tidecaller Set",
-  "crafter": "",
+  "crafter": "Alchemist",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -3399,9 +3399,9 @@
   "category": "magic",
   "level": "13",
   "rarity": "Common",
-  "physical": "",
-  "magical": "",
-  "effect": "",
+  "physical": "+ 11",
+  "magical": "+ 13",
+  "effect": "+ 19% Critical Strike Damage",
   "set": "Wizard Set",
   "crafter": "",
   "ingredients": [],
@@ -3485,7 +3485,7 @@
     "qty": 2
    },
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 4
    },
    {
@@ -3520,7 +3520,7 @@
     "qty": 2
    },
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 2
    },
    {
@@ -3551,7 +3551,7 @@
   "crafter": "Blacksmith",
   "ingredients": [
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 2
    },
    {
@@ -3594,7 +3594,7 @@
     "qty": 2
    },
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 1
    },
    {
@@ -4530,7 +4530,7 @@
   "magical": "25",
   "effect": "+ 18 Health Regeneration",
   "set": "Golden Bulwark Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Water Reptile Leather",
@@ -4604,7 +4604,7 @@
   "magical": "25",
   "effect": "+ 5% Melee Damage",
   "set": "Golden Bulwark Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Green Vitriol Dust",
@@ -4643,7 +4643,7 @@
   "magical": "50",
   "effect": "+ 44% Merciless Attack Damage",
   "set": "Golden Bulwark Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -4678,7 +4678,7 @@
   "magical": "50",
   "effect": "+ 135 Health",
   "set": "Golden Bulwark Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Palm Leaves",
@@ -5554,7 +5554,7 @@
   "magical": "+ 5",
   "effect": "+ 3 Health Regeneration",
   "set": "Rising Fighter Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Animal Fur",
@@ -5589,7 +5589,7 @@
   "magical": "+ 21",
   "effect": "+ 60 Health",
   "set": "Rising Fighter Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "String",
@@ -5628,7 +5628,7 @@
   "magical": "+ 5",
   "effect": "+ 2% Melee Damage",
   "set": "Rising Fighter Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "String",
@@ -5663,7 +5663,7 @@
   "magical": "+ 4",
   "effect": "+ 8% Melee Critical Strike Chance",
   "set": "Rising Fighter Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Metal Sheets",
@@ -5698,7 +5698,7 @@
   "magical": "+ 11",
   "effect": "+ 23 Health",
   "set": "Rising Fighter Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Metal Sheets",
@@ -6099,7 +6099,7 @@
   "magical": "101",
   "effect": "+ 360 Health",
   "set": "Sunpiercer Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -6138,7 +6138,7 @@
   "magical": "25",
   "effect": "+ 18% Two-Handed Melee Damage",
   "set": "Golden Bulwark Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -6177,7 +6177,7 @@
   "magical": "50",
   "effect": "+ 18% Melee Critical Strike Chance",
   "set": "Sunpiercer Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -6212,7 +6212,7 @@
   "magical": "50",
   "effect": "+ 135 Health",
   "set": "Sunpiercer Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Steel Bars",
@@ -6251,7 +6251,7 @@
   "magical": "25",
   "effect": "+ 18 Health Regeneration",
   "set": "Sunpiercer Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Steel Bars",
@@ -6317,8 +6317,8 @@
   "category": "melee",
   "level": "13",
   "rarity": "Common",
-  "physical": "62",
-  "magical": "31",
+  "physical": "+ 31",
+  "magical": "+ 17",
   "effect": "+ 6 Health Regeneration",
   "set": "Tank Set",
   "crafter": "Blacksmith",
@@ -6332,7 +6332,7 @@
     "qty": 2
    },
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 4
    },
    {
@@ -6367,7 +6367,7 @@
     "qty": 2
    },
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 2
    },
    {
@@ -6398,7 +6398,7 @@
   "crafter": "Blacksmith",
   "ingredients": [
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 2
    },
    {
@@ -6812,7 +6812,7 @@
   "magical": "+ 38",
   "effect": "+ 60 Stamina",
   "set": "Wolf's Fang Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Critter Carapace",
@@ -6851,7 +6851,7 @@
   "magical": "+ 9",
   "effect": "+ 15% One-Handed Melee Damage",
   "set": "Wolf's Fang Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Enshrouded Ice",
@@ -6886,7 +6886,7 @@
   "magical": "+ 19",
   "effect": "+ 11% Backstabbing Damage",
   "set": "Wolf's Fang Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Enshrouded Cyclops Eye",
@@ -6921,7 +6921,7 @@
   "magical": "+ 19",
   "effect": "+ 15 Stamina Regeneration",
   "set": "Wolf's Fang Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Steel Bars",
@@ -7017,7 +7017,7 @@
   "magical": "+ 4",
   "effect": "",
   "set": "Fur Armor Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Torn Cloth",
@@ -7048,7 +7048,7 @@
   "magical": "+ 27",
   "effect": "",
   "set": "Fur Armor Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "String",
@@ -7083,7 +7083,7 @@
   "magical": "+ 4",
   "effect": "",
   "set": "Fur Armor Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Torn Cloth",
@@ -7145,7 +7145,7 @@
   "magical": "+ 15",
   "effect": "",
   "set": "Fur Armor Set",
-  "crafter": "",
+  "crafter": "Blacksmith",
   "ingredients": [
    {
     "name": "Torn Cloth",
@@ -9538,7 +9538,7 @@
   "magical": "146",
   "effect": "+ 180 Health",
   "set": "Quetzal Hunter Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Orange Fabric",
@@ -9577,7 +9577,7 @@
   "magical": "40",
   "effect": "+ 9% Ranged Damage",
   "set": "Quetzal Hunter Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Piscine Ivory Dust",
@@ -9616,7 +9616,7 @@
   "magical": "60",
   "effect": "+ 18% Ranged Critical Strike Chance",
   "set": "Quetzal Hunter Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Aquamarine",
@@ -9651,7 +9651,7 @@
   "magical": "91",
   "effect": "+ 22 Stamina",
   "set": "Quetzal Hunter Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Water Reptile Leather",
@@ -9690,7 +9690,7 @@
   "magical": "40",
   "effect": "+ 18 Stamina Regeneration",
   "set": "Quetzal Hunter Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Piscine Ivory Dust",
@@ -9880,7 +9880,7 @@
     "qty": 1
    },
    {
-    "name": "Copper Bar",
+    "name": "Copper Bars",
     "qty": 4
    },
    {
@@ -10294,7 +10294,7 @@
   "magical": "75",
   "effect": "+ 72 Stamina",
   "set": "Skull Stalker Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Palm Leaves",
@@ -10333,7 +10333,7 @@
   "magical": "19",
   "effect": "+ 9% Bow Damage",
   "set": "Skull Stalker Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Fish Bones",
@@ -10372,7 +10372,7 @@
   "magical": "37",
   "effect": "2:00 Wet Duration Reduction",
   "set": "Skull Stalker Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Capybara Bristles",
@@ -10407,7 +10407,7 @@
   "magical": "37",
   "effect": "+ 13 Stamina",
   "set": "Skull Stalker Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Green Vitriol Dust",
@@ -10446,7 +10446,7 @@
   "magical": "19",
   "effect": "+ 18 Stamina",
   "set": "Skull Stalker Set",
-  "crafter": "",
+  "crafter": "Hunter",
   "ingredients": [
    {
     "name": "Capybara Bristles",

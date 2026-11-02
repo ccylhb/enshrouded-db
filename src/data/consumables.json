@@ -163,7 +163,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A delicious jug of Frizzy Goat milk. Drinking it will grant you endurance.",
+  "description": "A delicious jug of Frizzy Goat milk. Drinking it will grant you stamina and stamina regeneration.",
   "image": "Frizzy Goat Milk.png",
   "icon": "/icons/Frizzy_Goat_Milk.png"
  },
@@ -287,7 +287,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A delicious jug of milk. Drinking it will grant you endurance and recharge your stamina faster!",
+  "description": "A delicious jug of milk. Drinking it will grant you stamina and recharge your stamina faster!",
   "image": "Milk.png",
   "icon": "/icons/Milk.png"
  },
@@ -455,14 +455,14 @@
   "name": "Water",
   "slug": "water",
   "group": "Drinks",
-  "rarity": "",
+  "rarity": "Common",
   "stackSize": "",
   "duration": "",
   "effects": [],
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "",
+  "description": "A refreshing bottle of Water that grants more Stamina. Stay hydrated.",
   "image": "Water.png",
   "icon": "/icons/Water.png"
  },
@@ -478,14 +478,14 @@
    "+ 10 Stamina Regeneration"
   ],
   "crafter": "",
-  "craftTime": "",
+  "craftTime": "Instant",
   "ingredients": [
    {
     "name": "Animal Fur",
     "qty": 1
    }
   ],
-  "description": "This pouch can be filled at a well or lake. A sip of water helps recharge your power!",
+  "description": "This pouch can be filled at a well or lake. A sip of water helps to recharge your power!",
   "image": "Water Pouch.png",
   "icon": "/icons/Water_Pouch.png"
  },
@@ -969,7 +969,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A very versatile crop that can be dried, grilled or consumed raw, strengthening the consumer for a short duration.",
+  "description": "A very versatile crop that can be dried, grilled, or consumed raw, strengthening the consumer for a short duration.",
   "image": "Corncob.png",
   "icon": "/icons/Corncob.png"
  },
@@ -1477,7 +1477,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "The edible root of a forest plant. Not all that sustaining on its own. Maybe good as an ingredient?",
+  "description": "A root brimming with energy, but not very effective in its raw form. Improves the Dexterity of the consumer.",
   "image": "Forest Beet.png",
   "icon": "/icons/Forest_Beet.png"
  },
@@ -1612,7 +1612,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A special berry that can only be harvested at night in the Revelwood. It can be used to enhance various dishes and to create deep blue pigments.",
+  "description": "A special berry that can only be harvested at night in the Revelwood. It can be used to enhance various dishes and to create deep blue color pigments.",
   "image": "Gloomberry.png",
   "icon": "/icons/Gloomberry.png"
  },
@@ -2287,7 +2287,7 @@
     "qty": 1
    }
   ],
-  "description": "Roasted ribs were a delicacy back in the day, granting a good amount of Constitution to the consumer.",
+  "description": "Roasted ribs were a delicacy back in the day, providing a substantial amount of health to the consumer.",
   "image": "Grilled Wolf Meat.png",
   "icon": "/icons/Grilled_Wolf_Meat.png"
  },
@@ -2696,7 +2696,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A great snack that stimulates the brain.\nIncreases your intelligence by a small amount.",
+  "description": "A great snack that stimulates the brain.",
   "image": "Penny Bun.png",
   "icon": "/icons/Penny_Bun.png"
  },
@@ -2874,7 +2874,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "Everyone unanimously agees that it is the spookiest vegetable of them all.",
+  "description": "Pumpkins are beloved for their sweet, earthy flavor in cooking and their sturdy, hollow shells for festive crafts.",
   "image": "Pumpkin.png",
   "icon": "/icons/Pumpkin.png"
  },
@@ -3352,7 +3352,7 @@
     "qty": 1
    }
   ],
-  "description": "Perfectly crisp and buttery- a golden foundation for your sweetest baking experiments.",
+  "description": "Perfectly crisp and buttery — a golden foundation for your sweetest baking experiments.",
   "image": "Shortcrust Pastry Base.png",
   "icon": "/icons/Shortcrust_Pastry_Base.png"
  },
@@ -3561,7 +3561,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A sweet candy alternative made from plant fiber. The sugar rush is known to regenerate energy for a short amount of time.",
+  "description": "A sweet candy alternative made from plant fiber. The sugar rush is known to regenerate stamina for a short amount of time.",
   "image": "Sugar Cane.png",
   "icon": "/icons/Sugar_Cane.png"
  },
@@ -3701,7 +3701,7 @@
   "crafter": "",
   "craftTime": "",
   "ingredients": [],
-  "description": "A red and juicy Tomato! If handled with care, it can have Dexterity enhancing effects.",
+  "description": "A red and juicy Tomato! If handled with care, it can have enhancing effects.",
   "image": "Tomato.png",
   "icon": "/icons/Tomato.png"
  },
@@ -4561,7 +4561,7 @@
    "+ 8% Healing Per Second"
   ],
   "crafter": "Hunter",
-  "craftTime": "",
+  "craftTime": "Instant",
   "ingredients": [
    {
     "name": "Linen",
@@ -4641,7 +4641,7 @@
    "+ 2 Frost Resistance"
   ],
   "crafter": "Hunter",
-  "craftTime": "",
+  "craftTime": "Instant",
   "ingredients": [
    {
     "name": "Metal Sheets",
