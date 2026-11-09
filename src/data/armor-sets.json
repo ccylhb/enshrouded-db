@@ -2,7 +2,7 @@
  {
   "name": "Adventurer Set",
   "slug": "adventurer-set",
-  "level": "13",
+  "level": "10",
   "class": "melee",
   "pieces": [
    "Adventurer Helmet",
@@ -11,13 +11,13 @@
    "Adventurer Trousers",
    "Adventurer Boots"
   ],
-  "summary": "The Adventurer Set is a level 13 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Warrior Set.",
+  "summary": "The Adventurer Set is a level 10 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Warrior Set.",
   "icon": "/icons/Adventurer_Set.png"
  },
  {
   "name": "Alchemist Apprentice Set",
   "slug": "alchemist-apprentice-set",
-  "level": "8",
+  "level": "5",
   "class": "magic",
   "pieces": [
    "Alchemist Apprentice Hat",
@@ -26,13 +26,13 @@
    "Alchemist Apprentice Trousers",
    "Alchemist Apprentice Boots"
   ],
-  "summary": "The Alchemist Apprentice Set is a level 8 starter Armor set for magic characters. The set pieces provide stats suitable for all magic playstyles (Trickster, Wizard, Healer, and Battlemage).",
+  "summary": "The Alchemist Apprentice Set is a level 5 starter Armor set for magic characters. The set pieces provide stats suitable for all magic playstyles (Trickster, Wizard, Healer, and Battlemage).",
   "icon": "/icons/Alchemist_Apprentice_Set.png"
  },
  {
   "name": "Alpine Antler Set",
   "slug": "alpine-antler-set",
-  "level": "33",
+  "level": "30",
   "class": "ranged",
   "pieces": [
    "Alpine Antler Hood",
@@ -41,7 +41,7 @@
    "Alpine Antler Trousers",
    "Alpine Antler Boots"
   ],
-  "summary": "The Alpine Antler Set is a level 33 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Trailblazer Set. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
+  "summary": "The Alpine Antler Set is a level 30 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Trailblazer Set. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
   "icon": "/icons/Alpine_Antler_Set.png"
  },
  {
@@ -62,7 +62,7 @@
  {
   "name": "Archmage Set",
   "slug": "archmage-set",
-  "level": "23",
+  "level": "20",
   "class": "magic",
   "pieces": [
    "Archmage Hat",
@@ -71,7 +71,7 @@
    "Archmage Trousers",
    "Archmage Boots"
   ],
-  "summary": "The Archmage Set is a level 23 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. The similar Warlock Set should be used for characters prioritizing Wand damage.",
+  "summary": "The Archmage Set is a level 20 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. The similar Warlock Set should be used for characters prioritizing Wand damage.",
   "icon": "/icons/Archmage_Set.png"
  },
  {
@@ -86,7 +86,7 @@
  {
   "name": "Assassin Set",
   "slug": "assassin-set",
-  "level": "23",
+  "level": "20",
   "class": "ranged",
   "pieces": [
    "Assassin Hood",
@@ -95,13 +95,13 @@
    "Assassin Trousers",
    "Assassin Boots"
   ],
-  "summary": "The Assassin Set is a level 23 Armor set for ranged characters. This set is intended for Beastmaster characters specializing in Daggers.",
+  "summary": "The Assassin Set is a level 20 Armor set for ranged characters. This set is intended for Beastmaster characters specializing in Daggers.",
   "icon": "/icons/Assassin_Set.png"
  },
  {
   "name": "Blackguard Set",
   "slug": "blackguard-set",
-  "level": "16",
+  "level": "15",
   "class": "melee",
   "pieces": [
    "Blackguard Helmet",
@@ -110,13 +110,13 @@
    "Blackguard Trousers",
    "Blackguard Boots"
   ],
-  "summary": "The Blackguard Set is a level 16 Armor set for melee characters. The set pieces provide exceptional bonuses against the Shroud.",
+  "summary": "The Blackguard Set is a level 15 Armor set for melee characters. The set pieces provide exceptional bonuses against the Shroud.",
   "icon": ""
  },
  {
   "name": "Bloodfeather Set",
   "slug": "bloodfeather-set",
-  "level": "43",
+  "level": "40",
   "class": "ranged",
   "pieces": [
    "Bloodfeather Helmet",
@@ -125,13 +125,13 @@
    "Bloodfeather Pants",
    "Bloodfeather Shoes"
   ],
-  "summary": "The Bloodfeather Set is a level 43 Armor set for ranged characters. It is intended for assassins. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "summary": "The Bloodfeather Set is a level 40 Armor set for ranged characters. It is intended for assassins. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
   "icon": ""
  },
  {
   "name": "Brazen Bull Set",
   "slug": "brazen-bull-set",
-  "level": "33",
+  "level": "30",
   "class": "melee",
   "pieces": [
    "Brazen Bull Helmet",
@@ -140,7 +140,7 @@
    "Brazen Bull Trousers",
    "Brazen Bull Boots"
   ],
-  "summary": "The Brazen Bull Set is a level 33 Armor set for melee characters. It is intended for tanks. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
+  "summary": "The Brazen Bull Set is a level 30 Armor set for melee characters. It is intended for tanks. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
   "icon": "/icons/Brazen_Bull_Set.png"
  },
  {
@@ -164,7 +164,7 @@
  {
   "name": "Deadeye Set",
   "slug": "deadeye-set",
-  "level": "23",
+  "level": "20",
   "class": "ranged",
   "pieces": [
    "Deadeye Hood",
@@ -173,13 +173,13 @@
    "Deadeye Trousers",
    "Deadeye Boots"
   ],
-  "summary": "The Deadeye Set is a level 23 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Deerstalker Set provides lower damage bonuses, but applies to all ranged damage.",
+  "summary": "The Deadeye Set is a level 20 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Deerstalker Set provides lower damage bonuses, but applies to all ranged damage.",
   "icon": "/icons/Deadeye_Set.png"
  },
  {
   "name": "Deerstalker Set",
   "slug": "deerstalker-set",
-  "level": "23",
+  "level": "20",
   "class": "ranged",
   "pieces": [
    "Deerstalker Hood",
@@ -188,7 +188,7 @@
    "Deerstalker Trousers",
    "Deerstalker Boots"
   ],
-  "summary": "The Deerstalker Set is a level 23 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Deadeye Set.",
+  "summary": "The Deerstalker Set is a level 20 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Deadeye Set.",
   "icon": "/icons/Deerstalker_Set.png"
  },
  {
@@ -248,7 +248,7 @@
  {
   "name": "Frostbite Slasher Set",
   "slug": "frostbite-slasher-set",
-  "level": "33",
+  "level": "30",
   "class": "ranged",
   "pieces": [
    "Frostbite Slasher Hood",
@@ -257,13 +257,13 @@
    "Frostbite Slasher Trousers",
    "Frostbite Slasher Boots"
   ],
-  "summary": "The Frostbite Slasher Set is a level 33 Armor set for ranged characters. This set is intended for Beastmaster characters specializing in Daggers. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
+  "summary": "The Frostbite Slasher Set is a level 30 Armor set for ranged characters. This set is intended for Beastmaster characters specializing in Daggers. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
   "icon": "/icons/Frostbite_Slasher_Set.png"
  },
  {
   "name": "Fur Armor Set",
   "slug": "fur-armor-set",
-  "level": "5",
+  "level": "4",
   "class": "",
   "pieces": [
    "Fur Hood",
@@ -272,7 +272,7 @@
    "Fur Trousers",
    "Fur Boots"
   ],
-  "summary": "The Fur Armor Set is a level 5 Armor set that is crafted by the Blacksmith. It provides physical and magical resistances but no other stats.",
+  "summary": "The Fur Armor Set is a level 4 Armor set that is crafted by the Blacksmith. It provides physical and magical resistances but no other stats.",
   "icon": "/icons/Fur_Armor_Set.png"
  },
  {
@@ -287,7 +287,7 @@
  {
   "name": "Golden Bulwark Set",
   "slug": "golden-bulwark-set",
-  "level": "43",
+  "level": "40",
   "class": "melee",
   "pieces": [
    "Golden Bulwark Helmet",
@@ -296,7 +296,7 @@
    "Golden Bulwark Pants",
    "Golden Bulwark Boots"
   ],
-  "summary": "The Golden Bulwark Set is a level 43 Armor set for melee characters.",
+  "summary": "The Golden Bulwark Set is a level 40 Armor set for melee characters.",
   "icon": "/icons/Golden_Bulwark_Set.png"
  },
  {
@@ -311,7 +311,7 @@
  {
   "name": "Guardian Set",
   "slug": "guardian-set",
-  "level": "18",
+  "level": "15",
   "class": "melee",
   "pieces": [
    "Guardian Helmet",
@@ -320,13 +320,13 @@
    "Guardian Trousers",
    "Guardian Boots"
   ],
-  "summary": "The Guardian Set is a level 18 Armor set for melee characters. It is intended for tanks.",
+  "summary": "The Guardian Set is a level 15 Armor set for melee characters. It is intended for tanks.",
   "icon": "/icons/Guardian_Set.png"
  },
  {
   "name": "Hailcaster Set",
   "slug": "hailcaster-set",
-  "level": "33",
+  "level": "30",
   "class": "magic",
   "pieces": [
    "Hailcaster Hat",
@@ -335,22 +335,22 @@
    "Hailcaster Pants",
    "Hailcaster Boots"
   ],
-  "summary": "The Hailcaster Set is a level 33 Armor set for magic characters. This set is intended for characters prioritizing Wand damage. The similar Thaumaturge Set should be used for characters prioritizing Staff damage. The set pieces increase Frost Resistance, which increases the time before succumbing to ",
+  "summary": "The Hailcaster Set is a level 30 Armor set for magic characters. This set is intended for characters prioritizing Wand damage. The similar Thaumaturge Set should be used for characters prioritizing Staff damage. The set pieces increase Frost Resistance, which increases the time before succumbing to ",
   "icon": "/icons/Hailcaster_Set.png"
  },
  {
   "name": "Hawk Set",
   "slug": "hawk-set",
-  "level": "23",
+  "level": "20",
   "class": "ranged",
   "pieces": [],
-  "summary": "The Hawk Set is a level 23 Armor set for ranged characters. The set pieces provide stats geared towards exploration.",
+  "summary": "The Hawk Set is a level 20 Armor set for ranged characters. The set pieces provide stats geared towards exploration.",
   "icon": "/icons/Hawk_Set.png"
  },
  {
   "name": "Healer Set",
   "slug": "healer-set",
-  "level": "13",
+  "level": "10",
   "class": "magic",
   "pieces": [
    "Healer Headwrap",
@@ -359,13 +359,13 @@
    "Healer Pants",
    "Healer Boots"
   ],
-  "summary": "The Healer Set is a level 13 Armor set for magic characters. As the name suggests, it is intended for healers.",
+  "summary": "The Healer Set is a level 10 Armor set for magic characters. As the name suggests, it is intended for healers.",
   "icon": "/icons/Healer_Set.png"
  },
  {
   "name": "Herbalist Set",
   "slug": "herbalist-set",
-  "level": "18",
+  "level": "15",
   "class": "magic",
   "pieces": [
    "Herbalist Headwrap",
@@ -374,13 +374,13 @@
    "Herbalist Pants",
    "Herbalist Boots"
   ],
-  "summary": "The Herbalist Set is a level 18 Armor set for magic characters. It is intended for healers.",
+  "summary": "The Herbalist Set is a level 15 Armor set for magic characters. It is intended for healers.",
   "icon": "/icons/Herbalist_Set.png"
  },
  {
   "name": "Hunter Set",
   "slug": "hunter-set",
-  "level": "18",
+  "level": "15",
   "class": "ranged",
   "pieces": [
    "Hunter Hood",
@@ -389,7 +389,7 @@
    "Hunter Trousers",
    "Hunter Boots"
   ],
-  "summary": "The Hunter Set is a level 18 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Sharpshooter Set.",
+  "summary": "The Hunter Set is a level 15 Armor set for ranged characters. This is a generalist set suitable for all ranged characters, unlike the specialized Sharpshooter Set.",
   "icon": "/icons/Hunter_Set.png"
  },
  {
@@ -413,7 +413,7 @@
  {
   "name": "Mage Set",
   "slug": "mage-set",
-  "level": "13",
+  "level": "10",
   "class": "magic",
   "pieces": [
    "Mage Hat",
@@ -422,13 +422,13 @@
    "Mage Trousers",
    "Mage Boots"
   ],
-  "summary": "The Mage Set is a level 13 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. Because lower level characters tend to have insufficient mana regeneration, the Wizard Set which prioritizes Wand damage is generally considered superior, although it is harder t",
+  "summary": "The Mage Set is a level 10 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. Because lower level characters tend to have insufficient mana regeneration, the Wizard Set which prioritizes Wand damage is generally considered superior, although it is harder t",
   "icon": "/icons/Mage_Set.png"
  },
  {
   "name": "Magician Set",
   "slug": "magician-set",
-  "level": "18",
+  "level": "15",
   "class": "magic",
   "pieces": [
    "Magician Hat",
@@ -437,7 +437,7 @@
    "Magician Trousers",
    "Magician Boots"
   ],
-  "summary": "The Magician Set is a level 18 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. The similar Mystic Set should be used for characters prioritizing Wand damage.",
+  "summary": "The Magician Set is a level 15 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. The similar Mystic Set should be used for characters prioritizing Wand damage.",
   "icon": "/icons/Magician_Set.png"
  },
  {
@@ -458,7 +458,7 @@
  {
   "name": "Mercenary Set",
   "slug": "mercenary-set",
-  "level": "18",
+  "level": "15",
   "class": "melee",
   "pieces": [
    "Mercenary Helmet",
@@ -467,13 +467,13 @@
    "Mercenary Trousers",
    "Mercenary Boots"
   ],
-  "summary": "The Mercenary Set is a level 18 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Knight Set.",
+  "summary": "The Mercenary Set is a level 15 Armor set for melee characters. This is a generalist set suitable for all melee characters, unlike the specialized Knight Set.",
   "icon": "/icons/Mercenary_Set.png"
  },
  {
   "name": "Mountain's Shadow Set",
   "slug": "mountain-s-shadow-set",
-  "level": "33",
+  "level": "30",
   "class": "melee",
   "pieces": [
    "Mountain's Shadow Helmet",
@@ -482,7 +482,7 @@
    "Mountain's Shadow Trousers",
    "Mountain's Shadow Boots"
   ],
-  "summary": "The Mountain's Shadow Set is a level 33 Armor set for melee characters. This set is intended for characters specializing in dealing damage with two-handed weapons such as Hammers. The similar Wolf's Fang Set should be used with characters specializing in dealing damage with one-handed weapons such a",
+  "summary": "The Mountain's Shadow Set is a level 30 Armor set for melee characters. This set is intended for characters specializing in dealing damage with two-handed weapons such as Hammers. The similar Wolf's Fang Set should be used with characters specializing in dealing damage with one-handed weapons such a",
   "icon": "/icons/Mountain_s_Shadow_Set.png"
  },
  {
@@ -497,7 +497,7 @@
  {
   "name": "Omen Set",
   "slug": "omen-set",
-  "level": "16",
+  "level": "15",
   "class": "magic",
   "pieces": [
    "Omen Helmet",
@@ -506,13 +506,13 @@
    "Omen Trousers",
    "Omen Boots"
   ],
-  "summary": "The Omen Set is a level 16 Armor set for magic characters. The set pieces provide exceptional bonuses against the Shroud.",
+  "summary": "The Omen Set is a level 15 Armor set for magic characters. The set pieces provide exceptional bonuses against the Shroud.",
   "icon": ""
  },
  {
   "name": "Pearlfrost Mentor Set",
   "slug": "pearlfrost-mentor-set",
-  "level": "33",
+  "level": "30",
   "class": "magic",
   "pieces": [
    "Pearlfrost Mentor Hat",
@@ -521,13 +521,13 @@
    "Pearlfrost Mentor Pants",
    "Pearlfrost Mentor Boots"
   ],
-  "summary": "The Pearlfrost Mentor Set is a level 33 Armor set for magic characters. It is intended for healers. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
+  "summary": "The Pearlfrost Mentor Set is a level 30 Armor set for magic characters. It is intended for healers. The set pieces increase Frost Resistance, which increases the time before succumbing to hypothermia in the Albaneve Summits.",
   "icon": "/icons/Pearlfrost_Mentor_Set.png"
  },
  {
   "name": "Plaguebringer Set",
   "slug": "plaguebringer-set",
-  "level": "16",
+  "level": "15",
   "class": "ranged",
   "pieces": [
    "Plaguebringer Hood",
@@ -536,13 +536,13 @@
    "Plaguebringer Trousers",
    "Plaguebringer Boots"
   ],
-  "summary": "The Plaguebringer Set is a level 16 Armor set for ranged characters. The set pieces provide exceptional bonuses against the Shroud.",
+  "summary": "The Plaguebringer Set is a level 15 Armor set for ranged characters. The set pieces provide exceptional bonuses against the Shroud.",
   "icon": ""
  },
  {
   "name": "Quetzal Hunter Set",
   "slug": "quetzal-hunter-set",
-  "level": "43",
+  "level": "40",
   "class": "ranged",
   "pieces": [
    "Quetzal Hunter Helmet",
@@ -551,7 +551,7 @@
    "Quetzal Hunter Pants",
    "Quetzal Hunter Shoes"
   ],
-  "summary": "The Quetzal Hunter Set is a level 43 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "summary": "The Quetzal Hunter Set is a level 40 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
   "icon": ""
  },
  {
@@ -594,7 +594,7 @@
  {
   "name": "Rising Fighter Set",
   "slug": "rising-fighter-set",
-  "level": "8",
+  "level": "5",
   "class": "melee",
   "pieces": [
    "Rising Fighter Helmet",
@@ -603,13 +603,13 @@
    "Rising Fighter Trousers",
    "Rising Fighter Boots"
   ],
-  "summary": "The Rising Fighter Set is a level 8 starter Armor set for melee characters. The set pieces provide stats suitable for all melee playstyles (Athelete, Barbarian, Warrior, and Tank).",
+  "summary": "The Rising Fighter Set is a level 5 starter Armor set for melee characters. The set pieces provide stats suitable for all melee playstyles (Athelete, Barbarian, Warrior, and Tank).",
   "icon": "/icons/Rising_Fighter_Set.png"
  },
  {
   "name": "Rogue Set",
   "slug": "rogue-set",
-  "level": "23",
+  "level": "20",
   "class": "melee",
   "pieces": [
    "Rogue Helmet",
@@ -618,13 +618,13 @@
    "Rogue Trousers",
    "Rogue Boots"
   ],
-  "summary": "The Rogue Set is a level 23 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike and Backstab damage with one-handed weapons such as Swords. The similar Soldier Set should be used with characters specializing in dealing damage with two-handed w",
+  "summary": "The Rogue Set is a level 20 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike and Backstab damage with one-handed weapons such as Swords. The similar Soldier Set should be used with characters specializing in dealing damage with two-handed w",
   "icon": "/icons/Rogue_Set.png"
  },
  {
   "name": "Sage Set",
   "slug": "sage-set",
-  "level": "23",
+  "level": "20",
   "class": "magic",
   "pieces": [
    "Sage Headwrap",
@@ -633,13 +633,13 @@
    "Sage Pants",
    "Sage Boots"
   ],
-  "summary": "The Sage Set is a level 23 Armor set for magic characters. It is intended for healers.",
+  "summary": "The Sage Set is a level 20 Armor set for magic characters. It is intended for healers.",
   "icon": "/icons/Sage_Set.png"
  },
  {
   "name": "Scout Set",
   "slug": "scout-set",
-  "level": "8",
+  "level": "5",
   "class": "ranged",
   "pieces": [
    "Scout Hood",
@@ -648,7 +648,7 @@
    "Scout Pants",
    "Scout Boots"
   ],
-  "summary": "The Scout Set is a level 8 starter Armor set for ranged characters. The set pieces provide stats suitable for all ranged playstyles (Survivor, Beastmaster, Ranger, and Assassin).",
+  "summary": "The Scout Set is a level 5 starter Armor set for ranged characters. The set pieces provide stats suitable for all ranged playstyles (Survivor, Beastmaster, Ranger, and Assassin).",
   "icon": "/icons/Scout_Set.png"
  },
  {
@@ -669,7 +669,7 @@
  {
   "name": "Skull Stalker Set",
   "slug": "skull-stalker-set",
-  "level": "43",
+  "level": "40",
   "class": "ranged",
   "pieces": [
    "Skull Stalker Helmet",
@@ -678,7 +678,7 @@
    "Skull Stalker Pants",
    "Skull Stalker Shoes"
   ],
-  "summary": "The Skull Stalker Set is a level 43 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "summary": "The Skull Stalker Set is a level 40 Armor set for ranged characters. It is intended for rangers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
   "icon": ""
  },
  {
@@ -693,7 +693,7 @@
  {
   "name": "Soldier Set",
   "slug": "soldier-set",
-  "level": "23",
+  "level": "20",
   "class": "melee",
   "pieces": [
    "Soldier Helmet",
@@ -702,7 +702,7 @@
    "Soldier Trousers",
    "Soldier Boots"
   ],
-  "summary": "The Soldier Set is a level 23 Armor set for melee characters. This set is intended for characters specializing in dealing damage with two-handed weapons such as Hammers. The similar Rogue Set should be used with characters specializing in dealing damage with one-handed weapons such as Swords.",
+  "summary": "The Soldier Set is a level 20 Armor set for melee characters. This set is intended for characters specializing in dealing damage with two-handed weapons such as Hammers. The similar Rogue Set should be used with characters specializing in dealing damage with one-handed weapons such as Swords.",
   "icon": "/icons/Soldier_Set.png"
  },
  {
@@ -717,7 +717,7 @@
  {
   "name": "Sunpiercer Set",
   "slug": "sunpiercer-set",
-  "level": "43",
+  "level": "40",
   "class": "melee",
   "pieces": [
    "Sunpiercer Helmet",
@@ -726,13 +726,13 @@
    "Sunpiercer Pants",
    "Sunpiercer Shoes"
   ],
-  "summary": "The Sunpiercer Set is a level 43 Armor set for melee characters. It is intended for barbarians. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "summary": "The Sunpiercer Set is a level 40 Armor set for melee characters. It is intended for barbarians. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
   "icon": "/icons/Sunpiercer_Set.png"
  },
  {
   "name": "Tank Set",
   "slug": "tank-set",
-  "level": "13",
+  "level": "10",
   "class": "melee",
   "pieces": [
    "Tank Helmet",
@@ -741,13 +741,13 @@
    "Tank Trousers",
    "Tank Boots"
   ],
-  "summary": "The Tank Set is a level 13 Armor set for melee characters. As the name suggests, it is intended for tanks.",
+  "summary": "The Tank Set is a level 10 Armor set for melee characters. As the name suggests, it is intended for tanks.",
   "icon": "/icons/Tank_Set.png"
  },
  {
   "name": "Thaumaturge Set",
   "slug": "thaumaturge-set",
-  "level": "33",
+  "level": "30",
   "class": "magic",
   "pieces": [
    "Thaumaturge Hat",
@@ -756,13 +756,13 @@
    "Thaumaturge Pants",
    "Thaumaturge Boots"
   ],
-  "summary": "The Thaumaturge Set is a level 33 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. The similar Hailcaster Set should be used for characters prioritizing Wand damage. The set pieces increase Frost Resistance, which increases the time before succumbing to ",
+  "summary": "The Thaumaturge Set is a level 30 Armor set for magic characters. This set is intended for characters prioritizing Staff damage. The similar Hailcaster Set should be used for characters prioritizing Wand damage. The set pieces increase Frost Resistance, which increases the time before succumbing to ",
   "icon": "/icons/Thaumaturge_Set.png"
  },
  {
   "name": "Tidecaller Set",
   "slug": "tidecaller-set",
-  "level": "43",
+  "level": "40",
   "class": "magic",
   "pieces": [
    "Tidecaller Headpiece",
@@ -771,13 +771,13 @@
    "Tidecaller Pants",
    "Tidecaller Shoes"
   ],
-  "summary": "The Tidecaller Set is a level 43 Armor set for magic characters. It is intended for wizards. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "summary": "The Tidecaller Set is a level 40 Armor set for magic characters. It is intended for wizards. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
   "icon": "/icons/Tidecaller_Set.png"
  },
  {
   "name": "Trailblazer Set",
   "slug": "trailblazer-set",
-  "level": "33",
+  "level": "30",
   "class": "ranged",
   "pieces": [
    "Trailblazer Hood",
@@ -786,7 +786,7 @@
    "Trailblazer Trousers",
    "Trailblazer Boots"
   ],
-  "summary": "The Trailblazer Set is a level 33 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Alpine Antler Set provides lower damage bonuses, but applies to all ranged damage. The set pieces increase Frost Resistance, which incre",
+  "summary": "The Trailblazer Set is a level 30 Armor set for ranged characters. This set is intended for highly mobile characters specializing in dealing skill shot damage. The Alpine Antler Set provides lower damage bonuses, but applies to all ranged damage. The set pieces increase Frost Resistance, which incre",
   "icon": "/icons/Trailblazer_Set.png"
  },
  {
@@ -801,7 +801,7 @@
  {
   "name": "Warden Set",
   "slug": "warden-set",
-  "level": "23",
+  "level": "20",
   "class": "melee",
   "pieces": [
    "Warden Helmet",
@@ -810,13 +810,13 @@
    "Warden Trousers",
    "Warden Boots"
   ],
-  "summary": "The Warden Set is a level 23 Armor set for melee characters. It is intended for tanks.",
+  "summary": "The Warden Set is a level 20 Armor set for melee characters. It is intended for tanks.",
   "icon": "/icons/Warden_Set.png"
  },
  {
   "name": "Warlock Set",
   "slug": "warlock-set",
-  "level": "23",
+  "level": "20",
   "class": "magic",
   "pieces": [
    "Warlock Helmet",
@@ -825,7 +825,7 @@
    "Warlock Pants",
    "Warlock Boots"
   ],
-  "summary": "The Warlock Set is a level 23 Armor set for magic characters. This set is intended for characters prioritizing Wand damage. The similar Archmage Set should be used for characters prioritizing Staff damage.",
+  "summary": "The Warlock Set is a level 20 Armor set for magic characters. This set is intended for characters prioritizing Wand damage. The similar Archmage Set should be used for characters prioritizing Staff damage.",
   "icon": "/icons/Warlock_Set.png"
  },
  {
@@ -840,7 +840,7 @@
  {
   "name": "Waveborne Ritualist Set",
   "slug": "waveborne-ritualist-set",
-  "level": "43",
+  "level": "40",
   "class": "magic",
   "pieces": [
    "Waveborne Ritualist Helmet",
@@ -849,7 +849,7 @@
    "Waveborne Ritualist Pants",
    "Waveborne Ritualist Boots"
   ],
-  "summary": "The Waveborne Ritualist Set is a level 43 Armor set for magic characters. It is intended for healers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
+  "summary": "The Waveborne Ritualist Set is a level 40 Armor set for magic characters. It is intended for healers. The set pieces reduce wet duration, which helps in the heavy water area of Veilwater Basin.",
   "icon": ""
  },
  {
@@ -864,7 +864,7 @@
  {
   "name": "Wolf's Fang Set",
   "slug": "wolf-s-fang-set",
-  "level": "33",
+  "level": "30",
   "class": "melee",
   "pieces": [
    "Wolf's Fang Hood",
@@ -873,7 +873,7 @@
    "Wolf's Fang Trousers",
    "Wolf's Fang Boots"
   ],
-  "summary": "The Wolf's Fang Set is a level 33 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike and Backstab damage with one-handed weapons such as Swords. The similar Mountain's Shadow Set should be used with characters specializing in dealing damage w",
+  "summary": "The Wolf's Fang Set is a level 30 Armor set for melee characters. This set is intended for characters specializing in dealing Merciless Strike and Backstab damage with one-handed weapons such as Swords. The similar Mountain's Shadow Set should be used with characters specializing in dealing damage w",
   "icon": "/icons/Wolf_s_Fang_Set.png"
  }
 ]

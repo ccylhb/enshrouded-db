@@ -2642,7 +2642,8 @@
    "Brutal"
   ],
   "source": [
-   "Lore Weapon"
+   "Lore Weapon",
+   "Craftable"
   ],
   "description": "A mighty hammer, family heirloom of the Dimwealds. This weapon belonged to Berhtolf, the firstborn son. Bravery was his downfall.",
   "image": "Dimweald Hammer.png",

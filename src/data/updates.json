@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-09",
+    "text": "Cutthroat armor pieces added and armor stats rebalanced across the board",
+    "href": "/armor/"
+  },
+  {
     "date": "2026-11-02",
     "text": "New Fell-tier weapons, Skull Summoning Vessels I-V and reworked weapon stats from the latest patch",
     "href": "/weapons"
@@ -33,10 +38,5 @@
     "date": "2026-09-06",
     "text": "Damage and resistance rankings refreshed",
     "href": "/rankings/"
-  },
-  {
-    "date": "2026-09-06",
-    "text": "Materials calculator expanded with new armor sets",
-    "href": "/materials-calculator/"
   }
 ]
